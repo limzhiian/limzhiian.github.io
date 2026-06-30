@@ -5,11 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 1: Responsive Menu</title>
+
+    <style>
+        .logo {
+            padding-right: 430px;
+            padding-left: 50px;
+            align-items: left;
+            width: auto;
+            height: 50px;
+        }
+
+        .selection {
+            display: flex;
+            font-family: "Space Grotesk";
+            justify-content: space-evenly;
+            gap: 40px;
+            align-items: center;
+            width: 800px;
+        }
+
+        .contact {
+            background-color: #f7612f;
+            color: white;
+            width: 100px;
+            height: 45px;
+            margin: 2px;
+            border: #f7612f;
+            border-radius: 8px;
+        }
+
+        .menubar {
+            display: flex;
+            width: 1440px;
+            justify-content: center;
+            gap: auto;
+            padding: 30px;
+            align-items: center;
+        }
+
+        @media screen and (min-width: 1000px) {}
+    </style>
 </head>
 
 <body>
     <div class="menubar">
-        <img class="positivus" src="image/elementralogo.webp" height="50px">
+        <img class="logo" src="image/elementralogo.webp" height="50px">
         <div class="selection">
             <div>
                 <p>Home</p>
@@ -26,6 +66,7 @@
             <div>
                 <p>About us</p>
             </div>
+            <img src="image/phonecall.jpeg" width="50">
             <button class="contact" type="button">Contact</button>
         </div>
     </div>
