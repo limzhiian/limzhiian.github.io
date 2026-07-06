@@ -5,72 +5,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 1: Responsive Menu</title>
+</head>
 
-    <style>
-        .logo {
-            padding-right: 430px;
-            padding-left: 50px;
-            align-items: left;
-            width: auto;
-            height: 50px;
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+    .bar {
+        display: flex;
+        padding-left: 55px;
+        padding-right: 55px;
+        font-family: "oxygen";
+        font-weight: bold;
+        align-items: center;
+    }
+
+    .selection {
+        display: flex;
+        gap: 30px;
+        align-content: space-between;
+        min-width: 42%;
+        padding-right: 60px;
+        padding-left: 300px;
+        white-space: nowrap;
+    }
+
+    button {
+        background-color: rgb(245, 63, 7);
+        color: white;
+        font-size: 16px;
+        width: 100px;
+        height: 50px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        margin: 8px;
+    }
+
+    .contact {
+        min-width: 20%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .phonenumber {
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        /*make things won't wrap, done it in single line*/
+        white-space: nowrap;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+        /*make things don't shrink when the screen is small*/
+        flex-shrink: 0;
+    }
+
+    .hamburgermenu {
+        display: none;
+    }
+
+    @media screen and (max-width: 1280px) {
+        .selection {
+            display: none;
         }
 
-        .selection {
-            display: flex;
-            font-family: "Space Grotesk";
-            justify-content: space-evenly;
-            gap: 40px;
-            align-items: center;
-            width: 800px;
+        .button {
+            display: none;
+        }
+
+        .hamburgermenu {
+            display: block;
+            width: 35px;
+            height: auto;
+        }
+
+        .menu {
+            display: block;
+            width: 35px;
+            height: auto;
+            padding-left: 15px;
+            align-self: center;
+            padding-top: 5px;
+        }
+
+        .bar {
+            justify-content: space-between;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
         }
 
         .contact {
-            background-color: #f7612f;
-            color: white;
-            width: 100px;
-            height: 45px;
-            margin: 2px;
-            border: #f7612f;
-            border-radius: 8px;
-        }
-
-        .menubar {
+            min-width: 15%;
             display: flex;
-            width: 1440px;
-            justify-content: center;
-            gap: auto;
-            padding: 30px;
             align-items: center;
+            gap: 15px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .icon {
+            display: none;
         }
 
-        @media screen and (min-width: 1000px) {}
-    </style>
-</head>
+        .phonenumber {
+            display: none;
+        }
+
+        .contact {
+            justify-content: flex-end;
+        }
+    }
+</style>
 
 <body>
-    <div class="menubar">
-        <img class="logo" src="image/elementralogo.webp" height="50px">
+    <div class="bar">
+        <div class="logo">
+            <img src="image/elementralogo.webp" width="200px">
+        </div>
+
         <div class="selection">
-            <div>
-                <p>Home</p>
+            <p>Home</p>
+            <p>Services</p>
+            <p>Work</p>
+            <p>Project Details</p>
+            <p>Contact</p>
+        </div>
+
+        <div class="contact">
+            <div class="icon"><img src="image/phonecall.jpeg" width="100%" height="auto"></div>
+            <div class="phonenumber">555-123-4567</div>
+            <div class="button">
+                <button type="button">Contact</button>
             </div>
-            <div>
-                <p>Services</p>
+            <div class="hamburgermenu">
+                <img src="image/hamburger menu.jpg" width="100%" height="auto">
             </div>
-            <div>
-                <p>Work</p>
-            </div>
-            <div>
-                <p>Project Details</p>
-            </div>
-            <div>
-                <p>About us</p>
-            </div>
-            <img src="image/phonecall.jpeg" width="50">
-            <button class="contact" type="button">Contact</button>
         </div>
     </div>
-
 </body>
 
 </html>
