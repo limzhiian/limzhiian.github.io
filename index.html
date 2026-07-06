@@ -1,13 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 3: Personal Page</title>
+    <title>Personal Page</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
+
+        header {
+            background: #6bc9ff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+
+        .profile {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        .exercise {
+
+            display: flex;
+            width: 950px;
+            max-width: 100%;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+
+        .section.week5 {
+            width: 830px;
+            max-width: 100%;
+
+        }
+
+        .section {
+
+            width: 250px;
+            background: rgba(255, 255, 255, .75);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .social img {
+            width: 32px;
+            height: 32px;
+        }
+
+        footer {
+
+            background: #6bc9ff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Yuyu', cursive;
+            font-size: 20px;
+        }
+
+        main {
+
+            background-image: url("image/spooderman.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 30px;
+            text-align: center;
+
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-family: 'Yuyu', cursive;
+            font-size: 20px;
+        }
+
+        h3 {
+            margin: 5px 0 20px;
+            font-family: 'Yuyu', cursive;
+            font-size: 20px;
+        }
+
+        .section hr {
+            margin: 15px 0;
+        }
+
+        .section h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .calendar {
+            width: 24px;
+            height: 24px;
+        }
+
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+
+
+        @media(max-width:768px) {
+
+            .exercise {
+
+                flex-direction: column;
+
+                align-items: center;
+            }
+
+            header {
+
+                flex-direction: column;
+
+                gap: 15px;
+            }
+
+
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="social">
+            <a href="#"><img src="image/twitter.png"></a>
+            <a href="#"><img src="image/linkedin.png"></a>
+            <a href="#"><img src="image/github.png"></a>
+        </div>
+    </header>
+
+    <main>
+        <img src="image/shengzhi.png" class="profile">
+
+        <h1>Lim Zhi Ian</h1>
+        <h3>Web Publishing</h3>
+
+        <p>
+            Hello! I am Lim Zhi Ian, a user interface designer and photographer. I am passionate about creating visually
+            appealing and user-friendly digital experiences. I love exploring new design trends and experimenting with
+            different styles to bring my ideas to life.
+        </p>
+
+
+        <section class="exercise">
+
+            <div class="section">
+
+                <h2>
+                    <img src="image/calendar.png" alt="calendar" class="calendar">
+                    Week 2
+                </h2>
+
+                <hr>
+                <a href="week2/images/artist.html">Exercise 1</a><br>
+
+                <a href="week2/images/button.html">Exercise 2</a>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <img src="image/calendar.png" alt="calendar" class="calendar">
+                    Week 3
+                </h2>
+                <hr>
+                <a href="week3/flexbox1.html">Exercise 1</a><br>
+
+                <a href="week3/flexbox2.html">Exercise 2</a>
+            </div>
+
+            <div class="section">
+                <h2>
+                    <img src="image/calendar.png" alt="calendar" class="calendar">
+                    Week 4
+                </h2>
+                <hr>
+                <a href="week4/home.html">Exercise 1</a><br>
+
+                <a href="week4/menu.html">Exercise 2</a>
+            </div>
+
+            <div class="section week5 ">
+                <h2>
+                    <img src="image/calendar.png" alt="calendar" class="calendar">
+                    Week 5
+                </h2>
+                <hr>
+                <a href="#">Exercise 1</a><br>
+
+                <a href="#">Exercise 2</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <a href="#"><img src="image/twitter.png"></a>
+            <a href="#"><img src="image/linkedin.png"></a>
+            <a href="#"><img src="image/github.png"></a>
+        </div>
+
+        <p>©2026 Wong Sheng Zhi</p>
+
+    </footer>
+
+
+
 
 </body>
 
