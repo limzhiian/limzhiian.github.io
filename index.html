@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 3: Personal Page</title>
+    <title>Personal Page</title>
+
+    <link rel="stylesheet" href="css/style.css">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Oxygen:wght@300;400;700&display=swap');
@@ -17,14 +19,14 @@
             padding: 15px 30px;
         }
 
-        .logo h2 {
-            color: white;
-            font-size: 30px;
+        .logo {
+            display: flex;
+            align-items: center;
         }
 
         .profile {
-            width: 120px;
-            height: 120px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
         }
 
@@ -39,8 +41,9 @@
             margin: 0 auto;
         }
 
-        .section.week5 {
+        .section.week4 {
             width: 870px;
+            height: 150px;
             max-width: 100%;
 
         }
@@ -76,14 +79,14 @@
         }
 
         p {
-            font-family: arial, sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: white;
-            font-size: 17px;
+            font-size: 23px;
         }
 
         main {
 
-            background-image: url("week4/image/spooderman.jpg");
+            background-image: url("week4/image/spiderverse.jpeg");
             background-size: cover;
             background-position: center;
             padding: 30px;
@@ -93,13 +96,15 @@
 
         h1 {
             margin: 10px 0;
-            font-family: 'Oxygen', sans-serif;
-            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+            color: rgb(156, 209, 255);
         }
 
         h3 {
             margin: 5px 0 20px;
             font-family: 'Oxygen', sans-serif;
+            color: rgb(226, 185, 255);
             font-size: 24px;
         }
 
@@ -143,8 +148,6 @@
                 flex-direction: column;
                 gap: 15px;
             }
-
-
         }
     </style>
 </head>
@@ -152,13 +155,19 @@
 <body>
     <header>
         <div class="logo">
-            <h2>LOGO</h2>
+            <img src="week4/image/logo design.png" alt="Logo" width="60">
         </div>
 
         <div class="social">
-            <a href="#"><img src="week4/image/big-twitter-logo.png"></a>
-            <a href="#"><img src="week4/image/linkedin.png"></a>
-            <a href="#"><img src="week4/image/github.png"></a>
+            <a href="https://www.instagram.com/zhiian_0607/" target="_blank">
+                <img src="week4/image/ig.png" width="30" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@carbonara_nomnom" target="_blank">
+                <img src="week4/image/tiktok.jpg" width="30" alt="TikTok">
+            </a>
+            <a href="https://github.com/limzhiian/limzhiian.github.io" target="_blank">
+                <img src="week4/image/github.png" width="30" alt="GitHub">
+            </a>
         </div>
     </header>
 
@@ -178,23 +187,40 @@
 
         <section class="exercise">
 
-            <div class="section">
+            <div class="section week1">
 
+                <h2>
+                    <img src="week4/image/calendar.png" alt="calendar" class="calendar">
+                    Week 1
+                </h2>
+
+                <hr>
+                <a href="week1/exe1.html" target="_blank" class="link">
+                    Exercise 1
+                </a><br>
+                <a href="week1/exe2.html" target="_blank" class="link">
+                    Exercise 2
+                </a>
+            </div>
+
+            <div class="section week2">
                 <h2>
                     <img src="week4/image/calendar.png" alt="calendar" class="calendar">
                     Week 2
                 </h2>
-
                 <hr>
                 <a href="week2/button.html" target="_blank" class="link">
                     Exercise 1
                 </a><br>
                 <a href="week2/self-intro.html" target="_blank" class="link">
                     Exercise 2
+                </a><br>
+                <a href="week2/artist.html" target="_blank" class="link">
+                    Exercise 3
                 </a>
             </div>
 
-            <div class="section">
+            <div class="section week3">
                 <h2>
                     <img src="week4/image/calendar.png" alt="calendar" class="calendar">
                     Week 3
@@ -208,7 +234,7 @@
                 </a>
             </div>
 
-            <div class="section">
+            <div class="section week4 ">
                 <h2>
                     <img src="week4/image/calendar.png" alt="calendar" class="calendar">
                     Week 4
@@ -222,29 +248,21 @@
                 </a>
             </div>
 
-            <div class="section week5 ">
-                <h2>
-                    <img src="week4/image/calendar.png" alt="calendar" class="calendar">
-                    Week 5
-                </h2>
-                <hr>
-                <a href="week5/exercise1.html" target="_blank" class="link">
-                    Exercise 1
-                </a><br>
-                <a href="week5/exercise2.html" target="_blank" class="link">
-                    Exercise 2
-                </a>
-            </div>
-
         </section>
     </main>
 
     <footer>
 
         <div class="social">
-            <a href="#"><img src="week4/image/big-twitter-logo.png"></a>
-            <a href="#"><img src="week4/image/linkedin.png"></a>
-            <a href="#"><img src="week4/image/github.png"></a>
+            <a href="https://www.instagram.com/zhiian_0607/" target="_blank">
+                <img src="week4/image/ig.png" width="30" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@carbonara_nomnom" target="_blank">
+                <img src="week4/image/tiktok.jpg" width="30" alt="TikTok">
+            </a>
+            <a href="https://github.com/limzhiian/limzhiian.github.io" target="_blank">
+                <img src="week4/image/github.png" width="30" alt="GitHub">
+            </a>
         </div>
 
         <div class="bottom">

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #main div {
+        width: calc(100% / 4);
+        height: 50px;
+    }
+
+    @media (max-width: 400px) {
+        #main div {
+            width: calc(100% / 2);
+        }
+    }
+</style>
+
+<body>
+
+    <h1>The flex-wrap Property</h1>
+
+    <div id="main">
+        <div style="background-color: red;">A</div>
+        <div style="background-color: blue;">B</div>
+        <div style="background-color: green;">C</div>
+        <div style="background-color: yellow;">A</div>
+        <div style="background-color: red;">B</div>
+        <div style="background-color: blue;">C</div>
+        <div style="background-color: green;">A</div>
+        <div style="background-color: yellow;">B</div>
+        <div style="background-color: red;">C</div>
+    </div>
+
+</body>
+
+</html>
