@@ -1,543 +1,444 @@
-.container7 {
-    max-width: 1240px;
-    padding: 60px 20px;
-    margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk";
 }
 
+body {
+    background: rgb(255, 255, 255);
+    color: #191A23;
+}
 
-
-.case {
-    margin-top: 40px;
-    background: #191A23;
-    border-radius: 45px;
-    padding: 40px 50px;
+.casestudy,
+.WrkPrcss {
+    width: 85%;
+    margin: 80px auto 40px;
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.study {
-
-    flex: 1;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: space-between;
-
-    gap: 30px;
-}
-
-.study p {
-
-    color: white;
-
-    font-size: 18px;
-
-    line-height: 28px;
-}
-
-.learn {
-
-    display: flex;
-
     align-items: center;
-
-    gap: 12px;
-}
-
-.learn a {
-
-    color: #B9FF66;
-
-    font-size: 20px;
-}
-
-.learn img {
-
-    width: 22px;
-}
-
-.line {
-
-    width: 1px;
-
-    background: white;
-}
-
-
-.container8 {
-    max-width: 1240px;
-    padding: 60px 20px;
-    margin: 0 auto;
-}
-
-.process {
-    display: flex;
-    flex-direction: column;
     gap: 30px;
 }
 
-.step {
-    background: #F3F3F3;
-    border: 1px solid #191A23;
-    border-radius: 45px;
-    box-shadow: 0 5px 0 #191A23;
-    padding: 35px 50px;
+.caseheader h2,
+.PrcssH h2,
+.TeamH h2 {
+    background: #B9FF66;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 40px;
 }
 
-.active {
+.casecontent,
+.PrcssP,
+.TeamP {
+    max-width: 450px;
+    line-height: 1.5;
+}
+
+.casestudyblcks {
+    width: 85%;
+    margin: auto;
+    background: #191A23;
+    border-radius: 40px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.blck1hide,
+.blck2hide,
+.blck3hide {
+    display: none;
+}
+
+.blck1,
+.blck2,
+.blck3 {
+    flex: 1;
+}
+
+.blck1,
+.blck2 {
+    border-right: 1px solid #fff;
+    padding-right: 30px;
+}
+
+.blck1p,
+.blck2p,
+.blck3p {
+    color: #fff;
+    line-height: 1.7;
+}
+
+.lm1,
+.lm2,
+.lm3 {
+    color: #B9FF66;
+    margin-top: 25px;
+}
+
+.learnmore {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 25px;
+    color: #B9FF66;
+    font-size: 22px;
+    font-weight: 500;
+    align-items: baseline;
+}
+
+.learnmore img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.Processes {
+    width: 85%;
+    margin: 40px auto 80px;
+}
+
+/* All Process Cards */
+.content1,
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
+    background: #fff;
+    border: 2px solid #191A23;
+    border-radius: 35px;
+    box-shadow: 0 6px #191A23;
+    padding: 35px 45px;
+    margin-bottom: 30px;
+}
+
+.word2,
+.word3,
+.word4,
+.word5,
+.word6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* First card is green */
+.content1 {
     background: #B9FF66;
 }
 
-.leftstep {
+/* Top Row */
+.upper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.title {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 40px;
-}
-
-.number {
+/* Number */
+.upper h2 {
     font-size: 60px;
+    margin-right: 25px;
+    font-weight: 700;
+}
+
+/* Heading */
+.contentH h3 {
+    font-size: 28px;
     font-weight: 500;
 }
 
-.step hr {
-    margin: 30px 0;
-}
-
-.icon {
-    width: 48px;
-}
-
-.icon {
-    width: 48px;
-    height: 48px;
-}
-
-.container9 {
-    max-width: 1240px;
-    padding: 60px 20px;
-    margin: 0 auto;
-}
-
-.team {
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-between;
-}
-
-.member {
-    width: 380px;
-    height: 330px;
-    background: #ffffff;
-    border: 1px solid #191A23;
-    border-radius: 45px;
-    box-shadow: 0 5px 0 #191A23;
-    padding: 40px;
-    box-sizing: border-box;
-}
-
-.member-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.member-profile {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.member-profile img {
-    width: 90px;
-}
-
-.info h3 {
-    font-size: 20px;
-    margin: 0;
-}
-
-.info p {
-    margin-top: 6px;
-    font-size: 18px;
-}
-
-.linkedin {
-    width: 34px;
-}
-
-.member hr {
-    margin: 28px 0;
-}
-
-.member p {
-    font-size: 18px;
-    line-height: 28px;
-}
-
-.team-button {
-    max-width: 1240px;
-    margin: 40px auto 80px;
-    padding: 0 20px;
-
+/* Plus Icon */
+.plusicon {
+    margin-left: auto;
     display: flex;
     justify-content: flex-end;
 }
 
-.team-button button {
-    width: 270px;
-    height: 68px;
-    background: #191A23;
-    color: white;
-    border: none;
-    border-radius: 14px;
-    font-size: 20px;
-    font-family: "Space Grotesk", sans-serif;
-
+.plusicon img {
+    width: 55px;
+    display: block;
 }
 
-.container10 {
-    max-width: 1240px;
-    margin: 60px auto;
-    padding: 0 20px;
+.plusicon1 {
+    display: none;
 }
 
-.footer {
-    background: #191A23;
-    border-radius: 45px 45px 0 0;
-    padding: 60px;
+
+/* Minus Icon*/
+.minusicon {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.footer-top {
+.minusicon img {
+    width: 55px;
+    display: block;
+}
+
+/* Expanded Text */
+.lower {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 2px solid #191A23;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+/* ---- Team section: desktop 3-column grid (matches reference image) ---- */
+.row1,
+.row2 {
+    width: 100%;
+    margin: 0 auto 35px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.footer-logo {
-    width: 180px;
-}
-
-.footer-nav {
-    display: flex;
     gap: 35px;
 }
 
-.footer-nav a {
-    color: white;
-    font-size: 18px;
-    text-decoration: underline;
+.column1,
+.column2,
+.column3,
+.column4,
+.column5,
+.column6 {
+    width: 32%;
+    background: #fff;
+    border: 2px solid #191A23;
+    border-radius: 35px;
+    box-shadow: 0 6px #191A23;
+    padding: 25px;
+    display: flex;
 }
 
-.footer-social {
+.column1 .upper,
+.column2 .upper,
+.column3 .upper,
+.column4 .upper,
+.column5 .upper,
+.column6 .upper {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
     gap: 20px;
 }
 
-.footer-social img {
-    width: 30px;
-    height: 30px;
+.profile img {
+    width: 80px;
 }
 
-.footer-middle {
+.info {
+    flex: 1;
+    margin-top: 10px;
+}
+
+.Name h4 {
+    font-size: 24px;
+}
+
+.position p {
+    margin-top: 5px;
+}
+
+.corner {
+    margin-left: auto;
+}
+
+.corner img {
+    width: 35px;
+}
+
+.exp {
+    width: 100%;
+    border-top: 1px solid #191A23;
+    margin-top: 20px;
+    padding-top: 20px;
+    line-height: 1.6;
+}
+
+.teambutton {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-    margin-bottom: 40px;
+    justify-content: flex-end;
 }
 
-.contact {
-    color: white;
-    max-width: 330px;
-}
-
-.contact-title {
-    display: inline-block;
-    background: #B9FF66;
-    color: #191A23;
-    font-weight: 500;
-    border-radius: 6px;
-    padding: 4px 10px;
-    margin-bottom: 25px;
-}
-
-.contact p {
-    color: white;
-    margin: 18px 0;
-    line-height: 28px;
-}
-
-.subscribe {
-    background: #292A32;
-    border-radius: 14px;
-    padding: 50px 40px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.subscribe input {
-    width: 280px;
-    height: 66px;
-    background: transparent;
-    border: 1px solid white;
-    border-radius: 14px;
-    padding-left: 20px;
-    color: white;
+.teambutton button {
+    background: #191A23;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 40px;
     font-size: 18px;
-    outline: none;
+    width: 40%;
 }
 
-
-.subscribe button {
-    width: 250px;
-    height: 68px;
-    background: #B9FF66;
-    border: none;
-    border-radius: 14px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.footer hr {
-    border: none;
-    border-top: 1px solid white;
-    margin: 45px 0;
-}
-
-.footer-bottom {
+.Team {
+    width: 85%;
+    margin: 80px 40px 40px 0px;
     display: flex;
-    gap: 40px;
     align-items: center;
+    gap: 30px;
 }
 
-.footer-bottom p {
-    color: white;
-}
 
-.footer-bottom a {
-    color: white;
-    text-decoration: underline;
-}
 
-.service {
-    display: inline-block;
-    background: #B9FF66;
-    color: #191A23;
-    padding: 6px 12px;
-    margin: 0;
-}
+@media screen and (max-width: 767px) {
 
-.des {
-    max-width: 580px;
-    margin: 0;
-}
-
-/*MOBILE TABLET VIEW **/
-@media screen and (max-width:760px) {
-    .title {
+    /* ---- Section headers: stack heading + paragraph ---- */
+    .casestudy,
+    .WrkPrcss,
+    .Team {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .service {
-        margin: 0 auto;
-    }
-
-    .des {
-        text-align: center;
-    }
-
-    .container7 {
-        padding: 40px 16px;
-    }
-
-    .case {
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-
-
-    .study {
-        width: 100%;
-
-    }
-
-    .study p {
-        font-size: 15px;
-        line-height: 24px;
-    }
-
-    .learn a {
-        font-size: 16px;
-    }
-
-    .line {
-        display: block;
-        width: 100%;
-        height: 1px;
-        background: white;
-    }
-
-    /* Working Process */
-    .container8 {
-        padding: 40px 16px;
-    }
-
-    .process {
-        gap: 18px;
-    }
-
-    .step {
-        padding: 20px;
-        border-radius: 24px;
-    }
-
-    .number {
-        font-size: 32px;
-    }
-
-    .title {
+        align-items: flex-start;
+        width: 90%;
+        margin: 50px auto 30px;
         gap: 15px;
-
     }
 
+    .casecontent,
+    .PrcssP,
+    .TeamP {
+        max-width: 100%;
+    }
 
-    .section {
-        display: flex;
-        flex-direction: column;
+    /* ---- Case Study cards: FORCE them to stack ---- */
+
+    .casestudy {
         align-items: center;
-        text-align: center;
-        gap: 20px;
+    }
+
+    .casestudyblcks {
+        display: none;
+    }
+
+    .blck1 {
+        border-right: none;
+        align-content: center;
+        width: 90%;
+        border-right: 20px;
+    }
+
+    .blck1hide,
+    .blck2hide,
+    .blck3hide {
+        color: #fff;
+        line-height: 1.7;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+
+    .blckhide {
+        display: block;
+        flex-direction: column;
+        width: 80%;
+        border-radius: 50px;
+        background: #191A23;
+        border-radius: 50px;
+        margin-top: 30px;
+        padding: 30px;
+        margin-left: 45px;
     }
 
 
-    .container4 {
+    .blck1,
+    .blck2,
+    .blck3 {
+        display: none;
+    }
+
+
+    .content1,
+    .content2,
+    .content3,
+    .content4,
+    .content5,
+    .content6 {
+        background: #fff;
+        border-radius: 50px;
+        padding: 20px 25px;
+    }
+
+    .content1 .lower {
+        display: none;
+    }
+
+    .minusicon {
+        display: none;
+    }
+
+    .plusicon1 {
+        margin-left: auto;
         display: flex;
-        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .plusicon1 img {
+        width: 55px;
+        display: block;
+    }
+
+
+    .content1 .upper,
+    .content2 .upper,
+    .content3 .upper,
+    .content4 .upper,
+    .content5 .upper,
+    .content6 .upper {
+        justify-content: space-between;
         align-items: center;
-        text-align: center;
-        gap: 20px;
     }
 
-    .title h3 {
-        font-size: 16px;
+    .upper h2 {
+        font-size: 36px;
+        margin-right: 20px;
     }
 
-    .icon {
-        width: 32px;
-        height: 32px;
-    }
-
-    .step p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-
-    /* Member */
-
-    .container9 {
-        padding: 40px 16px;
-    }
-
-    .team {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .member {
-        width: 100%;
-        height: auto;
-        padding: 25px;
-        border-radius: 24px;
-    }
-
-    .member-profile img {
-        width: 70px;
-    }
-
-    .info h3 {
+    .contentH h3 {
         font-size: 18px;
+        font-weight: 500;
     }
 
-    .info p {
-        font-size: 14px;
+    /* Size the +/- icons the same */
+    .plusicon img,
+    .plusicon1 img,
+    .minusicon img {
+        width: 32px;
     }
 
-    .member p {
-        font-size: 14px;
-        line-height: 22px;
-    }
-
-    .team-button {
-        justify-content: center;
-        margin: 30px auto;
-    }
-
-    .team-button button {
-        width: 100%;
-    }
-
-    /* Footer */
-
-    .container10 {
-        padding: 0 16px;
-    }
-
-    .footer {
-        padding: 30px 20px;
-        border-radius: 24px 24px 0 0;
-    }
-
-    .footer-top {
+    /* ---- Team cards: stack one per row (mobile only) ---- */
+    .row1,
+    .row2 {
+        width: 90%;
         flex-direction: column;
         gap: 25px;
     }
 
-    .footer-nav {
-        flex-direction: column;
-        gap: 12px;
+    .column1,
+    .column2,
+    .column3,
+    .column4,
+    .column5,
+    .column6 {
+        width: 100%;
+    }
+
+    .Team {
         align-items: center;
     }
 
-    .footer-middle {
-        flex-direction: column;
-        gap: 30px;
+    .teambutton {
+        width: 90%;
+        justify-content: center;
+        margin: 20px auto 60px;
+        align-self: flex-end;
     }
 
-    .contact {
-        text-align: center;
-    }
-
-    .subscribe {
+    .teambutton button {
         width: 100%;
-        flex-direction: column;
-        padding: 25px;
-    }
-
-
-    .footer-bottom {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
     }
 }
