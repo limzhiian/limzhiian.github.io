@@ -1,0 +1,136 @@
+.container1 {
+    max-width: 1440px;
+    max-height: 863px;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 40px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 240px;
+    display: block;
+}
+
+a {
+    font-family: "Space Grotesk", sans-serif;
+    text-decoration: none;
+    color: #191A23;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.request {
+    background-color: white;
+    font-family: "Space Grotesk", sans-serif;
+    color: #191A23;
+    border: 1px solid #191A23;
+    border-radius: 14px;
+    padding: 20px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 4px 2px;
+}
+
+.ham {
+    display: none;
+}
+
+.container9 {
+    max-width: 1240px;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+
+.team {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.member {
+    width: 380px;
+    height: 330px;
+    background: #ffffff;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.member-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.member-profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.member-profile img {
+    width: 80px;
+}
+
+.info h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.info p {
+    margin-top: 2px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.linkedin {
+    width: 30px;
+    height: 30px;
+}
+
+.member hr {
+    margin: 22px 0;
+}
+
+.member p {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .container1 {
+        max-height: none;
+        padding: 20px 24px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .logo {
+        max-width: 200px;
+    }
+}
