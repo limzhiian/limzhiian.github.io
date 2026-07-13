@@ -25,7 +25,7 @@
      display: none;
  }
 
- .barlogo {
+ .positivus {
      align-self: flex-start;
      width: auto;
      height: 60px;
@@ -75,12 +75,12 @@
      font-size: 42px;
  }
 
- .nav {
+ .navigation {
      display: flex;
      gap: 45px;
  }
 
- .nav p {
+ .navigation p {
      color: white;
      text-decoration: underline;
      font-size: 20px;
@@ -204,7 +204,7 @@
          align-items: center;
      }
 
-     .barlogo {
+     .positivus {
          padding: 0;
          height: 30px;
          width: auto;
@@ -258,7 +258,7 @@
          font-weight: 700;
      }
 
-     .nav {
+     .navigation {
          order: 2;
          display: flex;
          flex-direction: column;
@@ -267,7 +267,7 @@
          margin-bottom: 30px;
      }
 
-     .nav p {
+     .navigation p {
          color: #fff;
          font-size: 15px;
      }

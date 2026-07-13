@@ -13,7 +13,8 @@ body {
 }
 
 .casestudy,
-.WrkPrcss {
+.WorkingProcess,
+.Team {
     width: 85%;
     margin: 80px auto 40px;
     display: flex;
@@ -22,7 +23,7 @@ body {
 }
 
 .caseheader h2,
-.PrcssH h2,
+.ProcessH h2,
 .TeamH h2 {
     background: #B9FF66;
     padding: 8px 15px;
@@ -31,13 +32,13 @@ body {
 }
 
 .casecontent,
-.PrcssP,
+.ProcessP,
 .TeamP {
     max-width: 450px;
     line-height: 1.5;
 }
 
-.casestudyblcks {
+.casestudyblocks {
     width: 85%;
     margin: auto;
     background: #191A23;
@@ -48,34 +49,34 @@ body {
     gap: 30px;
 }
 
-.blck1hide,
-.blck2hide,
-.blck3hide {
+.block1hide,
+.block2hide,
+.block3hide {
     display: none;
 }
 
-.blck1,
-.blck2,
-.blck3 {
+.block1,
+.block2,
+.block3 {
     flex: 1;
 }
 
-.blck1,
-.blck2 {
+.block1,
+.block2 {
     border-right: 1px solid #fff;
     padding-right: 30px;
 }
 
-.blck1p,
-.blck2p,
-.blck3p {
+.block1p,
+.block2p,
+.block3p {
     color: #fff;
     line-height: 1.7;
 }
 
-.lm1,
-.lm2,
-.lm3 {
+.image1,
+.image2,
+.image3 {
     color: #B9FF66;
     margin-top: 25px;
 }
@@ -251,7 +252,7 @@ body {
     width: 35px;
 }
 
-.exp {
+.experience {
     width: 100%;
     border-top: 1px solid #191A23;
     margin-top: 20px;
@@ -288,7 +289,7 @@ body {
 
     /* ---- Section headers: stack heading + paragraph ---- */
     .casestudy,
-    .WrkPrcss,
+    .WorkingProcess,
     .Team {
         flex-direction: column;
         align-items: flex-start;
@@ -298,7 +299,7 @@ body {
     }
 
     .casecontent,
-    .PrcssP,
+    .ProcessP,
     .TeamP {
         max-width: 100%;
     }
@@ -309,20 +310,20 @@ body {
         align-items: center;
     }
 
-    .casestudyblcks {
+    .casestudyblocks {
         display: none;
     }
 
-    .blck1 {
+    .block1 {
         border-right: none;
         align-content: center;
         width: 90%;
         border-right: 20px;
     }
 
-    .blck1hide,
-    .blck2hide,
-    .blck3hide {
+    .block1hide,
+    .block2hide,
+    .block3hide {
         color: #fff;
         line-height: 1.7;
         width: 90%;
@@ -332,7 +333,7 @@ body {
         padding-right: 30px;
     }
 
-    .blckhide {
+    .blockhide {
         display: block;
         flex-direction: column;
         width: 80%;
@@ -345,9 +346,9 @@ body {
     }
 
 
-    .blck1,
-    .blck2,
-    .blck3 {
+    .block1,
+    .block2,
+    .block3 {
         display: none;
     }
 
