@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2: Positivus</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+        body {
+            font-family: "Space Grotesk", sans-serif;
+            color: #191A23;
+        }
+
+        .container1 {
+            max-width: 1440px;
+            max-height: 863px;
+            padding: 30px 10px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            justify-content: space-between;
+        }
+
+        .logo {
+            max-width: 240px;
+            display: block;
+        }
+
+        a {
+            font-family: "Space Grotesk", sans-serif;
+            text-decoration: none;
+            color: #191A23;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+
+        .request {
+            background-color: white;
+            font-family: "Space Grotesk", sans-serif;
+            color: #191A23;
+            border: 1px solid #191A23;
+            border-radius: 14px;
+            padding: 20px 35px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            line-height: 28px;
+            margin: 4px 2px;
+        }
+
+        .hamburgermenu {
+            display: none;
+        }
+
+        .container2 {
+            max-width: 1440px;
+            max-height: 863px;
+            padding: 60px 100px;
+            display: flex;
+            margin: 0 auto;
+            gap: 370px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navigating {
+            max-width: 50%;
+            gap: 35px;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 120%;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 100%;
+            letter-spacing: 0%;
+            margin: 0px;
+        }
+
+        h4 {
+            color: #191A23;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            max-width: 108px;
+            max-height: 28px;
+        }
+
+        .wht {
+            color: #ffffff;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            margin: 0px;
+        }
+
+        .consultation {
+            font-family: "Space Grotesk", sans-serif;
+            background-color: #191A23;
+            color: #F3F3F3;
+            border: 1px solid #191A23;
+            border-radius: 14px;
+            padding: 20px 35px;
+            text-align: center;
+            display: inline-block;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 4px 2px;
+            max-width: 264px;
+            max-height: 68px;
+        }
+
+        .image {
+            max-width: 600.46px;
+            max-height: 515px;
+        }
+
+        .small {
+            display: none;
+        }
+
+        .container3 {
+            height: 48px;
+            padding: 60px 10px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 115.667px;
+            gap: 20px;
+        }
+
+        .container4 {
+            max-width: 1440px;
+            max-height: 863px;
+            padding: 60px 20px;
+            display: flex;
+            margin: 10px auto;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .service {
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 100%;
+            max-width: 178px;
+            max-height: 51px;
+            background-color: #b9ff66;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 4px 2px;
+            padding: 20px 20px;
+        }
+
+        .des {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            max-width: 580px;
+            padding: 0;
+        }
+
+        .container5 {
+            max-width: 1440px;
+            max-height: 1010px;
+            gap: 40px;
+            display: flex;
+            flex-direction: column;
+            padding: 0px 100px;
+            margin: 10px auto;
+
+        }
+
+        .service12,
+        .service34,
+        .service56 {
+            display: flex;
+            gap: 40px;
+            max-width: 1440px;
+            max-height: 310px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .service1,
+        .service2,
+        .service3,
+        .service4,
+        .service5,
+        .service6 {
+            width: 100%;
+            max-height: 310px;
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #191A23;
+            border-radius: 45px;
+            box-shadow: 0px 5px 0px #191A23;
+        }
+
+        .service1,
+        .service4 {
+            background-color: #f3f3f3;
+        }
+
+        .service2,
+        .service5 {
+            background-color: #b9ff66;
+        }
+
+        .service3,
+        .service6 {
+            background-color: #191A23;
+        }
+
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 90px;
+            max-width: 221px;
+            max-height: 210px;
+        }
+
+        .green,
+        .white {
+            max-width: 221px;
+            max-height: 76px;
+            border-radius: 7px;
+            display: inline-block;
+            padding: 7px 7px;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 100%;
+            font-style: medium;
+            gap: 10px;
+        }
+
+        .green {
+            background-color: #b9ff66;
+        }
+
+        .white {
+            background-color: #ffffff;
+        }
+
+        .more {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .illustration1 {
+            max-width: 210px;
+            max-height: 166.05px;
+            margin: 2px 0px 2px 0px;
+        }
+
+        .container6 {
+            max-width: 1440px;
+            max-height: 394px;
+            padding: 100px 100px;
+            margin: 0px auto;
+        }
+
+        .rectangle {
+            max-width: 1240px;
+            min-height: 347px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #f3f3f3;
+            border-radius: 45px;
+            padding: 10px 100px;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .let {
+            max-width: 500px;
+            max-height: 227px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .illustration2 {
+            max-width: 494px;
+            max-height: 394px;
+            margin-top: -30px;
+            margin-right: -20px;
+        }
+
+        .get {
+            font-family: "Space Grotesk", sans-serif;
+            background-color: #191A23;
+            color: #F3F3F3;
+            border: 1px solid #191A23;
+            border-radius: 14px;
+            padding: 20px 15px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 4px 2px;
+            max-width: 288px;
+            max-height: 68px;
+        }
+
+        @media screen and (max-width: 1200px) {
+            .container1 {
+                max-height: none;
+                padding: 20px 24px;
+            }
+
+            .header {
+                display: none;
+            }
+
+            .hamburgermenu {
+                display: block;
+            }
+
+            .logo {
+                max-width: 200px;
+            }
+
+            .container2 {
+                max-height: none;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                padding: 40px 24px;
+            }
+
+            .navigating {
+                max-width: 100%;
+            }
+
+            .image {
+                display: none;
+            }
+
+            .small {
+                display: flex;
+                max-height: 850px;
+                max-width: 850px;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .book {
+                max-width: 100%;
+                width: 100%;
+            }
+
+            .container3 {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px 32px;
+                justify-content: center;
+                align-items: center;
+                padding: 60px 24px;
+                margin: 0px auto;
+                height: auto;
+            }
+
+            .container3 img {
+                max-width: 10px;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+                display: block;
+                max-width: 160px;
+            }
+
+            .container4 {
+                flex-direction: column;
+                gap: 30px;
+                align-items: center;
+                padding: 40px 24px;
+            }
+
+            .description {
+                font-size: 20px;
+
+            }
+
+            .container5 {
+                max-height: none;
+                padding: 0px 80px;
+                gap: 24px;
+            }
+
+            .service12,
+            .service34,
+            .service56 {
+                flex-direction: column;
+                gap: 24px;
+                max-height: none;
+            }
+
+            .service1,
+            .service2,
+            .service3,
+            .service4,
+            .service5,
+            .service6 {
+                max-height: none;
+            }
+
+            .container6 {
+                padding: 24px;
+                max-height: none;
+            }
+
+            .rectangle {
+                flex-direction: column;
+                padding: 60px 24px;
+                gap: 24px;
+                max-height: none;
+                max-width: 100%;
+                min-height: 250px;
+            }
+
+            .makethingshappen {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .proposal {
+                max-width: 100%;
+                width: 100%;
+            }
+
+            h4 {
+                display: none;
+            }
+
+            .illustration2 {
+                display: none;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container1">
+
+        <div class="logo">
+            <img src="image/positivus.png" width="100%">
+        </div>
+
+        <div class="header">
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Use Cases</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+            <button class="request">Request a quote</button>
+        </div>
+
+        <img class="hamburgermenu" src="image/hamburger menu.jpg" width="60" height="50">
+
+    </div>
+
+    <div class="container2">
+
+        <div class="navigating">
+            <h1>Navigating the digital landscape for success</h1>
+            <img class="small" src="image/Illustration.png" width="100%">
+            <p>Our digital marketing agency helps businesses grow and succeed online through a range of service include
+                SEO, PPC, social media marketing, and content creation.</p>
+            <button class="consultation">Book a consultation</button>
+        </div>
+
+        <div class="image">
+            <img src="image/Illustration.png" width="100%">
+        </div>
+
+    </div>
+
+    <div class="container3">
+        <div><img src="image/amazonlogo.jpg" width="100%"></div>
+        <div><img src="image/dribblelogo.jpg" width="100%"></div>
+        <div><img src="image/hubspotlogo.jpg" width="100%"></div>
+        <div><img src="image/notionlogo.jpg" width="100%"></div>
+        <div><img src="image/netflixlogo.jpg" width="100%"></div>
+        <div><img src="image/zoomlogo.jpg" width="100%"></div>
+    </div>
+
+    <div class="container4">
+        <h2 class="service">Services</h2>
+        <p class="description">At our digital marketing agency, we offer a range of services to help businesses grow and
+            succeed
+            online. These services include:</p>
+    </div>
+
+    <div class="container5">
+
+        <div class="service12">
+
+            <div class="service1">
+
+                <div class="left">
+
+                    <div class="head">
+                        <span class="green">Search engine</span>
+                        <span class="green">optimization</span>
+                    </div>
+
+                    <div class="more">
+                        <img src="image/arrow1245.png" max-width="50px" max-height="50px">
+                        <h4>Learn more</h4>
+                    </div>
+
+                </div>
+
+                <div class="illustration1">
+                    <img src="image/1.png" width="100%">
+                </div>
+
+            </div>
+
+            <div class="service2">
+
+                <div class="left">
+
+                    <div class="head">
+                        <span class="white">Pay-per-click</span>
+                        <span class="white">advertising</span>
+                    </div>
+
+                    <div class="more">
+                        <img src="image/arrow1245.png" max-width="50px" max-height="50px">
+                        <h4>Learn more</h4>
+                    </div>
+
+                </div>
+
+                <div class="illustration2">
+                    <img src="image/2.png" width="100%">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="service34">
+            <div class="service3">
+                <div class="left">
+                    <div class="head">
+                        <span class="white">Social Media</span>
+                        <span class="white">Marketing</span>
+                    </div>
+
+                    <div class="more">
+                        <img src="image/arrow3n6.png" max-width="50px" max-height="50px">
+                        <h4 class="wht">Learn more</h4>
+                    </div>
+                </div>
+                <div class="illustration3">
+                    <img src="image/3.png" width="100%">
+                </div>
+
+            </div>
+
+            <div class="service4">
+
+                <div class="left">
+
+                    <div class="head">
+                        <span class="green">Email</span>
+                        <span class="green">Marketing</span>
+                    </div>
+
+                    <div class="more">
+                        <img src="image/arrow1245.png" max-width="50px" max-height="50px">
+                        <h4>Learn more</h4>
+                    </div>
+
+                </div>
+
+                <div class="illustration4">
+                    <img src="image/4.png" width="100%">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="service56">
+
+            <div class="service5">
+
+                <div class="left">
+
+                    <div class="head">
+                        <span class="white">Content</span>
+                        <span class="white">Creation</span>
+                    </div>
+
+                    <div class="more">
+                        <img src="image/arrow1245.png" max-width="50px" max-height="50px">
+                        <h4>Learn more</h4>
+                    </div>
+
+                </div>
+
+                <div class="illustration5">
+                    <img src="image/5.png" width="100%">
+                </div>
+
+            </div>
+
+            <div class="service6">
+
+                <div class="left">
+
+                    <div class="head">
+                        <span class="green">Analytics and</span>
+                        <span class="green">Tracking</span>
+                    </div>
+
+                    <div class="more">
+                        <img src="image/arrow3n6.png" max-width="50px" max-height="50px">
+                        <h4 class="wht">Learn more</h4>
+                    </div>
+
+                </div>
+
+                <div class="illustration6">
+                    <img src="image/6.png" width="100%">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container6">
+
+        <div class="rectangle">
+            <div class="makethingshappen">
+                <h3>Let's make things happen</h3>
+                <p>Contact us today to learn more about how our digital marketing services can help your business grow
+                    and succeed online.</p>
+                <button class="proposal">Get your free proposal</button>
+            </div>
+
+            <div class="illustration7">
+                <img src="image/7.png" width="100%">
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
