@@ -28,20 +28,22 @@ body {
 .left-card {
     position: absolute;
     bottom: 30px;
-    left: 30px;
-    height: 90px;
-    width: 180px;
+    left: -80px;
+    height: 160px;
+    width: 250px;
     background: #d8ff00;
     padding: 20px;
+    border-radius: 10px;
 }
 
 /*right card*/
 .right-card {
     position: absolute;
     top: 40px;
-    right: 30px;
-    height: 80px;
-    width: 160px;
+    right: -80px;
+    height: 120px;
+    width: 200px;
     background: white;
     padding: 15px;
+    border-radius: 10px;
 }
