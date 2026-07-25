@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #081b35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+/*container*/
+.container {
+    width: 600px;
+    position: relative;
+}
+
+/*background*/
+.photo {
+    width: 100%;
+    display: block;
+}
+
+/*left card*/
+.left-card {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    height: 90px;
+    width: 180px;
+    background: #d8ff00;
+    padding: 20px;
+}
+
+/*right card*/
+.right-card {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    height: 80px;
+    width: 160px;
+    background: white;
+    padding: 15px;
+}
