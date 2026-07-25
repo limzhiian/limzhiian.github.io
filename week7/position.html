@@ -5,43 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 2</title>
+    <link rel="stylesheet" href="css/position.css">
 </head>
-<style>
-    div.relative {
-        position: relative;
-        width: 50%;
-        height: 400px;
-        border: 3px solid green;
-        margin: auto;
-    }
-
-    div.box1 {
-        position: absolute;
-        top: 20px;
-        right: -80px;
-        width: 120px;
-        border: 3px solid #73AD21;
-    }
-
-    div.box2 {
-        position: absolute;
-        bottom: 20px;
-        left: -80px;
-        width: 120px;
-        border: 3px solid red;
-    }
-</style>
 
 <body>
+    <div class="photo-container">
+        <img src="image/exercise2img.jpg" alt="wide image" width="100%">
+    </div>
 
-    <img src="image/exercise2img.jpg" alt="">
-
-    <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of
-        positioned relative to the viewport, like fixed):</p>
-
-    <div class="relative">
-        <div class="box1">First Box</div>
-        <div class="box2">Second Box</div>
+    <div class="container">
+        <div class="left-card">
+            <p>Left Card</p>
+        </div>
+        <div class="right-card">
+            <p>Right Card</p>
+        </div>
     </div>
 </body>
 
