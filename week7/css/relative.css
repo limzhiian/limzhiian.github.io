@@ -14,29 +14,31 @@ body {
     margin: 40px auto;
 }
 
-.section-header {
+.titleheader {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.section-header h2 {
+.titleheader h2 {
     font-size: 36px;
     color: #555;
     margin-bottom: 15px;
 }
 
-.section-header p {
+.titleheader p {
     color: #888;
     line-height: 1.5;
 }
 
-.card-allcard {
+
+.allcards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.card-card {
+
+.card {
     width: 30%;
     position: relative;
     margin-bottom: 125px;
@@ -44,14 +46,16 @@ body {
 
 }
 
-.card-image {
+
+.cardimage {
     width: 100%;
     height: 250px;
     display: block;
     border-radius: 8px;
 }
 
-.card-content {
+
+.cardcontent {
     width: 85%;
     background: white;
     padding: 20px 30px;
@@ -64,7 +68,8 @@ body {
 
 }
 
-.card-title {
+
+.carddescription {
     font-size: 20px;
     color: #666;
     margin-bottom: 20px;
@@ -72,15 +77,20 @@ body {
 }
 
 
-.card-readmore {
+.readmore {
     color: #4CAF50;
     text-decoration: none;
     font-weight: bold;
 }
 
+
+
+
+
+
 @media (max-width:1000px) {
 
-    .card-card {
+    .card {
         width: 48%;
     }
 
@@ -88,19 +98,19 @@ body {
 
 @media (max-width:500px) {
 
-    .card-allcard {
+    .allcards {
         display: block;
     }
 
-    .card-card {
+    .card1 {
         width: 100%;
     }
 
-    .section-header h2 {
+    .titleheader h2 {
         font-size: 28px;
     }
 
-    .section-header p {
+    .titleheader p {
         font-size: 14px;
         margin-bottom: 50px;
         margin-top: 50px;
