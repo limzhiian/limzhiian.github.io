@@ -30,13 +30,11 @@ body {
     line-height: 1.5;
 }
 
-
 .allcards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 
 .card {
     width: 30%;
@@ -46,14 +44,12 @@ body {
 
 }
 
-
 .cardimage {
     width: 100%;
     height: 250px;
     display: block;
     border-radius: 8px;
 }
-
 
 .cardcontent {
     width: 85%;
@@ -68,7 +64,6 @@ body {
 
 }
 
-
 .carddescription {
     font-size: 20px;
     color: #666;
@@ -76,17 +71,11 @@ body {
     line-height: 1.4;
 }
 
-
 .readmore {
     color: #4CAF50;
     text-decoration: none;
     font-weight: bold;
 }
-
-
-
-
-
 
 @media (max-width:1000px) {
 
