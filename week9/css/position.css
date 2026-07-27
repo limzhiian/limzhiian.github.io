@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #081b35;
+    background: #081b35;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,42 +18,38 @@ body {
     position: relative;
 }
 
+
+
 /*background*/
-.photo {
+.picture {
     width: 100%;
+
     display: block;
+
 }
 
 /*left card*/
-.left-card {
+.yellowcard {
     position: absolute;
-    bottom: 30px;
     left: -80px;
-    height: 190px;
-    width: 320px;
+    bottom: 30px;
+    width: 250px;
+    height: 150px;
     background: #d8ff00;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /*right card*/
-.right-card {
+.whitecard {
     position: absolute;
     top: 40px;
-    right: -80px;
-    height: 140px;
-    width: 240px;
+    right: -60px;
+    width: 230px;
+    height: 110px;
     background: white;
     padding: 15px;
-    border-radius: 10px;
-}
-
-.topcard {
-    width: 100%;
-    height: 20px;
-    background: #d8ff00;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .arrowicon {
@@ -67,6 +63,13 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin-left: 15px;
+
+}
+
+.top {
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
 }
 
 .progressbar {
@@ -74,20 +77,11 @@ body {
     height: 8px;
     background: #d9ff00;
     border-radius: 20px;
+    margin-top: 10px;
 }
 
-.h2 {
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-    color: #081b35;
-    font-weight: bold;
-    text-align: center;
-}
-
-.p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #081b35;
-    font-weight: normal;
-    text-align: center;
+.line {
+    width: 80%;
+    height: 2px;
+    background: black;
 }
