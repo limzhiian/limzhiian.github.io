@@ -7,11 +7,23 @@
 }
 
 body {
-    font-family: 'Google Sans Flex', sans-serif;
+    font-family: var(--font-family);
     background: rgb(231, 231, 217);
 }
 
 .header {
     width: 100%;
     padding: 0 4.5%;
+}
+
+.right_navigation {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    position: relative;
+    color: #140503;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
 }
