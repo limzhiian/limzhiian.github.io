@@ -37,3 +37,9 @@ body {
     width: 1140px;
     height: 486px;
 }
+
+.socialmediaicons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
