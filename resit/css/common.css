@@ -8,7 +8,7 @@
 
 body {
     font-family: var(--font-family);
-    background: rgb(231, 231, 217);
+    background: #fbfcef;
 }
 
 .header {
@@ -16,9 +16,26 @@ body {
     padding: 0 4.5%;
 }
 
+.entireheadermargin {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .elementralogo {
     width: 196px;
     height: 23.5px;
+    margin-left: 2px;
+}
+
+.right_side {
+    display: flex;
+    align-items: center;
+    gap: 55px;
 }
 
 .right_navigation {
@@ -46,6 +63,10 @@ body {
 .contactusbanner {
     width: 1140px;
     height: 486px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 70px 0px 70px 150px;
 }
 
 .socialmediaicons {
