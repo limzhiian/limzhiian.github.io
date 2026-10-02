@@ -66,7 +66,7 @@ body {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 70px 0px 70px 150px;
+    padding: 0px 70px 150px;
 }
 
 .socialmediaicons {
