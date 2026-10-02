@@ -24,13 +24,23 @@ body {
 .right_navigation {
     display: flex;
     align-items: center;
-    gap: 55px;
+    gap: 40px;
+}
+
+.right_navigation a {
     position: relative;
-    color: #140503;
+
+    color: #160c09;
+
+    font-family: var(--font-family);
     font-size: 14px;
     font-weight: 400;
+
     letter-spacing: 1px;
+
     text-decoration: none;
+
+    transition: color 0.3s ease;
 }
 
 .contactusbanner {
