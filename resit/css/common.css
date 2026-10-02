@@ -16,6 +16,11 @@ body {
     padding: 0 4.5%;
 }
 
+.elementralogo {
+    width: 196px;
+    height: 23.5px;
+}
+
 .right_navigation {
     display: flex;
     align-items: center;
@@ -26,4 +31,9 @@ body {
     font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
+}
+
+.contactusbanner {
+    width: 1140px;
+    height: 486px;
 }
