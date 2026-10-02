@@ -11,6 +11,11 @@ body {
     background: #fbfcef;
 }
 
+
+/* =========================
+   HEADER
+========================= */
+
 .header {
     width: 100%;
     padding: 0 4.5%;
@@ -75,6 +80,11 @@ body {
     gap: 24px;
 }
 
+
+/* =========================
+   FOOTER
+========================= */
+
 .footer {
     position: relative;
 
@@ -85,6 +95,73 @@ body {
     color: #ffffff;
 
     padding: 95px 65px 0;
+}
 
-    overflow: hidden;
+.footer-container {
+    position: relative;
+    z-index: 2;
+
+    display: grid;
+
+    grid-template-columns:
+        1.7fr 0.8fr 0.7fr 0.8fr;
+
+    column-gap: 100px;
+
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.elementralogofooter {
+    width: 196px;
+    height: 23.5px;
+    margin-bottom: 35px;
+}
+
+.footer-container p {
+    max-width: 360px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+    line-height: 1.55;
+
+    color: #ffffff;
+}
+
+.officecolumn,
+.linkscolumn,
+.followuscolumn h3 {
+    font-family: Arial, sans-serif;
+
+    font-size: 19px;
+    font-weight: 400;
+
+    margin-bottom: 25px;
+}
+
+.linkscolumn ul,
+.followuscolumn ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.linkscolumn,
+.followuscolumn li {
+    margin-bottom: 22px;
+}
+
+.linkscolumn,
+.followuscolumn li a {
+    position: relative;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+
+    color: #ffffff;
+
+    text-decoration: none;
 }
