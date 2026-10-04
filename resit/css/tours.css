@@ -43,7 +43,6 @@
     line-height: 1.6;
 }
 
-
 /* ==========================
    TOUR CARD
 ========================== */
@@ -127,4 +126,33 @@
     max-width: 290px;
 
     line-height: 1.8;
+}
+
+
+/* ==========================
+   EXPLORE BUTTON
+========================== */
+
+.explore-btn {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    width: fit-content;
+
+    color: #1c100d;
+
+    text-decoration: none;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 13px;
+
+    letter-spacing: 0.5px;
+}
+
+.explore-btn span {
+    font-size: 24px;
 }
