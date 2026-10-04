@@ -82,3 +82,51 @@
 
     display: block;
 }
+
+
+/* ==========================
+   DETAILS PANEL
+========================== */
+
+.tour-details-rightcard {
+    min-height: 628px;
+
+    background-color: #ffffff;
+
+    padding: 42px 38px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.tour-content h2 {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 22px;
+    font-weight: 400;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 8px;
+}
+
+.tour-days {
+    font-size: 14px;
+
+    color: #888888;
+
+    margin-bottom: 27px;
+}
+
+.tour-description {
+    font-size: 14px;
+
+    color: #888888;
+
+    max-width: 290px;
+
+    line-height: 1.8;
+}
