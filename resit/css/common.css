@@ -129,32 +129,80 @@ body {
     color: #ffffff;
 }
 
-.officecolumn,
-.linkscolumn,
-.followuscolumn h3 {
+.footer-column-brand p {
+    max-width: 360px;
+
     font-family: Arial, sans-serif;
 
-    font-size: 19px;
+    font-size: 16px;
+    line-height: 1.55;
+
+    color: #ffffff;
+}
+
+
+/* =========================
+   COLUMNS
+========================= */
+
+.footer-column h3 {
+    font-family: Arial, sans-serif;
+
+    font-size: 18px;
     font-weight: 400;
 
     margin-bottom: 25px;
 }
 
-.linkscolumn ul,
-.followuscolumn ul {
+
+/* =========================
+   OFFICE COLUMN
+========================= */
+
+.footer-column-office p {
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+    line-height: 1.5;
+
+    margin-bottom: 35px;
+}
+
+.office a {
+    display: block;
+
+    width: fit-content;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 16px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    margin-bottom: 38px;
+}
+
+
+/* =========================
+   LINKS COLUMN
+========================= */
+
+.footer-column-links ul {
     list-style: none;
 
     margin: 0;
     padding: 0;
 }
 
-.linkscolumn,
-.followuscolumn li {
+
+.footer-column-links li {
     margin-bottom: 22px;
 }
 
-.linkscolumn,
-.followuscolumn li a {
+
+.footer-column-followus li a {
     position: relative;
 
     font-family: Arial, sans-serif;
