@@ -42,3 +42,43 @@
 
     line-height: 1.6;
 }
+
+
+/* ==========================
+   TOUR CARD
+========================== */
+
+.tour-card {
+    display: grid;
+
+    grid-template-columns: 2.08fr 1fr;
+
+    gap: 28px;
+
+    width: 100%;
+    max-width: 1210px;
+
+    margin: 0 auto;
+}
+
+
+/* ==========================
+   LEFT IMAGE
+========================== */
+
+.tour-image {
+    width: 100%;
+
+    height: 628px;
+
+    overflow: hidden;
+}
+
+.tour-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
