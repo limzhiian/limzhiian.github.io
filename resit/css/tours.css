@@ -5,7 +5,7 @@
 .tours-title {
     width: 100%;
 
-    padding: 45px 6.3% 80px;
+    padding: 45px 6.3% 0px;
 }
 
 /* ==========================
@@ -67,11 +67,9 @@
 ========================== */
 
 .tour-image {
-    width: 100%;
+    max-width: 100%;
 
-    height: 628px;
-
-    overflow: hidden;
+    height: auto;
 }
 
 .tour-image img {
