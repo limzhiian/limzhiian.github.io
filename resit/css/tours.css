@@ -1,0 +1,44 @@
+/* ==========================
+   TOURS TITLE
+========================== */
+
+.tours-title {
+    width: 100%;
+
+    padding: 45px 6.3% 80px;
+}
+
+/* ==========================
+   HEADING
+========================== */
+
+.tours-heading {
+    text-align: center;
+
+    margin-bottom: 48px;
+}
+
+.tours-small-heading {
+    font-size: 14px;
+
+    letter-spacing: 1.5px;
+
+    margin-bottom: 22px;
+}
+
+.tours-heading h1 {
+    font-size: 54px;
+    font-weight: 400;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 24px;
+}
+
+.tours-description {
+    font-size: 15px;
+
+    color: #888888;
+
+    line-height: 1.6;
+}
