@@ -97,6 +97,11 @@ body {
     padding: 95px 65px 0;
 }
 
+
+/* =========================
+   FOOTER CONTAINER
+========================= */
+
 .footer-container {
     position: relative;
     z-index: 2;
@@ -112,24 +117,23 @@ body {
     margin: 0 auto;
 }
 
-.elementralogofooter {
-    width: 196px;
-    height: 23.5px;
+
+/* =========================
+   BRAND
+========================= */
+
+.footer-brand h2 {
+    font-family: Arial, sans-serif;
+
+    font-size: 28px;
+    font-weight: 400;
+
+    letter-spacing: -1px;
+
     margin-bottom: 35px;
 }
 
-.footer-container p {
-    max-width: 360px;
-
-    font-family: Arial, sans-serif;
-
-    font-size: 16px;
-    line-height: 1.55;
-
-    color: #ffffff;
-}
-
-.footer-column-brand p {
+.footer-brand p {
     max-width: 360px;
 
     font-family: Arial, sans-serif;
@@ -142,7 +146,7 @@ body {
 
 
 /* =========================
-   COLUMNS
+   COLUMN HEADINGS
 ========================= */
 
 .footer-column h3 {
@@ -156,8 +160,17 @@ body {
 
 
 /* =========================
-   OFFICE COLUMN
+   OFFICE
 ========================= */
+
+.footer-column-office h3 {
+    font-family: Arial, sans-serif;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-bottom: 25px;
+}
 
 .footer-column-office p {
     font-family: Arial, sans-serif;
@@ -168,7 +181,7 @@ body {
     margin-bottom: 35px;
 }
 
-.office a {
+.footer-column-office a {
     display: block;
 
     width: fit-content;
@@ -186,23 +199,21 @@ body {
 
 
 /* =========================
-   LINKS COLUMN
+   LINKS
 ========================= */
 
-.footer-column-links ul {
+.footer-column ul {
     list-style: none;
 
     margin: 0;
     padding: 0;
 }
 
-
-.footer-column-links li {
+.footer-column li {
     margin-bottom: 22px;
 }
 
-
-.footer-column-followus li a {
+.footer-column li a {
     position: relative;
 
     font-family: Arial, sans-serif;
