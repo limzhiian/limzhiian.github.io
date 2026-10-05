@@ -168,3 +168,48 @@
 .explore-btn span {
     font-size: 24px;
 }
+
+/* ==========================
+   FAQ SECTION
+========================== */
+
+.tour-faq-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 40px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 90px;
+}
+
+
+/* ==========================
+   FAQ LEFT SIDE
+========================== */
+
+.faq-left-side {
+    padding-top: 10px;
+}
+
+.faq-label {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin: 0 0 25px;
+    color: #1b0d0d;
+}
+
+.faq-title h3 {
+    font-size: 57px;
+    line-height: 1.05;
+    letter-spacing: 1px;
+    margin: 0 0 25px;
+    color: #1b0d0d;
+}
+
+.faq-description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #7c7c8c;
+    margin: 0;
+}
