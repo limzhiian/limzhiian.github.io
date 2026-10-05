@@ -122,17 +122,6 @@ body {
    BRAND
 ========================= */
 
-.footer-brand h2 {
-    font-family: Arial, sans-serif;
-
-    font-size: 28px;
-    font-weight: 400;
-
-    letter-spacing: -1px;
-
-    margin-bottom: 35px;
-}
-
 .footer-brand p {
     max-width: 360px;
 
@@ -144,6 +133,11 @@ body {
     color: #ffffff;
 }
 
+.elementralogofooter {
+    width: 196px;
+    height: 23.5px;
+    margin-bottom: 40px;
+}
 
 /* =========================
    COLUMN HEADINGS
