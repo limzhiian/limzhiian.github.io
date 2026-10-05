@@ -1,6 +1,4 @@
-/* ==========================
-   TOURS TITLE
-========================== */
+/* TOURS TITLE */
 
 .tours-title {
     width: 100%;
@@ -8,9 +6,8 @@
     padding: 45px 6.3% 0px;
 }
 
-/* ==========================
-   HEADING
-========================== */
+
+/* HEADING */
 
 .tours-heading {
     text-align: center;
@@ -44,9 +41,7 @@
 }
 
 
-/* ==========================
-   TOURS CONTAINER
-========================== */
+/* TOURS CONTAINER */
 .tours-container {
     display: flex;
 
@@ -55,9 +50,8 @@
     gap: 30px;
 }
 
-/* ==========================
-   TOUR CARD
-========================== */
+
+/* TOUR CARD */
 
 .tour-card {
     display: grid;
@@ -73,9 +67,7 @@
 }
 
 
-/* ==========================
-   LEFT IMAGE
-========================== */
+/* LEFT IMAGE */
 
 .tour-image {
     max-width: 100%;
@@ -93,9 +85,7 @@
 }
 
 
-/* ==========================
-   DETAILS PANEL
-========================== */
+/* DETAILS PANEL */
 
 .tour-details-rightcard {
     min-height: 628px;
@@ -141,9 +131,7 @@
 }
 
 
-/* ==========================
-   EXPLORE BUTTON
-========================== */
+/* EXPLORE BUTTON */
 
 .explore-btn {
     display: flex;
@@ -169,9 +157,8 @@
     font-size: 24px;
 }
 
-/* ==========================
-   FAQ SECTION
-========================== */
+
+/* FAQ SECTION */
 
 .tour-faq-section {
     max-width: 1200px;
@@ -184,9 +171,7 @@
 }
 
 
-/* ==========================
-   FAQ LEFT SIDE
-========================== */
+/* FAQ LEFT SIDE */
 
 .faq-left-side {
     padding-top: 10px;
@@ -215,9 +200,7 @@
 }
 
 
-/* ==========================
-   TOUR TRAVEL BANNER
-========================== */
+/* TOUR TRAVEL BANNER */
 
 .tour-travel-banner {
     position: relative;
@@ -236,9 +219,8 @@
     overflow: hidden;
 }
 
-/* ==============================
-   DARK IMAGE OVERLAY
-============================== */
+
+/* DARK IMAGE OVERLAY */
 
 .banner-overlay {
     position: absolute;
@@ -253,9 +235,7 @@
 }
 
 
-/* ==========================
-   BANNER CONTENT
-========================== */
+/* BANNER CONTENT */
 
 .banner-content {
     position: relative;
@@ -269,9 +249,7 @@
 }
 
 
-/* ==========================
-   BANNER HEADING
-========================== */
+/* BANNER CONTENT H2 */
 
 .banner-content h2 {
     font-size: 47px;
@@ -283,9 +261,7 @@
 }
 
 
-/* ==========================
-   BANNER BUTTON
-========================== */
+/* BANNER BUTTON */
 
 .banner-btn {
     display: inline-flex;
