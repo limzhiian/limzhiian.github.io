@@ -78,3 +78,148 @@
     object-fit: cover;
     object-position: center;
 }
+
+
+/* =====================================
+   JOIN OUR TEAM SECTION
+===================================== */
+
+.team-section {
+    background-color: #ffffff;
+
+    padding: 65px 7% 130px;
+
+    text-align: center;
+}
+
+
+/* =====================================
+   SMALL HEADING
+===================================== */
+
+.team-label {
+    margin: 0 0 25px;
+
+    font-family: var(--font-base);
+    font-size: 12px;
+    font-weight: 400;
+
+    letter-spacing: 2px;
+
+    color: #111;
+}
+
+
+/* =====================================
+   MAIN TITLE
+===================================== */
+
+.team-title {
+    margin: 0;
+
+    font-family: var(--font-heading);
+    font-size: 50px;
+    font-weight: 400;
+
+    letter-spacing: 2px;
+    line-height: 1;
+
+    color: #160d0b;
+}
+
+
+/* =====================================
+   THREE COLUMNS
+===================================== */
+
+.team-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 80px;
+
+    margin-top: 40px;
+}
+
+
+/* =====================================
+   EACH ITEM
+===================================== */
+
+.team-item {
+    text-align: center;
+}
+
+
+/* Icon */
+
+.team-icon {
+    width: 90px;
+    height: 90px;
+
+    object-fit: contain;
+
+    margin-bottom: 15px;
+}
+
+
+/* Feature title */
+
+.team-item h3 {
+    margin: 0 0 12px;
+
+    font-family: var(--font-heading);
+    font-size: 21px;
+    font-weight: 400;
+
+    letter-spacing: 0.5px;
+
+    color: #111;
+}
+
+
+/* Description */
+
+.team-item p {
+    margin: 0 auto;
+
+    max-width: 350px;
+
+    font-family: var(--font-base);
+    font-size: 15px;
+    font-weight: 400;
+
+    line-height: 1.6;
+
+    color: #85858c;
+}
+
+
+/* =====================================
+   BUTTON
+===================================== */
+
+.team-button {
+    display: inline-block;
+
+    margin-top: 45px;
+
+    padding: 18px 45px;
+
+    min-width: 220px;
+
+    background-color: #ed9168;
+
+    border-radius: 50px;
+
+    font-family: var(--font-base);
+    font-size: 12px;
+    font-weight: 500;
+
+    letter-spacing: 1.5px;
+
+    color: white;
+
+    text-decoration: none;
+}
