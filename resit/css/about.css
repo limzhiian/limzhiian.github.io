@@ -223,3 +223,155 @@
 
     text-decoration: none;
 }
+
+
+/* =========================================
+   EXPLORE SECTION
+========================================= */
+
+.explore-section {
+    background-color: #ffffff;
+
+    padding: 55px 4.7% 85px;
+}
+
+
+/* =========================================
+   TOP CONTENT
+========================================= */
+
+.explore-top {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 100px;
+
+    padding: 0 25px;
+}
+
+
+/* =========================================
+   SMALL LABEL
+========================================= */
+
+.explore-label {
+    margin: 0 0 25px;
+
+    font-family: var(--font-base);
+    font-size: 14px;
+
+    letter-spacing: 2px;
+
+    color: #111;
+}
+
+
+/* =========================================
+   MAIN TITLE
+========================================= */
+
+.explore-heading h2 {
+    margin: 0;
+
+    font-family: var(--font-heading);
+    font-size: 57px;
+    font-weight: 400;
+
+    line-height: 1.05;
+    letter-spacing: 2px;
+
+    color: #160d0b;
+}
+
+
+/* =========================================
+   RIGHT DESCRIPTION
+========================================= */
+
+.explore-description {
+    padding-top: 45px;
+}
+
+.explore-description p {
+    margin: 0 0 25px;
+
+    max-width: 600px;
+
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 1.6;
+
+    color: #85858c;
+}
+
+
+/* =========================================
+   IMAGE GALLERY
+========================================= */
+
+.explore-gallery {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    column-gap: 65px;
+
+    align-items: start;
+
+    margin-top: 90px;
+}
+
+
+/* All images */
+
+.gallery-item img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================
+   IMAGE 1
+========================================= */
+
+.gallery-1 {
+    height: 240px;
+
+    margin-top: 50px;
+}
+
+
+/* =========================================
+   IMAGE 2
+========================================= */
+
+.gallery-2 {
+    height: 340px;
+}
+
+
+/* =========================================
+   IMAGE 3
+========================================= */
+
+.gallery-3 {
+    height: 240px;
+
+    margin-top: 50px;
+}
+
+
+/* =========================================
+   IMAGE 4
+========================================= */
+
+.gallery-4 {
+    height: 340px;
+}
