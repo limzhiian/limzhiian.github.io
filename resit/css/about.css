@@ -33,15 +33,14 @@
 }
 
 /* LARGE TITLE */
-.story-title {
+.story-title h2 {
     margin: 0;
 
-    font-family: var(--font-base);
-    font-size: 50px;
+    font-family: var(--font-heading);
+    font-size: 57px;
     font-weight: 400;
 
     line-height: 1.05;
-    letter-spacing: 2px;
 
     color: #100b09;
 }
@@ -64,13 +63,13 @@
 
 
 /* IMAGE */
-.image-banner {
+.story-image {
     width: 100%;
 
     margin-top: 50px;
 }
 
-.image-banner img {
+.story-image img {
     display: block;
 
     width: 100%;
