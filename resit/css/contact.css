@@ -2,7 +2,7 @@
 
 .contact-section {
     background: #f8f8ee;
-    padding: 0 4.8% 70px;
+    padding: 0 4.8% 150px;
 }
 
 /* LARGE IMAGE */
@@ -100,7 +100,7 @@
 .contact-cta {
     background-color: #f8f8ee;
 
-    padding: 125px 4.8% 135px;
+    padding: 0px 4.8% 135px;
 }
 
 
@@ -116,7 +116,7 @@
 
     position: relative;
 
-    margin-bottom: 140px;
+    margin-bottom: 150px;
 }
 
 
