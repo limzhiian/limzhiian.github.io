@@ -87,6 +87,50 @@ body {
 }
 
 
+/* ==================================
+   TOP HORIZONTAL LINE
+================================== */
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+
+    background-color: #333;
+
+    position: relative;
+
+    margin-bottom: 140px;
+}
+
+
+/* Small dots at both ends */
+
+.horizontal-line::before,
+.horizontal-line::after {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+
+    width: 5px;
+    height: 5px;
+
+    background-color: #222;
+
+    border-radius: 50%;
+
+    transform: translateY(-50%);
+}
+
+.horizontal-line::before {
+    left: 0;
+}
+
+.horizontal-line::after {
+    right: 0;
+}
+
+
 /* =========================
    FOOTER
 ========================= */
