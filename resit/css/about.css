@@ -317,9 +317,9 @@
 .leader-card h3 {
     margin: 25px 0 5px;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-heading);
 
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
 
     color: #111;
@@ -331,9 +331,9 @@
 .leader-card p {
     margin: 0;
 
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
 
-    font-size: 14px;
+    font-size: 15px;
 
     color: #9a9da5;
 }
@@ -352,8 +352,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    overflow: hidden;
 }
 
 
@@ -368,11 +366,7 @@
 
     line-height: 1;
 
-    letter-spacing: 1px;
-
     color: #e6e6dc;
-
-    white-space: nowrap;
 }
 
 
