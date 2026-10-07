@@ -107,6 +107,57 @@
 }
 
 
+/* =====================================
+   STATS SECTION
+===================================== */
+
+.stats-section {
+    background-color: #f8f8ee;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding: 65px 6.5% 75px;
+}
+
+
+/* =====================================
+   EACH STAT
+===================================== */
+
+.stat-info {
+    text-align: left;
+}
+
+
+/* Small text */
+
+.stat-info p {
+    margin: 0 0 10px;
+
+    font-family: var(--font-base);
+    font-size: 15px;
+    font-weight: 400;
+
+    color: #17110f;
+}
+
+
+/* Large number */
+
+.stat-info h2 {
+    margin: 0;
+
+    font-family: var(--font-heading);
+    font-size: 65px;
+    font-weight: 400;
+
+    line-height: 1;
+
+    color: #160d0b;
+}
+
+
 /* ==================================
    LEADERS SECTION
 ================================== */
