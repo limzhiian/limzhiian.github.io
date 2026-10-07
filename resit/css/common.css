@@ -175,7 +175,7 @@ body {
 .footer-brand p {
     max-width: 360px;
 
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
 
     font-size: 16px;
     line-height: 1.55;
@@ -194,7 +194,7 @@ body {
 ========================= */
 
 .footer-column h3 {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-heading);
 
     font-size: 18px;
     font-weight: 400;
@@ -208,7 +208,7 @@ body {
 ========================= */
 
 .footer-column-office h3 {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
 
     font-size: 18px;
     font-weight: 400;
@@ -217,7 +217,7 @@ body {
 }
 
 .footer-column-office p {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
 
     font-size: 16px;
     line-height: 1.5;
@@ -230,7 +230,7 @@ body {
 
     width: fit-content;
 
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
 
     font-size: 16px;
 
@@ -260,7 +260,7 @@ body {
 .footer-column li a {
     position: relative;
 
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
 
     font-size: 16px;
 

@@ -33,6 +33,7 @@
 }
 
 .tours-description {
+    font-family: var(--font-base);
     font-size: 16px;
 
     color: #888888;
@@ -102,9 +103,9 @@
 }
 
 .tour-content h2 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-heading);
 
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 400;
 
     letter-spacing: 0.5px;
@@ -113,6 +114,7 @@
 }
 
 .tour-days {
+    font-family: var(--font-base);
     font-size: 14px;
 
     color: #888888;
@@ -121,6 +123,7 @@
 }
 
 .tour-description {
+    font-family: var(--font-base);
     font-size: 14px;
 
     color: #888888;
@@ -146,15 +149,20 @@
 
     text-decoration: none;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-heading);
 
     font-size: 13px;
 
     letter-spacing: 0.5px;
+
+    transition: 0.3s ease;
 }
+
 
 .explore-btn span {
     font-size: 24px;
+
+    transition: transform 0.3s ease;
 }
 
 
@@ -178,6 +186,7 @@
 }
 
 .faq-label {
+    font-family: var(--font-heading);
     font-size: 14px;
     letter-spacing: 1.5px;
     margin: 0 0 25px;
@@ -185,6 +194,7 @@
 }
 
 .faq-title h3 {
+    font-family: var(--font-heading);
     font-size: 57px;
     line-height: 1.05;
     letter-spacing: 1px;
@@ -193,6 +203,7 @@
 }
 
 .faq-description {
+    font-family: var(--font-base);
     font-size: 16px;
     line-height: 1.7;
     color: #7c7c8c;
