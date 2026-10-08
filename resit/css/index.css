@@ -1,3 +1,194 @@
+/* ==========================
+   EXPLORE SECTION
+========================== */
+
+.explore-section {
+    width: 100%;
+    background-color: #fafaf0;
+
+    padding: 70px 6.3% 100px;
+}
+
+
+/* ==========================
+   SECTION HEADING
+========================== */
+
+.explore-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.explore-heading p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+    letter-spacing: 1.5px;
+    margin-bottom: 18px;
+
+    color: #1c100d;
+}
+
+.explore-heading h2 {
+    font-family: Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 300;
+
+    letter-spacing: 2px;
+    line-height: 1.05;
+
+    color: #1c100d;
+}
+
+
+/* ==========================
+   CARDS CONTAINER
+========================== */
+
+.explore-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 28px;
+
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+
+/* ==========================
+   CARD DESIGN
+========================== */
+
+.explore-card {
+    height: 527px;
+
+    padding: 42px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* Card Background Colors */
+
+.card-green {
+    background-color: #6b741d;
+    color: #ffffff;
+}
+
+.card-white {
+    background-color: #ffffff;
+    color: #160c09;
+}
+
+.card-red {
+    background-color: #a44742;
+    color: #ffffff;
+}
+
+
+/* ==========================
+   CARD TITLE
+========================== */
+
+.explore-card h3 {
+    font-family: Arial, sans-serif;
+
+    font-size: 21px;
+    font-weight: 400;
+
+    margin: 0 0 6px;
+}
+
+
+/* ==========================
+   CARD DESCRIPTION
+========================== */
+
+.explore-card p {
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+    line-height: 1.5;
+
+    margin: 0 0 25px;
+}
+
+.card-white p {
+    color: #929292;
+}
+
+
+/* ==========================
+   CARD IMAGE
+========================== */
+
+.explore-image {
+    width: 245px;
+    height: 327px;
+
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.explore-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    object-fit: cover;
+}
+
+
+/* ==========================
+   DIFFERENT IMAGE SHAPES
+========================== */
+
+/* First Image - Arch */
+
+.image-arch {
+    border-radius: 130px 130px 0 0;
+}
+
+
+/* Second Image - Rounded Corner */
+
+.image-rounded {
+    border-radius: 130px 0 130px 0;
+}
+
+
+/* Third Image - Oval */
+
+.image-oval {
+    border-radius: 50%;
+}
+
+
+/* ==========================
+   LEARN MORE LINK
+========================== */
+
+.explore-card a {
+    margin-top: auto;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+    text-decoration: none;
+
+    color: inherit;
+}
+
+
 /* ==============================
    INSTAGRAM SECTION
 ============================== */
