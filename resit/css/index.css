@@ -20,8 +20,8 @@
 }
 
 .explore-heading p {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
+    font-family: var(--font-heading);
+    font-size: 14px;
     font-weight: 400;
 
     letter-spacing: 1.5px;
@@ -31,8 +31,8 @@
 }
 
 .explore-heading h2 {
-    font-family: Arial, sans-serif;
-    font-size: 52px;
+    font-family: var(--font-heading);
+    font-size: 57px;
     font-weight: 300;
 
     letter-spacing: 2px;
@@ -98,9 +98,9 @@
 ========================== */
 
 .explore-card h3 {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-heading);
 
-    font-size: 21px;
+    font-size: 23px;
     font-weight: 400;
 
     margin: 0 0 6px;
@@ -112,9 +112,9 @@
 ========================== */
 
 .explore-card p {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
 
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.5;
 
     margin: 0 0 25px;
@@ -178,8 +178,8 @@
 .explore-card a {
     margin-top: auto;
 
-    font-family: Arial, sans-serif;
-    font-size: 12px;
+    font-family: var(--font-heading);
+    font-size: 13px;
     font-weight: 400;
 
     letter-spacing: 1px;
