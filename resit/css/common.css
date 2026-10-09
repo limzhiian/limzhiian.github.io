@@ -268,3 +268,40 @@ body {
 
     text-decoration: none;
 }
+
+
+/* ==========================
+   LARGE ELEMENTRA TEXT
+========================== */
+
+.footer-big-text {
+    position: absolute;
+
+    left: 50%;
+    bottom: 65px;
+
+    transform: translateX(-50%);
+
+    width: 100%;
+
+    text-align: center;
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+
+.footer-big-text h2 {
+    margin: 0;
+
+    font-family: var(--font-heading);
+    font-size: 222px;
+    font-weight: 300;
+
+    letter-spacing: -7px;
+    line-height: 0.85;
+
+    color: rgba(255, 255, 255, 0.08);
+
+    white-space: nowrap;
+}
