@@ -208,9 +208,9 @@ body {
 ========================= */
 
 .footer-column-office h3 {
-    font-family: var(--font-base);
+    font-family: var(--font-heading);
 
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
 
     margin-bottom: 25px;
