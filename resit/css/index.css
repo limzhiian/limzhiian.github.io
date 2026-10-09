@@ -105,6 +105,83 @@
 
 
 /* ==========================
+   STATISTICS SECTION
+========================== */
+
+.stats-section {
+    width: 100%;
+    background-color: #fafaf0;
+
+    padding: 65px 4.5% 55px;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   STATS CONTAINER
+========================== */
+
+.stats-container {
+    width: 100%;
+    max-width: 1300px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+    align-items: center;
+}
+
+/* ==========================
+   STATISTICS ITEM
+========================== */
+
+.stats-item {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+/* ==========================
+   LARGE NUMBERS
+========================== */
+
+.stats-item h2 {
+    margin: 0;
+
+    font-family: var(--font-heading);
+    font-size: 120px;
+    font-weight: 400;
+
+    line-height: 1;
+    letter-spacing: -3px;
+
+    color: #180b08;
+}
+
+/* ==========================
+   LABELS
+========================== */
+
+.stats-item p {
+    margin: 8px 0 0;
+
+    font-family: var(--font-heading);
+    font-size: 23px;
+    font-weight: 400;
+
+    line-height: 1.2;
+
+    color: #180b08;
+}
+
+
+/* ==========================
    EXPLORE SECTION
 ========================== */
 
