@@ -510,6 +510,196 @@
 }
 
 
+/* ==========================
+   TRAVEL BLOG SECTION
+========================== */
+
+.travel-blog-section {
+    width: 100%;
+    background-color: #ffffff;
+
+    padding: 65px 70px 130px;
+
+    box-sizing: border-box;
+}
+
+
+/* ==========================
+   BLOG CONTAINER
+========================== */
+
+.travel-blog-container {
+    width: 100%;
+    max-width: 1350px;
+
+    margin: 0 auto;
+}
+
+
+/* ==========================
+   SECTION HEADING
+========================== */
+
+.travel-blog-heading {
+    margin-left: 25px;
+    margin-bottom: 48px;
+}
+
+
+/* SMALL HEADING */
+
+.travel-blog-heading p {
+    margin: 0 0 20px;
+
+    font-family: var(--font-heading);
+    font-size: 14px;
+    font-weight: 400;
+
+    letter-spacing: 1.5px;
+
+    color: #160c09;
+}
+
+
+/* MAIN HEADING */
+
+.travel-blog-heading h2 {
+    margin: 0;
+
+    font-family: var(--font-heading);
+    font-size: 57px;
+    font-weight: 300;
+
+    line-height: 1.02;
+    letter-spacing: 1px;
+
+    color: #160c09;
+}
+
+
+/* ==========================
+   BLOG GRID
+========================== */
+
+.travel-blog-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    column-gap: 28px;
+
+    align-items: start;
+}
+
+
+/* ==========================
+   BLOG CARD
+========================== */
+
+.travel-blog-card {
+    min-width: 0;
+}
+
+
+/* ==========================
+   BLOG IMAGES
+========================== */
+
+.travel-blog-image {
+    display: block;
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+
+/* IMAGE STYLE */
+
+.travel-blog-image img {
+    display: block;
+
+    width: 100%;
+    height: 215px;
+
+    object-fit: cover;
+
+    transition: transform 0.4s ease;
+}
+
+
+/* SECOND & FOURTH IMAGES */
+
+.travel-blog-card:nth-child(even) .travel-blog-image img {
+    height: 305px;
+}
+
+
+/* ==========================
+   BLOG CONTENT
+========================== */
+
+.travel-blog-content {
+    padding-top: 18px;
+}
+
+
+/* CATEGORY */
+
+.travel-blog-category {
+    margin: 0 0 10px;
+
+    font-family: var(--font-base);
+    font-size: 14px;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+
+    color: #160c09;
+}
+
+
+/* ==========================
+   BLOG TITLE
+========================== */
+
+.travel-blog-content h3 {
+    margin: 0 0 8px;
+
+    font-family: var(--font-heading);
+    font-size: 28px;
+    font-weight: 400;
+
+    line-height: 1.15;
+    letter-spacing: 0.3px;
+}
+
+
+/* BLOG TITLE LINK */
+
+.travel-blog-content h3 a {
+    color: #160c09;
+    text-decoration: none;
+}
+
+
+/* ==========================
+   BLOG DATE / COMMENTS
+========================== */
+
+.travel-blog-meta {
+    margin: 0;
+
+    font-family: var(--font-base);
+    font-size: 14px;
+    font-weight: 400;
+
+    line-height: 1.5;
+
+    color: #9ca4b6;
+}
+
+
 /* ==============================
    INSTAGRAM SECTION
 ============================== */
