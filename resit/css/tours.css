@@ -176,7 +176,7 @@
     width: 100%;
     background-color: #ffffff;
 
-    padding: 150px 0 150px;
+    padding: 150px 95px 150px;
 
     box-sizing: border-box;
 }
@@ -448,7 +448,7 @@
 
     color: white;
 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-heading);
 
     font-size: 13px;
     letter-spacing: 1px;
