@@ -5,7 +5,7 @@
 .story-section {
     background-color: #fbfcef;
 
-    padding: 0px 6.5% 40px;
+    padding: 125px 95px 40px;
 }
 
 
@@ -158,6 +158,61 @@
 }
 
 
+/* =========================
+    HORIZONTAL LINE
+========================= */
+
+.header-horizontal-line {
+    width: 100%;
+    background-color: #fafaf0;
+
+    padding: 8px 60px 24px;
+}
+
+.divider-line {
+    width: 100%;
+    max-width: 1390px;
+    height: 1px;
+
+    margin: 0 auto;
+    background-color: #96938b;
+
+    position: relative;
+}
+
+/* LEFT DOT */
+.divider-line::before {
+    content: "";
+    position: absolute;
+
+    width: 4px;
+    height: 4px;
+
+    background-color: #19130f;
+    border-radius: 50%;
+
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* RIGHT DOT */
+.divider-line::after {
+    content: "";
+    position: absolute;
+
+    width: 4px;
+    height: 4px;
+
+    background-color: #19130f;
+    border-radius: 50%;
+
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+
 /* ==================================
    LEADERS SECTION
 ================================== */
@@ -165,52 +220,9 @@
 .leaders-section {
     background-color: #f8f8ee;
 
-    padding: 75px 4.8% 95px;
+    padding: 150px 95px 150px;
 }
 
-
-/* ==================================
-   TOP HORIZONTAL LINE
-================================== */
-
-.horizontal-line {
-    width: 100%;
-    height: 1px;
-
-    background-color: #333;
-
-    position: relative;
-
-    margin-bottom: 140px;
-}
-
-
-/* Small dots at both ends */
-
-.horizontal-line::before,
-.horizontal-line::after {
-    content: "";
-
-    position: absolute;
-    top: 50%;
-
-    width: 5px;
-    height: 5px;
-
-    background-color: #222;
-
-    border-radius: 50%;
-
-    transform: translateY(-50%);
-}
-
-.horizontal-line::before {
-    left: 0;
-}
-
-.horizontal-line::after {
-    right: 0;
-}
 
 
 /* ==================================
@@ -277,7 +289,7 @@
 .leaders-description {
     margin: 0;
 
-    font-family: var(--font-base);
+    font-family: var(--font-heading);
 
     font-size: 23px;
     font-weight: 400;
@@ -345,10 +357,10 @@
 
 .large-elementra-banner {
     width: 100%;
-    height: 320px;
 
     background-color: #f8f8ee;
 
+    padding-bottom: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,7 +373,7 @@
     margin: 0;
 
     font-family: var(--font-heading);
-    font-size: 219px;
+    font-size: 200px;
     font-weight: 400;
 
     line-height: 1;
@@ -377,7 +389,7 @@
 .testimonial-section {
     background-color: #f8f8ee;
 
-    padding: 120px 4.7% 130px;
+    padding: 0 70px 150px;
 }
 
 
@@ -633,7 +645,7 @@
 .explore-section {
     background-color: #ffffff;
 
-    padding: 55px 4.7% 85px;
+    padding: 150px 70px;
 }
 
 
@@ -785,7 +797,7 @@
 .team-section {
     background-color: #ffffff;
 
-    padding: 65px 7% 130px;
+    padding: 0 95px 150px;
 
     text-align: center;
 }
@@ -901,7 +913,7 @@
 .team-button {
     display: inline-block;
 
-    margin-top: 45px;
+    margin-top: 50px;
 
     padding: 18px 45px;
 

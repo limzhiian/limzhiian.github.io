@@ -85,49 +85,59 @@ body {
 }
 
 
-/* ==================================
-   HEADER HORIZONTAL LINE
-================================== */
+/* =========================
+    HORIZONTAL LINE
+========================= */
 
 .header-horizontal-line {
     width: 100%;
+    background-color: #fafaf0;
+
+    padding: 8px 60px 24px;
+}
+
+.divider-line {
+    width: 100%;
+    max-width: 1390px;
     height: 1px;
 
-    background-color: #333;
+    margin: 0 auto;
+    background-color: #96938b;
 
     position: relative;
-
-    margin-bottom: 125px;
 }
 
-
-/* Small dots at both ends */
-
-.header-horizontal-line::before,
-.header-horizontal-line::after {
+/* LEFT DOT */
+.divider-line::before {
     content: "";
-
     position: absolute;
-    top: 50%;
 
-    width: 5px;
-    height: 5px;
+    width: 4px;
+    height: 4px;
 
-    background-color: #222;
-
+    background-color: #19130f;
     border-radius: 50%;
 
-    transform: translateY(-50%);
-}
-
-.header-horizontal-line::before {
     left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.header-horizontal-line::after {
+/* RIGHT DOT */
+.divider-line::after {
+    content: "";
+    position: absolute;
+
+    width: 4px;
+    height: 4px;
+
+    background-color: #19130f;
+    border-radius: 50%;
+
     right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
 }
-
 
 /* =========================
    FOOTER
@@ -142,7 +152,7 @@ body {
     background-color: #4b2425;
     color: #ffffff;
 
-    padding: 95px 65px 0;
+    padding: 100px 70px 70px;
 }
 
 
