@@ -1,69 +1,74 @@
-/* ==========================
-   EXPLORE SECTION
-========================== */
+/* =========================
+   HIDDEN GEMS SECTION
+========================= */
 
-.explore-section {
+.hidden-gems-section {
     width: 100%;
     background-color: #fafaf0;
 
-    padding: 70px 95px 150px;
+    padding: 85px 95px 150px;
+    box-sizing: border-box;
 }
 
-
-/* ==========================
-   SECTION HEADING
-========================== */
-
-.explore-heading {
-    text-align: center;
-    margin-bottom: 52px;
-}
-
-.explore-heading p {
-    font-family: var(--font-heading);
-    font-size: 14px;
-    font-weight: 400;
-
-    letter-spacing: 1.5px;
-    margin-bottom: 18px;
-
-    color: #1c100d;
-}
-
-.explore-heading h2 {
-    font-family: var(--font-heading);
-    font-size: 57px;
-    font-weight: 300;
-
-    letter-spacing: 2px;
-    line-height: 1.05;
-
-    color: #1c100d;
-}
-
-
-/* ==========================
-   CARDS CONTAINER
-========================== */
-
-.explore-container {
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 28px;
-
-    max-width: 1210px;
+.hidden-gems-container {
+    width: 100%;
+    max-width: 1390px;
     margin: 0 auto;
 }
 
 
-/* ==========================
-   CARD DESIGN
-========================== */
+/* =========================
+   SECTION HEADING
+========================= */
 
-.explore-card {
-    height: 527px;
+.hidden-gems-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.hidden-gems-label {
+    margin: 0 0 20px;
+
+    font-family: var(--font-heading);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    color: #160c09;
+}
+
+.hidden-gems-title {
+    margin: 0;
+
+    font-family: var(--font-heading);
+    font-size: 49px;
+    font-weight: 400;
+
+    line-height: 1.05;
+    letter-spacing: 1px;
+
+    color: #160c09;
+}
+
+
+/* =========================
+   THREE CARD GRID
+========================= */
+
+.hidden-gems-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 26px;
+}
+
+
+/* =========================
+   CARD STYLING
+========================= */
+
+.hidden-gems-card {
+    min-width: 0;
+    min-height: 492px;
 
     padding: 45px 30px;
 
@@ -72,13 +77,13 @@
     align-items: center;
 
     text-align: center;
+    box-sizing: border-box;
 }
 
 
-/* Card Background Colors */
-
+/* CARD COLORS */
 .card-green {
-    background-color: #6b741d;
+    background-color: #697719;
     color: #ffffff;
 }
 
@@ -88,95 +93,73 @@
 }
 
 .card-red {
-    background-color: #a44742;
+    background-color: #aa4640;
     color: #ffffff;
 }
 
 
-/* ==========================
+/* =========================
    CARD TITLE
-========================== */
+========================= */
 
-.explore-card h3 {
+.hidden-gems-card h3 {
+    margin: 0 0 8px;
+
     font-family: var(--font-heading);
-
     font-size: 23px;
     font-weight: 400;
 
-    margin: 0 0 6px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
 }
 
 
-/* ==========================
-   CARD DESCRIPTION
-========================== */
+/* CARD DESCRIPTION */
+.hidden-gems-card p {
+    margin: 0 0 23px;
 
-.explore-card p {
     font-family: var(--font-base);
-
     font-size: 14px;
-    line-height: 1.5;
+    font-weight: 400;
 
-    margin: 0 0 25px;
+    line-height: 1.5;
 }
 
 .card-white p {
-    color: #929292;
+    color: #8b91a1;
 }
 
 
-/* ==========================
-   CARD IMAGE
-========================== */
+/* =========================
+   ARCH-SHAPED IMAGE
+========================= */
 
-.explore-image {
-    width: 245px;
-    height: 327px;
+.hidden-gems-image {
+    width: 228px;
+    height: 305px;
 
     overflow: hidden;
-    flex-shrink: 0;
+
+    border-radius: 120px 120px 0 0;
 }
 
-.explore-image img {
+.hidden-gems-image img {
     width: 100%;
     height: 100%;
 
-    display: block;
     object-fit: cover;
+    display: block;
+
+    transition: transform 0.4s ease;
 }
 
 
-/* ==========================
-   DIFFERENT IMAGE SHAPES
-========================== */
-
-/* First Image - Arch */
-
-.image-arch {
-    border-radius: 130px 130px 0 0;
-}
-
-
-/* Second Image - Rounded Corner */
-
-.image-rounded {
-    border-radius: 130px 0 130px 0;
-}
-
-
-/* Third Image - Oval */
-
-.image-oval {
-    border-radius: 50%;
-}
-
-
-/* ==========================
+/* =========================
    LEARN MORE LINK
-========================== */
+========================= */
 
-.explore-card a {
-    margin-top: auto;
+.hidden-gems-link {
+    margin-top: 25px;
 
     font-family: var(--font-heading);
     font-size: 13px;
@@ -186,6 +169,8 @@
     text-decoration: none;
 
     color: inherit;
+
+    transition: opacity 0.3s ease;
 }
 
 
