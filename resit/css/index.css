@@ -510,6 +510,140 @@
 }
 
 
+/* =========================
+   ADVENTURE SECTION
+========================= */
+
+.adventure-section {
+    width: 100%;
+    background-color: #fafaf0;
+
+    padding: 120px 60px 100px;
+    box-sizing: border-box;
+}
+
+.adventure-container {
+    width: 100%;
+    max-width: 1390px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 505px 505px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+
+/* =========================
+   LEFT COLUMN
+========================= */
+
+.adventure-left {
+    width: 100%;
+}
+
+.adventure-content {
+    width: 100%;
+}
+
+/* SMALL HEADING */
+.adventure-label {
+    margin: 0 0 20px;
+
+    font-family: var(--font-heading);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    color: #160c09;
+}
+
+/* MAIN HEADING */
+.adventure-title {
+    margin: 0 0 25px;
+
+    font-family: var(--font-heading);
+    font-size: 49px;
+    font-weight: 400;
+
+    line-height: 1.02;
+    letter-spacing: 1px;
+
+    color: #160c09;
+}
+
+/* DESCRIPTION */
+.adventure-description {
+    margin: 0 0 25px;
+
+    font-family: var(--font-body, Arial, sans-serif);
+    font-size: 14px;
+    font-weight: 400;
+
+    line-height: 1.6;
+    color: #8b91a1;
+}
+
+
+/* =========================
+   LEFT COMBINED IMAGE
+========================= */
+
+.adventure-left-image {
+    width: 100%;
+    margin-top: 115px;
+}
+
+.adventure-left-image img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
+
+/* =========================
+   RIGHT COLUMN
+========================= */
+
+.adventure-right {
+    width: 100%;
+}
+
+/* RIGHT COMBINED IMAGE */
+.adventure-right-image {
+    width: 100%;
+}
+
+.adventure-right-image img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+
+
+/* =========================
+   BOTTOM RIGHT DESCRIPTION
+========================= */
+
+.adventure-bottom-description {
+    width: 100%;
+    margin-top: 265px;
+}
+
+.adventure-bottom-description p {
+    margin: 0;
+
+    font-family: var(--font-body, Arial, sans-serif);
+    font-size: 14px;
+    font-weight: 400;
+
+    line-height: 1.65;
+    color: #8b91a1;
+}
+
+
 /* ==========================
    TRAVEL BLOG SECTION
 ========================== */
