@@ -2,7 +2,7 @@
 
 .contact-section {
     background: #f8f8ee;
-    padding: 0 4.8% 150px;
+    padding: 0 70px 150px;
 }
 
 /* LARGE IMAGE */
@@ -37,7 +37,6 @@
     font-size: 47px;
     font-weight: 400;
 
-    letter-spacing: 3px;
     line-height: 1.1;
 
     color: #080808;
@@ -161,8 +160,6 @@
     font-family: var(--font-heading);
     font-size: 47px;
     font-weight: 400;
-
-    line-height: 1.12;
 
     color: #080808;
 }
