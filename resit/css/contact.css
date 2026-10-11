@@ -45,8 +45,6 @@
     font-family: var(--font-heading);
     font-size: 47px;
     font-weight: 400;
-
-    letter-spacing: 3px;
     line-height: 1.2;
 
     color: #080808;
@@ -59,7 +57,7 @@
     grid-template-columns:
         1fr 1fr 1fr 1fr;
 
-    column-gap: 55px;
+    column-gap: 30px;
     align-items: start;
 }
 
