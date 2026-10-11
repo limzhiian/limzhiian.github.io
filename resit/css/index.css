@@ -518,7 +518,7 @@
     width: 100%;
     background-color: #fafaf0;
 
-    padding: 120px 60px 100px;
+    padding: 150px 70px;
     box-sizing: border-box;
 }
 
@@ -551,7 +551,7 @@
     margin: 0 0 20px;
 
     font-family: var(--font-heading);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
 
@@ -563,7 +563,7 @@
     margin: 0 0 25px;
 
     font-family: var(--font-heading);
-    font-size: 49px;
+    font-size: 57px;
     font-weight: 400;
 
     line-height: 1.02;
@@ -576,8 +576,8 @@
 .adventure-description {
     margin: 0 0 25px;
 
-    font-family: var(--font-body, Arial, sans-serif);
-    font-size: 14px;
+    font-family: var(--font-base);
+    font-size: 16px;
     font-weight: 400;
 
     line-height: 1.6;
@@ -635,8 +635,8 @@
 .adventure-bottom-description p {
     margin: 0;
 
-    font-family: var(--font-body, Arial, sans-serif);
-    font-size: 14px;
+    font-family: var(--font-base);
+    font-size: 16px;
     font-weight: 400;
 
     line-height: 1.65;
@@ -652,7 +652,7 @@
     width: 100%;
     background-color: #ffffff;
 
-    padding: 65px 70px 130px;
+    padding: 150px 70px;
 
     box-sizing: border-box;
 }
