@@ -102,7 +102,7 @@
     margin: 0 0 35px;
 
     font-family: var(--font-heading);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 
     letter-spacing: 1.5px;
@@ -125,7 +125,7 @@
     border-radius: 50px;
 
     font-family: var(--font-heading);
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 400;
 
     letter-spacing: 1px;
@@ -162,21 +162,6 @@
 .horizons-right {
     width: 100%;
     position: relative;
-}
-
-.horizons-decoration {
-    position: absolute;
-
-    width: 480px;
-    max-width: none;
-
-    right: -25px;
-    bottom: 265px;
-
-    opacity: 0.2;
-    z-index: 0;
-
-    pointer-events: none;
 }
 
 .horizons-beach {
