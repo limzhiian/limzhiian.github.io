@@ -475,7 +475,7 @@ body {
         min-height: 890px;
         height: auto;
 
-        padding: 50px 24px 0;
+        padding: 50px 20px 25px;
 
         box-sizing: border-box;
         overflow: hidden;
