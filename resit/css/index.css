@@ -164,6 +164,20 @@
     position: relative;
 }
 
+.horizons-decoration {
+    position: absolute;
+
+    width: 480px;
+    max-width: none;
+
+    right: -25px;
+    bottom: 265px;
+
+    z-index: 0;
+
+    pointer-events: none;
+}
+
 .horizons-beach {
     width: 100%;
     height: 280px;
