@@ -84,6 +84,21 @@ body {
     gap: 24px;
 }
 
+/* HAMBURGER MENU */
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.hamburger-menu img {
+    width: 24px;
+    height: auto;
+    display: block;
+}
+
 
 /* =========================
    LAPTOP - 1280px
@@ -101,13 +116,26 @@ body {
         margin-left: 0;
     }
 
-    .right_side {
+    /* Hide Navigation */
+    .right_navigation {
         display: none;
     }
 
-    .hamburger-menu {
-        display: flex;
+    /* Hide Social Media Icons */
+    .socialmediaicons {
+        display: none;
     }
+
+    /* Show Hamburger Menu */
+    .hamburger-menu {
+        display: block;
+    }
+
+    .right_side {
+        display: flex;
+        align-items: center;
+    }
+
 }
 
 
