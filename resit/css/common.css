@@ -367,3 +367,98 @@ body {
 
     white-space: nowrap;
 }
+
+
+/* =========================
+   FOOTER - 1280px LAPTOP
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* FOOTER */
+    .footer {
+        min-height: 545px;
+        padding: 65px 28px 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    /* FOOTER CONTAINER */
+    .footer-container {
+        display: grid;
+
+        grid-template-columns:
+            1.5fr 1.2fr 0.6fr 0.6fr;
+
+        column-gap: 50px;
+
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* FOOTER BRAND */
+    .footer-brand {
+        max-width: 310px;
+    }
+
+    .elementralogofooter {
+        width: 190px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .footer-brand p {
+        max-width: 310px;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    /* FOOTER HEADINGS */
+    .footer-column h3,
+    .footer-column-office h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    /* OFFICE */
+    .footer-column-office p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .footer-column-office a {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    /* LINKS AND FOLLOW US */
+    .footer-column li {
+        margin-bottom: 18px;
+    }
+
+    .footer-column li a {
+        font-size: 15px;
+    }
+
+    /* LARGE ELEMENTRA TEXT */
+    .footer-big-text {
+        position: absolute;
+
+        left: 50%;
+        bottom: 40px;
+
+        transform: translateX(-50%);
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-big-text h2 {
+        font-size: clamp(100px, 12vw, 155px);
+        letter-spacing: -5px;
+        line-height: 0.85;
+        white-space: nowrap;
+    }
+
+}
