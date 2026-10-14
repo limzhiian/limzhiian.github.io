@@ -140,6 +140,55 @@ body {
 
 
 /* =========================
+   TABLET - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    .header {
+        padding: 30px 24px;
+        box-sizing: border-box;
+    }
+
+    .entireheadermargin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .elementralogo {
+        width: 245px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .right_navigation {
+        display: none;
+    }
+
+    .socialmediaicons {
+        display: none;
+    }
+
+    .right_side {
+        display: flex;
+        align-items: center;
+        gap: 0;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .hamburger-menu img {
+        width: 30px;
+        height: auto;
+    }
+
+}
+
+
+/* =========================
     HORIZONTAL LINE
 ========================= */
 
