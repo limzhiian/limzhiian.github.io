@@ -544,7 +544,7 @@ body {
     }
 
     .footer-big-text h2 {
-        font-size: clamp(100px, 12vw, 155px);
+        font-size: 190px;
         letter-spacing: -5px;
         line-height: 0.85;
         white-space: nowrap;
