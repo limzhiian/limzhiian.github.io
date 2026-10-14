@@ -467,7 +467,7 @@ body {
     /* FOOTER */
     .footer {
         min-height: 545px;
-        padding: 65px 28px 0;
+        padding: 100px 70px 70px;
         box-sizing: border-box;
         overflow: hidden;
     }
@@ -658,9 +658,129 @@ body {
     }
 
     .footer-big-text h2 {
-        font-size: clamp(80px, 13vw, 120px);
+        font-size: 112px;
 
         font-weight: 300;
+        letter-spacing: -4px;
+        line-height: 0.85;
+
+        white-space: nowrap;
+    }
+
+}
+
+
+/* =========================
+   FOOTER - 480px MOBILE
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    /* FOOTER */
+    .footer {
+        width: 100%;
+        min-height: 890px;
+        height: auto;
+
+        padding: 50px 20px 25px;
+
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    /* FOOTER CONTAINER */
+    .footer-container {
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        column-gap: 20px;
+        row-gap: 35px;
+
+        max-width: 100%;
+        margin: 0;
+    }
+
+    /* BRAND */
+    .footer-brand {
+        grid-column: 1 / -1;
+        max-width: 100%;
+    }
+
+    .elementralogofooter {
+        width: 245px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer-brand p {
+        max-width: 100%;
+
+        font-size: 18px;
+        line-height: 1.7;
+
+        margin: 0;
+    }
+
+    /* OFFICE */
+    .footer-column-office {
+        grid-column: 1 / -1;
+    }
+
+    .footer-column-office h3 {
+        font-size: 20px;
+        font-weight: 400;
+
+        margin-bottom: 20px;
+    }
+
+    .footer-column-office p {
+        font-size: 18px;
+        line-height: 1.7;
+
+        margin-bottom: 20px;
+    }
+
+    .footer-column-office a {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    /* LINKS AND FOLLOW US */
+    .footer-column {
+        grid-column: auto;
+    }
+
+    .footer-column h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .footer-column li {
+        margin-bottom: 18px;
+    }
+
+    .footer-column li a {
+        font-size: 18px;
+    }
+
+    /* LARGE ELEMENTRA TEXT */
+    .footer-big-text {
+        position: absolute;
+
+        left: 50%;
+        bottom: 25px;
+
+        transform: translateX(-50%);
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-big-text h2 {
+        font-size: 70px;
+        font-weight: 300;
+
         letter-spacing: -4px;
         line-height: 0.85;
 
