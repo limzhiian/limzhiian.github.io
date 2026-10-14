@@ -189,6 +189,46 @@ body {
 
 
 /* =========================
+   MOBILE - 480px
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        padding: 25px 24px;
+        box-sizing: border-box;
+    }
+
+    .entireheadermargin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .elementralogo {
+        width: 245px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .right_side {
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .hamburger-menu img {
+        width: 30px;
+        height: auto;
+    }
+
+}
+
+
+/* =========================
     HORIZONTAL LINE
 ========================= */
 
