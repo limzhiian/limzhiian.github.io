@@ -101,6 +101,226 @@ body {
 
 
 /* =========================
+   SUBMENU HEADER
+========================= */
+
+/* DARK OVERLAY */
+.submenu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.3);
+
+    z-index: 999;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s ease;
+}
+
+
+/* SUBMENU CONTAINER */
+.submenu {
+    position: fixed;
+
+    top: 0;
+    right: 0;
+
+    width: 390px;
+    height: 100vh;
+    height: 100dvh;
+
+    background-color: #291516;
+
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 50px;
+
+    box-sizing: border-box;
+
+    transform: translateX(100%);
+
+    visibility: hidden;
+
+    transition: transform 0.4s ease,
+        visibility 0.4s ease;
+}
+
+
+/* ACTIVE SUBMENU */
+.submenu.active {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.submenu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* CLOSE BUTTON */
+.submenu-close {
+    position: absolute;
+
+    top: 25px;
+    right: 30px;
+
+    background: none;
+    border: none;
+
+    color: #ffffff;
+
+    font-size: 35px;
+    font-weight: 200;
+
+    cursor: pointer;
+
+    line-height: 1;
+}
+
+
+/* SUBMENU NAVIGATION */
+.submenu-navigation {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 30px;
+}
+
+
+/* NAVIGATION LINKS */
+.submenu-navigation a {
+    font-family: var(--font-heading);
+
+    font-size: 24px;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+}
+
+
+/* HOVER EFFECT */
+.submenu-navigation a:hover {
+    color: #b9a1a1;
+}
+
+
+/* =========================
+   LAPTOP - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* HEADER */
+    .header {
+        padding: 30px 30px;
+    }
+
+    /* HIDE NORMAL NAVIGATION */
+    .right_navigation {
+        display: none;
+    }
+
+    /* HIDE SOCIAL MEDIA ICONS */
+    .socialmediaicons {
+        display: none;
+    }
+
+    /* SHOW HAMBURGER */
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* SUBMENU */
+    .submenu {
+        width: 30%;
+        padding: 50px;
+    }
+
+    .submenu-navigation {
+        gap: 30px;
+    }
+
+    .submenu-navigation a {
+        font-size: 24px;
+    }
+
+}
+
+
+/* =========================
+   TABLET - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    .submenu {
+        width: 60%;
+        padding: 40px;
+    }
+
+    .submenu-navigation {
+        gap: 25px;
+    }
+
+    .submenu-navigation a {
+        font-size: 22px;
+    }
+
+    .submenu-close {
+        top: 25px;
+        right: 25px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE - 480px
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    .submenu {
+        width: 80%;
+        padding: 30px;
+    }
+
+    .submenu-navigation {
+        gap: 25px;
+    }
+
+    .submenu-navigation a {
+        font-size: 20px;
+    }
+
+    .submenu-close {
+        top: 25px;
+        right: 25px;
+    }
+
+}
+
+
+/* =========================
    LAPTOP - 1280px
 ========================= */
 
