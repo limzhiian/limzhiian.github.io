@@ -677,7 +677,7 @@ body {
     font-family: var(--font-heading);
 
     /* Responsive font size */
-    font-size: clamp(70px, 13.5vw, 200px);
+    font-size: clamp(70px, 13.5vw, 210px);
 
     font-weight: 300;
     letter-spacing: -0.035em;
