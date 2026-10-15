@@ -57,10 +57,10 @@
                 </div>
 
                 <!-- Hamburger Menu -->
-                <button class="hamburger-menu" id="openMenu" aria-label="Open menu" aria-controls="submenu"
-                    aria-expanded="false">
+                <button type="button" class="hamburger-menu" id="openMenu" aria-label="Open menu"
+                    aria-controls="submenu" aria-expanded="false">
 
-                    <img src="img/hamburgermenu.png" width="24" alt="Hamburger Menu">
+                    <img src="img/hamburgermenu.png" width="24" alt="">
 
                 </button>
 
@@ -72,22 +72,22 @@
 
 
 
+    <!-- SUBMENU OVERLAY -->
     <div class="submenu-overlay" id="menuOverlay"></div>
 
-    <div class="submenu" id="submenu">
+    <!-- SUBMENU -->
+    <div class="submenu" id="submenu" aria-hidden="true">
 
         <!-- Close Button -->
-        <button class="submenu-close" id="closeMenu" aria-label="Close menu">
+        <button type="button" class="submenu-close" id="closeMenu" aria-label="Close menu">
             &times;
         </button>
 
-        <!-- Submenu Navigation -->
+        <!-- Navigation -->
         <nav class="submenu-navigation">
 
             <a href="index.html">HOME</a>
-
             <a href="about.html">ABOUT</a>
-
             <a href="tours.html">TOURS</a>
 
             <a href="https://travel.elementra.themerex.net/tour-details/">
@@ -103,6 +103,87 @@
         </nav>
 
     </div>
+
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const openMenu = document.getElementById("openMenu");
+            const closeMenu = document.getElementById("closeMenu");
+
+            const submenu = document.getElementById("submenu");
+            const overlay = document.getElementById("menuOverlay");
+
+            // CHECK ELEMENTS
+            if (!openMenu || !closeMenu || !submenu || !overlay) {
+                console.error("Submenu elements not found!");
+                return;
+            }
+
+            // OPEN MENU
+            function showMenu() {
+
+                submenu.classList.add("active");
+                overlay.classList.add("active");
+
+                openMenu.setAttribute("aria-expanded", "true");
+                submenu.setAttribute("aria-hidden", "false");
+
+                closeMenu.focus();
+
+            }
+
+            // CLOSE MENU
+            function hideMenu() {
+
+                const focusInside = submenu.contains(document.activeElement);
+
+                submenu.classList.remove("active");
+                overlay.classList.remove("active");
+
+                openMenu.setAttribute("aria-expanded", "false");
+                submenu.setAttribute("aria-hidden", "true");
+
+                if (focusInside && window.innerWidth <= 1280) {
+                    openMenu.focus();
+                }
+
+            }
+
+            // OPEN BUTTON
+            openMenu.addEventListener("click", showMenu);
+
+            // CLOSE BUTTON
+            closeMenu.addEventListener("click", hideMenu);
+
+            // CLICK OUTSIDE
+            overlay.addEventListener("click", hideMenu);
+
+            // ESCAPE KEY
+            document.addEventListener("keydown", function (event) {
+
+                if (event.key === "Escape" &&
+                    submenu.classList.contains("active")) {
+
+                    hideMenu();
+
+                }
+
+            });
+
+            // CLOSE WHEN SCREEN IS ABOVE 1280px
+            window.addEventListener("resize", function () {
+
+                if (window.innerWidth > 1280) {
+                    hideMenu();
+                }
+
+            });
+
+        });
+
+    </script>
 
 
     <!-- EXPLORE NEW HORIZONS SECTION -->
@@ -754,3 +835,5 @@
 </body>
 
 </html>
+
+<script src="js/submenu.js" defer></script>
