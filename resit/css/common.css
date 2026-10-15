@@ -146,7 +146,7 @@ body {
 @media screen and (max-width: 765px) {
 
     .header {
-        padding: 30px 24px;
+        padding: 20px;
         box-sizing: border-box;
     }
 
@@ -195,7 +195,7 @@ body {
 @media screen and (max-width: 480px) {
 
     .header {
-        padding: 20px 20px;
+        padding: 20px;
         box-sizing: border-box;
     }
 
@@ -281,6 +281,7 @@ body {
     top: 50%;
     transform: translate(50%, -50%);
 }
+
 
 /* =========================
    FOOTER
@@ -421,35 +422,35 @@ body {
 }
 
 
-/* ==========================
+/* =========================
    LARGE ELEMENTRA TEXT
-========================== */
+========================= */
 
 .footer-big-text {
     position: absolute;
 
     left: 50%;
-    bottom: 65px;
+    bottom: 40px;
 
     transform: translateX(-50%);
 
     width: 100%;
-
     text-align: center;
-    z-index: 1;
 
+    z-index: 1;
     pointer-events: none;
 }
-
 
 .footer-big-text h2 {
     margin: 0;
 
     font-family: var(--font-heading);
-    font-size: 200px;
-    font-weight: 300;
 
-    letter-spacing: -7px;
+    /* Responsive font size */
+    font-size: clamp(70px, 13.5vw, 200px);
+
+    font-weight: 300;
+    letter-spacing: -0.035em;
     line-height: 0.85;
 
     color: rgba(255, 255, 255, 0.08);
@@ -543,11 +544,8 @@ body {
         text-align: center;
     }
 
-    .footer-big-text h2 {
-        font-size: 190px;
-        letter-spacing: -5px;
-        line-height: 0.85;
-        white-space: nowrap;
+    .footer-big-text {
+        bottom: 40px;
     }
 
 }
@@ -646,25 +644,7 @@ body {
 
     /* LARGE ELEMENTRA TEXT */
     .footer-big-text {
-        position: absolute;
-
-        left: 50%;
         bottom: 25px;
-
-        transform: translateX(-50%);
-
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer-big-text h2 {
-        font-size: 112px;
-
-        font-weight: 300;
-        letter-spacing: -4px;
-        line-height: 0.85;
-
-        white-space: nowrap;
     }
 
 }
@@ -766,25 +746,7 @@ body {
 
     /* LARGE ELEMENTRA TEXT */
     .footer-big-text {
-        position: absolute;
-
-        left: 50%;
         bottom: 25px;
-
-        transform: translateX(-50%);
-
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer-big-text h2 {
-        font-size: 70px;
-        font-weight: 300;
-
-        letter-spacing: -4px;
-        line-height: 0.85;
-
-        white-space: nowrap;
     }
 
 }
