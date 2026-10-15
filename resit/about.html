@@ -49,14 +49,40 @@
                 </div>
 
                 <!-- Hamburger Menu -->
-                <button class="hamburger-menu" aria-label="Open menu">
-                    <img src="img/hamburgermenu.png" width="24" alt="Hamburger Menu">
+                <button type="button" class="hamburger-menu" id="openMenu" aria-label="Open menu"
+                    aria-controls="submenu" aria-expanded="false">
+
+                    <img src="img/hamburgermenu.png" width="24" alt="">
+
                 </button>
 
             </div>
         </div>
 
     </section>
+
+
+    <!-- SUBMENU OVERLAY -->
+    <div class="submenu-overlay" id="menuOverlay"></div>
+
+    <!-- SUBMENU -->
+    <div class="submenu" id="submenu" aria-hidden="true">
+
+        <!-- Close Button -->
+        <button type="button" class="submenu-close" id="closeMenu" aria-label="Close menu">
+        </button>
+
+        <!-- Navigation -->
+        <nav class="submenu-navigation">
+
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="tours.html">TOURS</a>
+            <a href="contact.html">CONTACT</a>
+
+        </nav>
+
+    </div>
 
 
     <!-- SECTION 2: HORIZONTAL LINE -->
