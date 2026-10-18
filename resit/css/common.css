@@ -466,7 +466,7 @@ body {
     width: 100%;
     background-color: #fafaf0;
 
-    padding: 0 30px;
+    padding: 0 70px;
 }
 
 .divider-line {
@@ -510,6 +510,60 @@ body {
     right: 0;
     top: 50%;
     transform: translate(50%, -50%);
+}
+
+
+/* =========================
+   HORIZONTAL LINE - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* HORIZONTAL LINE CONTAINER */
+    .header-horizontal-line {
+        width: 100%;
+        padding: 0px 30px;
+        box-sizing: border-box;
+    }
+
+    /* HORIZONTAL LINE */
+    .divider-line {
+        width: 100%;
+    }
+
+    /* KEEP LEFT AND RIGHT DOTS */
+    .divider-line::before,
+    .divider-line::after {
+        display: block;
+    }
+
+}
+
+
+/* =========================
+   HORIZONTAL LINE - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    /* HORIZONTAL LINE CONTAINER */
+    .header-horizontal-line {
+        width: 100%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    /* HORIZONTAL LINE */
+    .divider-line {
+        width: 100%;
+    }
+
+    /* HIDE LEFT AND RIGHT DOTS */
+    .divider-line::before,
+    .divider-line::after {
+        display: none;
+    }
+
 }
 
 
