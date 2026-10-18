@@ -43,6 +43,57 @@
 
 
 /* =========================
+   TOURS TITLE - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* TOURS TITLE */
+    .tours-title {
+        width: 100%;
+        padding: 95px 30px 0px;
+
+        box-sizing: border-box;
+    }
+
+    /* HEADING CONTAINER */
+    .tours-heading {
+        text-align: center;
+        margin-bottom: 38px;
+    }
+
+    /* SMALL HEADING */
+    .tours-small-heading {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+
+        margin-bottom: 15px;
+    }
+
+    /* MAIN HEADING */
+    .tours-heading h1 {
+        font-size: 45px;
+        font-weight: 400;
+
+        letter-spacing: normal;
+        line-height: 1.2;
+
+        margin-bottom: 22px;
+    }
+
+    /* DESCRIPTION */
+    .tours-description {
+        font-family: var(--font-base);
+        font-size: 16px;
+
+        color: #888888;
+        line-height: 1.6;
+    }
+
+}
+
+
+/* =========================
    TOURS CONTAINER
 ========================= */
 
@@ -269,6 +320,102 @@
     .explore-btn {
         font-size: 13px;
         gap: 15px;
+    }
+
+}
+
+
+/* =========================
+   TOUR CARDS - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    /* TOURS CONTAINER */
+    .tours-container {
+        padding: 0px 20px 65px;
+        gap: 30px;
+
+        box-sizing: border-box;
+    }
+
+    /* TOUR CARD */
+    .tour-card {
+        display: grid;
+
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto;
+    }
+
+    /* LEFT IMAGE */
+    .tour-image {
+        width: 100%;
+        height: 570px;
+        min-width: 0;
+    }
+
+    .tour-image img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center;
+
+        display: block;
+    }
+
+    /* DETAILS CARD */
+    .tour-details-rightcard {
+        width: 100%;
+        min-width: 0;
+        min-height: 190px;
+
+        padding: 30px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        box-sizing: border-box;
+    }
+
+    /* CARD HEADING */
+    .tour-content h2 {
+        font-size: 19px;
+        font-weight: 400;
+
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    /* TOUR DAYS */
+    .tour-days {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    /* DESCRIPTION */
+    .tour-description {
+        font-size: 14px;
+        line-height: 1.8;
+
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* EXPLORE BUTTON */
+    .explore-btn {
+        font-size: 13px;
+        gap: 15px;
+    }
+
+    .explore-btn span {
+        font-size: 24px;
     }
 
 }
@@ -616,6 +763,66 @@
         padding: 18px 44px;
 
         font-size: 13px;
+    }
+
+}
+
+
+/* =========================
+   TOUR TRAVEL BANNER - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    /* TOUR TRAVEL BANNER */
+    .tour-travel-banner {
+        width: 100%;
+        height: 219px;
+
+        background-size: cover;
+        background-position: center 65%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        overflow: hidden;
+    }
+
+    /* DARK IMAGE OVERLAY */
+    .banner-overlay {
+        background: rgba(0, 0, 0, 0.18);
+    }
+
+    /* BANNER CONTENT */
+    .banner-content {
+        width: 100%;
+        padding: 0 20px;
+
+        text-align: center;
+        transform: none;
+
+        box-sizing: border-box;
+    }
+
+    /* BANNER HEADING */
+    .banner-content h2 {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1.2;
+
+        margin: 0 0 15px;
+    }
+
+    /* BANNER BUTTON */
+    .banner-btn {
+        min-width: 220px;
+        height: 46px;
+
+        padding: 12px 30px;
+
+        font-size: 13px;
+        box-sizing: border-box;
     }
 
 }
