@@ -810,7 +810,7 @@
 .team-label {
     margin: 0 0 25px;
 
-    font-family: var(--font-base);
+    font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 400;
 
@@ -865,8 +865,8 @@
 /* Icon */
 
 .team-icon {
-    width: 90px;
-    height: 90px;
+    width: 104px;
+    height: 104px;
 
     object-fit: contain;
 
@@ -932,4 +932,97 @@
     color: white;
 
     text-decoration: none;
+}
+
+
+/* =========================
+   JOIN OUR TEAM - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* TEAM SECTION */
+    .team-section {
+        width: 100%;
+        padding: 0px 30px 95px;
+        box-sizing: border-box;
+
+        text-align: center;
+    }
+
+    /* SMALL HEADING */
+    .team-label {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+
+        margin-bottom: 15px;
+    }
+
+    /* MAIN TITLE */
+    .team-title {
+        font-size: 45px;
+        font-weight: 400;
+
+        letter-spacing: 1px;
+        line-height: 1.1;
+    }
+
+    /* THREE COLUMN GRID */
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+
+        column-gap: 40px;
+        margin-top: 25px;
+    }
+
+    /* EACH ITEM */
+    .team-item {
+        text-align: center;
+        min-width: 0;
+    }
+
+    /* ICON */
+    .team-icon {
+        width: 80px;
+        height: 80px;
+
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    /* FEATURE TITLE */
+    .team-item h3 {
+        font-size: 20px;
+        font-weight: 400;
+
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+    }
+
+    /* DESCRIPTION */
+    .team-item p {
+        max-width: 100%;
+
+        font-size: 16px;
+        line-height: 1.6;
+
+        margin: 0 auto;
+    }
+
+    /* BUTTON */
+    .team-button {
+        display: inline-block;
+
+        margin-top: 40px;
+
+        min-width: 220px;
+        padding: 16px 40px;
+
+        font-size: 13px;
+        letter-spacing: 1px;
+
+        border-radius: 50px;
+    }
+
 }
