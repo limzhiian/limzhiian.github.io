@@ -406,6 +406,29 @@
 }
 
 
+/* =========================
+   CONTACT HORIZONTAL LINE - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    .contact-horizontal-line {
+        width: 100%;
+        height: 1px;
+
+        background-color: #333;
+        margin: 0 0 65px;
+    }
+
+    /* HIDE LEFT AND RIGHT DOTS */
+    .contact-horizontal-line::before,
+    .contact-horizontal-line::after {
+        display: none;
+    }
+
+}
+
+
 /* CONTACT MESSAGE */
 .contact-message {
     padding-left: 22px;
