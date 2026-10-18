@@ -92,6 +92,59 @@
 
 }
 
+/* =========================
+   TOURS TITLE - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    /* TOURS TITLE */
+    .tours-title {
+        width: 100%;
+        padding: 65px 20px 0px;
+
+        box-sizing: border-box;
+    }
+
+    /* HEADING CONTAINER */
+    .tours-heading {
+        text-align: center;
+        margin-bottom: 28px;
+    }
+
+    /* SMALL HEADING */
+    .tours-small-heading {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+
+        margin-bottom: 10px;
+    }
+
+    /* MAIN HEADING */
+    .tours-heading h1 {
+        font-size: 30px;
+        font-weight: 400;
+
+        letter-spacing: normal;
+        line-height: 1.2;
+
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    /* DESCRIPTION */
+    .tours-description {
+        font-family: var(--font-base);
+        font-size: 15px;
+
+        color: #888888;
+        line-height: 1.6;
+
+        margin-top: 0;
+    }
+
+}
+
 
 /* =========================
    TOURS CONTAINER
