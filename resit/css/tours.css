@@ -1083,3 +1083,46 @@
     }
 
 }
+
+
+/* =========================
+   TOUR TRAVEL BANNER - 480px
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    /* TOUR TRAVEL BANNER */
+    .tour-travel-banner {
+        width: 100%;
+        height: 247px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* BANNER CONTENT */
+    .banner-content {
+        transform: translateY(0);
+        padding: 0 20px;
+    }
+
+    /* BANNER HEADING */
+    .banner-content h2 {
+        font-size: 26px;
+        font-weight: 400;
+
+        line-height: 1.1;
+        margin: 0 0 18px;
+    }
+
+    /* BANNER BUTTON */
+    .banner-btn {
+        min-width: 220px;
+        height: 46px;
+
+        padding: 12px 30px;
+
+        font-size: 13px;
+    }
+
+}
