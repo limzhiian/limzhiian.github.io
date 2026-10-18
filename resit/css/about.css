@@ -1026,3 +1026,100 @@
     }
 
 }
+
+
+/* =========================
+   JOIN OUR TEAM - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    /* TEAM SECTION */
+    .team-section {
+        width: 100%;
+        padding: 0px 20px 65px;
+        box-sizing: border-box;
+
+        text-align: center;
+    }
+
+    /* SMALL HEADING */
+    .team-label {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+
+        margin-bottom: 8px;
+    }
+
+    /* MAIN TITLE */
+    .team-title {
+        font-size: 30px;
+        font-weight: 400;
+
+        letter-spacing: 0.5px;
+        line-height: 1.2;
+    }
+
+    /* SINGLE COLUMN GRID */
+    .team-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        row-gap: 30px;
+        column-gap: 0;
+
+        margin-top: 15px;
+    }
+
+    /* EACH ITEM */
+    .team-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ICON */
+    .team-icon {
+        width: 70px;
+        height: 70px;
+
+        object-fit: contain;
+        margin-bottom: 8px;
+    }
+
+    /* FEATURE TITLE */
+    .team-item h3 {
+        font-size: 18px;
+        font-weight: 400;
+
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+    }
+
+    /* DESCRIPTION */
+    .team-item p {
+        max-width: 100%;
+
+        font-size: 15px;
+        line-height: 1.6;
+
+        margin: 0 auto;
+    }
+
+    /* BUTTON */
+    .team-button {
+        display: inline-block;
+
+        margin-top: 30px;
+
+        min-width: 220px;
+        padding: 15px 35px;
+
+        box-sizing: border-box;
+
+        font-size: 13px;
+        letter-spacing: 1px;
+
+        border-radius: 50px;
+    }
+
+}
