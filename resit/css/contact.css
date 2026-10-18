@@ -328,6 +328,14 @@
 }
 
 
+/* CALL TO ACTION */
+.contact-cta {
+    background-color: #f8f8ee;
+
+    padding: 0px 70px 150px;
+}
+
+
 /* ==================================
    CONTACT HORIZONTAL LINE
 ================================== */
@@ -398,13 +406,6 @@
 
 }
 
-
-/* CALL TO ACTION */
-.contact-cta {
-    background-color: #f8f8ee;
-
-    padding: 0px 95px 150px;
-}
 
 /* CONTACT MESSAGE */
 .contact-message {
