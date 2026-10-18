@@ -474,6 +474,91 @@
 }
 
 
+/* =========================
+   TOUR CARDS - 480px
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    /* TOURS CONTAINER */
+    .tours-container {
+        width: 100%;
+        padding: 0px 20px 65px;
+        box-sizing: border-box;
+
+        gap: 20px;
+    }
+
+    /* TOUR CARD */
+    .tour-card {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        gap: 20px;
+    }
+
+    /* LEFT IMAGE */
+    .tour-image {
+        width: 100%;
+        height: 347px;
+    }
+
+    .tour-image img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        display: block;
+    }
+
+    /* RIGHT DETAILS CARD */
+    .tour-details-rightcard {
+        width: 100%;
+        min-height: 212px;
+
+        padding: 30px;
+
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* TOUR HEADING */
+    .tour-content h2 {
+        font-size: 18px;
+        font-weight: 400;
+
+        margin-bottom: 5px;
+    }
+
+    /* TOUR DAYS */
+    .tour-days {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    /* DESCRIPTION */
+    .tour-description {
+        font-size: 14px;
+        line-height: 1.8;
+
+        max-width: 100%;
+    }
+
+    /* EXPLORE BUTTON */
+    .explore-btn {
+        font-size: 13px;
+        gap: 15px;
+    }
+}
+
+
 /* ==========================
    FAQ SECTION
 ========================== */
