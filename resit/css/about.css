@@ -741,6 +741,140 @@
 }
 
 
+/* =========================
+   BRAND SECTION - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* BRAND SECTION */
+    .brand-section {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        background-color: #ffffff;
+
+        border-top: 1px solid #eeeeea;
+        border-bottom: 1px solid #eeeeea;
+
+        box-sizing: border-box;
+    }
+
+    /* EACH LOGO BOX */
+    .brand-icon {
+        height: 120px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-right: 1px solid #eeeeea;
+        border-bottom: 1px solid #eeeeea;
+        padding: 20px;
+    }
+
+    /* REMOVE RIGHT BORDER ON THIRD COLUMN */
+    .brand-icon:nth-child(3n) {
+        border-right: none;
+    }
+
+    /* REMOVE BOTTOM BORDER ON LAST ROW */
+    .brand-icon:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+
+    /* LOGOS */
+    .brand-icon img {
+        display: block;
+
+        max-width: 170px;
+        max-height: 65px;
+
+        width: auto;
+        height: auto;
+
+        object-fit: contain;
+
+        opacity: 0.15;
+    }
+
+}
+
+
+/* =========================
+   BRAND SECTION - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    /* BRAND SECTION */
+    .brand-section {
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        background-color: #ffffff;
+
+        border-top: 1px solid #eeeeea;
+        border-bottom: 1px solid #eeeeea;
+
+        box-sizing: border-box;
+    }
+
+    /* EACH LOGO BOX */
+    .brand-icon {
+        height: 110px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-right: 1px solid #eeeeea;
+        border-bottom: 1px solid #eeeeea;
+        padding: 15px;
+    }
+
+    /* RESET 1280px BORDER RULE */
+    .brand-icon:nth-child(3n) {
+        border-right: 1px solid #eeeeea;
+    }
+
+    /* REMOVE RIGHT BORDER ON SECOND COLUMN */
+    .brand-icon:nth-child(2n) {
+        border-right: none;
+    }
+
+    /* RESET BOTTOM BORDERS */
+    .brand-icon:nth-last-child(-n+3) {
+        border-bottom: 1px solid #eeeeea;
+    }
+
+    /* REMOVE BOTTOM BORDER ON LAST ROW */
+    .brand-icon:nth-last-child(-n+2) {
+        border-bottom: none;
+    }
+
+    /* LOGOS */
+    .brand-icon img {
+        display: block;
+
+        max-width: 170px;
+        max-height: 65px;
+
+        width: auto;
+        height: auto;
+
+        object-fit: contain;
+
+        opacity: 0.15;
+    }
+
+}
+
+
 /* =========================================
    EXPLORE SECTION
 ========================================= */
