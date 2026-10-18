@@ -296,3 +296,42 @@
 
     text-decoration: none;
 }
+
+
+/* =========================
+   CONTACT CTA - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* CALL TO ACTION */
+    .contact-cta {
+        width: 100%;
+        padding: 0px 30px 95px;
+        box-sizing: border-box;
+    }
+
+    /* CONTACT MESSAGE */
+    .contact-message {
+        padding-left: 0;
+    }
+
+    .contact-message p {
+        margin: 0;
+
+        max-width: 100%;
+
+        font-family: var(--font-heading);
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.05;
+
+        color: #080808;
+    }
+
+    /* EMAIL */
+    .contact-message a {
+        color: #adb0b5;
+        text-decoration: none;
+    }
+}
