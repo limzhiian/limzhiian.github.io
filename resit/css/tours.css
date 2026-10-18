@@ -64,18 +64,18 @@
     gap: 28px;
 
     width: 100%;
-    max-width: 1210px;
+    max-width: 1290px;
 
-    margin: 0 auto;
+    margin: 0 95px;
 }
 
 
 /* LEFT IMAGE */
 
 .tour-image {
-    max-width: 100%;
+    width: 849px;
 
-    height: auto;
+    height: 669px;
 }
 
 .tour-image img {
@@ -91,7 +91,8 @@
 /* DETAILS PANEL */
 
 .tour-details-rightcard {
-    min-height: 628px;
+    min-height: 669px;
+    width: 411px;
 
     background-color: #ffffff;
 
