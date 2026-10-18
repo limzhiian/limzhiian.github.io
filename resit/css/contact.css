@@ -195,14 +195,6 @@
 }
 
 
-/* CALL TO ACTION */
-.contact-cta {
-    background-color: #f8f8ee;
-
-    padding: 0px 95px 150px;
-}
-
-
 /* ==================================
    CONTACT HORIZONTAL LINE
 ================================== */
@@ -246,6 +238,40 @@
     right: 0;
 }
 
+
+/* =========================
+   CONTACT HORIZONTAL LINE - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    .contact-horizontal-line {
+        width: calc(100% - 60px);
+        height: 1px;
+
+        background-color: #333;
+
+        position: relative;
+
+        margin: 0 30px 95px;
+    }
+
+    /* Small dots at both ends */
+    .contact-horizontal-line::before,
+    .contact-horizontal-line::after {
+        width: 5px;
+        height: 5px;
+    }
+
+}
+
+
+/* CALL TO ACTION */
+.contact-cta {
+    background-color: #f8f8ee;
+
+    padding: 0px 95px 150px;
+}
 
 /* CONTACT MESSAGE */
 .contact-message {
