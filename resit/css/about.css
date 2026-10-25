@@ -262,14 +262,15 @@
 
 
 /* =========================
-    HORIZONTAL LINE
+   HORIZONTAL LINE
 ========================= */
 
-.header-horizontal-line {
+.horizontal-line {
     width: 100%;
     background-color: #fafaf0;
 
-    padding: 8px 60px 24px;
+    padding: 0 75px 0;
+    box-sizing: border-box;
 }
 
 .divider-line {
@@ -277,9 +278,9 @@
     max-width: 1390px;
     height: 1px;
 
-    margin: 0 auto;
-    background-color: #96938b;
+    margin: 0 auto 150px;
 
+    background-color: #96938b;
     position: relative;
 }
 
@@ -295,8 +296,7 @@
     border-radius: 50%;
 
     left: 0;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
 }
 
 /* RIGHT DOT */
@@ -311,8 +311,79 @@
     border-radius: 50%;
 
     right: 0;
-    top: 50%;
-    transform: translate(50%, -50%);
+    top: 0;
+}
+
+
+/* =========================
+   HORIZONTAL LINE - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* HORIZONTAL LINE CONTAINER */
+    .horizontal-line {
+        width: 100%;
+        padding: 0 30px 0;
+        box-sizing: border-box;
+    }
+
+    /* DIVIDER LINE */
+    .divider-line {
+        width: 100%;
+        max-width: 100%;
+        height: 1px;
+
+        margin: 0 auto 95px;
+
+        background-color: #96938b;
+        position: relative;
+    }
+
+    /* LEFT DOT */
+    .divider-line::before {
+        left: 0;
+    }
+
+    /* RIGHT DOT */
+    .divider-line::after {
+        right: 0;
+    }
+
+}
+
+
+/* =========================
+   HORIZONTAL LINE - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    /* HORIZONTAL LINE CONTAINER */
+    .horizontal-line {
+        width: 100%;
+        padding: 0 20px 0;
+        box-sizing: border-box;
+    }
+
+    /* DIVIDER LINE */
+    .divider-line {
+        width: 100%;
+        max-width: 100%;
+        height: 1px;
+
+        margin: 0 auto 65px;
+
+        background-color: #96938b;
+        position: relative;
+    }
+
+    /* REMOVE LEFT AND RIGHT DOTS */
+    .divider-line::before,
+    .divider-line::after {
+        display: none;
+    }
+
 }
 
 
@@ -323,7 +394,7 @@
 .leaders-section {
     background-color: #f8f8ee;
 
-    padding: 150px 95px 150px;
+    padding: 0 95px 150px;
 }
 
 
@@ -451,6 +522,86 @@
     font-size: 15px;
 
     color: #9a9da5;
+}
+
+
+/* ================================
+   LEADERS SECTION - 1280px
+================================ */
+
+@media screen and (max-width: 1280px) {
+
+    /* LEADERS SECTION */
+    .leaders-section {
+        width: 100%;
+        padding: 0px 30px 95px;
+        box-sizing: border-box;
+    }
+
+    /* MAIN GRID */
+    .leaders-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        gap: 30px;
+        padding: 0;
+
+        align-items: start;
+    }
+
+    /* LEFT INTRODUCTION */
+    .leaders-intro {
+        padding-top: 0;
+    }
+
+    /* SMALL TITLE */
+    .leaders-label {
+        font-size: 14px;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+
+    /* MAIN TITLE */
+    .leaders-introduction h2 {
+        font-size: 47px;
+        font-weight: 400;
+        line-height: 1.05;
+
+        margin-bottom: 25px;
+    }
+
+    /* DESCRIPTION */
+    .leaders-description {
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+    /* LEADER CARD */
+    .leader-card {
+        width: 100%;
+    }
+
+    /* LEADER IMAGE */
+    .leader-card img {
+        width: 100%;
+        height: 505px;
+
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* LEADER NAME */
+    .leader-card h3 {
+        font-size: 19px;
+        margin: 25px 0 5px;
+    }
+
+    /* LEADER POSITION */
+    .leader-card p {
+        font-size: 15px;
+    }
+
 }
 
 
