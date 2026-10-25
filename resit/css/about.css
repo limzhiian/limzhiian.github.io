@@ -186,7 +186,7 @@
     /* STORY SECTION */
     .story-section {
         width: 100%;
-        padding: 65px 20px;
+        padding: 0 20px 65px;
         box-sizing: border-box;
     }
 
