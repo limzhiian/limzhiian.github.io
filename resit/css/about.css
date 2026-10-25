@@ -31,15 +31,11 @@
 ================================ */
 
 .story-content {
-    display: grid;
-
-    grid-template-columns: 1.1fr 0.9fr;
-
-    column-gap: 80px;
-
-    align-items: end;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 35px;
 }
-
 
 /* ================================
    LARGE TITLE
@@ -47,9 +43,9 @@
 
 .story-title {
     margin: 0;
+    width: 100%;
 
     font-family: var(--font-heading);
-
     font-size: 57px;
     font-weight: 400;
 
@@ -59,22 +55,20 @@
     color: #100b09;
 }
 
-
-/* Grey first line */
-
+/* GREY FIRST LINE */
 .story-title span {
     color: #adb0b5;
 }
-
 
 /* ================================
    DESCRIPTION
 ================================ */
 
 .story-description {
-    margin: 0 0 5px;
-
+    width: 45%;
     max-width: 570px;
+
+    margin: 0 0 5px auto;
 
     font-family: var(--font-base);
     font-size: 16px;
@@ -83,27 +77,6 @@
     line-height: 1.6;
 
     color: #85858c;
-}
-
-
-/* ================================
-   IMAGE
-================================ */
-
-.story-image {
-    width: 100%;
-
-    margin-top: 50px;
-}
-
-.story-image img {
-    display: block;
-
-    width: 100%;
-    height: 470px;
-
-    object-fit: cover;
-    object-position: center;
 }
 
 
@@ -420,7 +393,7 @@
    LEFT SIDE
 ================================== */
 
-.leaders-intro {
+.leaders-introduction {
     padding-top: 0;
 }
 
@@ -550,7 +523,7 @@
     }
 
     /* LEFT INTRODUCTION */
-    .leaders-intro {
+    .leaders-introduction {
         padding-top: 0;
     }
 
@@ -595,6 +568,89 @@
     .leader-card h3 {
         font-size: 19px;
         margin: 25px 0 5px;
+    }
+
+    /* LEADER POSITION */
+    .leader-card p {
+        font-size: 15px;
+    }
+
+}
+
+
+/* ================================
+   LEADERS SECTION - 765px
+================================ */
+
+@media screen and (max-width: 765px) {
+
+    /* LEADERS SECTION */
+    .leaders-section {
+        width: 100%;
+        padding: 0px 20px 65px;
+        box-sizing: border-box;
+    }
+
+    /* MAIN CONTAINER */
+    .leaders-grid {
+        display: flex;
+        flex-wrap: wrap;
+
+        gap: 20px;
+        padding: 0;
+
+        align-items: flex-start;
+    }
+
+    /* INTRODUCTION */
+    .leaders-introduction {
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+
+    /* SMALL TITLE */
+    .leaders-label {
+        font-size: 14px;
+        margin-bottom: 12px;
+        letter-spacing: 2px;
+    }
+
+    /* MAIN TITLE */
+    .leaders-introduction h2 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.05;
+        margin-bottom: 18px;
+    }
+
+    /* DESCRIPTION */
+    .leaders-description {
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 1px;
+    }
+
+    /* LEADER CARDS */
+    .leader-card {
+        width: 48%;
+        box-sizing: border-box;
+    }
+
+    /* LEADER IMAGES */
+    .leader-card img {
+        display: block;
+        width: 100%;
+        height: 465px;
+
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* LEADER NAME */
+    .leader-card h3 {
+        font-size: 18px;
+        margin: 15px 0 5px;
     }
 
     /* LEADER POSITION */
