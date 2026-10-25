@@ -485,6 +485,70 @@
 }
 
 
+/* ================================
+   LARGE ELEMENTRA BANNER - 1280px
+================================ */
+
+@media screen and (max-width: 1280px) {
+
+    .large-elementra-banner {
+        width: 100%;
+
+        padding: 0px 30px 95px;
+        box-sizing: border-box;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* LARGE ELEMENTRA TEXT */
+    .large-elementra-banner h2 {
+        margin: 0;
+
+        font-size: 13.5vw;
+        font-weight: 400;
+        line-height: 1;
+
+        text-align: center;
+        white-space: nowrap;
+    }
+
+}
+
+
+/* ================================
+   LARGE ELEMENTRA BANNER - 765px
+================================ */
+
+@media screen and (max-width: 765px) {
+
+    .large-elementra-banner {
+        width: 100%;
+
+        padding: 0px 20px 65px;
+        box-sizing: border-box;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* LARGE ELEMENTRA TEXT */
+    .large-elementra-banner h2 {
+        margin: 0;
+
+        font-size: 13vw;
+        font-weight: 400;
+        line-height: 1;
+
+        text-align: center;
+        white-space: nowrap;
+    }
+
+}
+
+
 /* =========================================
    TESTIMONIAL SECTION
 ========================================= */
