@@ -143,7 +143,7 @@
     /* LARGE TITLE */
     .story-title {
         width: 100%;
-        font-size: 47px;
+        font-size: 45px;
         line-height: 1.05;
         letter-spacing: 2px;
     }
@@ -192,7 +192,7 @@
 
     /* SMALL LABEL */
     .story-label {
-        font-size: 14px;
+        font-size: 13px;
         margin-bottom: 15px;
         letter-spacing: 2px;
     }
@@ -210,7 +210,7 @@
     .story-title {
         width: 100%;
 
-        font-size: 36px;
+        font-size: 30px;
         font-weight: 400;
         line-height: 1.05;
         letter-spacing: 1px;
@@ -230,7 +230,7 @@
 
         margin: 0;
 
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.6;
     }
 
