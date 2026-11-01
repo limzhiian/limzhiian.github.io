@@ -41,7 +41,7 @@
 .horizons-heading-small {
     display: block;
 
-    font-size: 90px;
+    font-size: 104px;
     font-weight: 400;
 
     line-height: 1;
@@ -51,7 +51,7 @@
 .horizons-heading-large {
     display: block;
 
-    font-size: 130px;
+    font-size: 150px;
     font-weight: 400;
 
     line-height: 0.98;
@@ -66,12 +66,13 @@
 
 .horizons-content {
     display: grid;
-    grid-template-columns: 305px 405px 305px;
+
+    grid-template-columns: 350px 464px 348px;
 
     justify-content: space-between;
     align-items: end;
 
-    gap: 30px;
+    column-gap: 30px;
     margin-top: 45px;
 
     position: relative;
@@ -86,7 +87,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
     padding-bottom: 0;
 }
 
@@ -94,10 +94,7 @@
     margin-bottom: 50px;
 }
 
-.horizons-arrow svg {
-    display: block;
-}
-
+/* DESCRIPTION */
 .horizons-description {
     margin: 0 0 35px;
 
@@ -111,15 +108,15 @@
     color: #160c09;
 }
 
-
 /* LEARN MORE BUTTON */
 .horizons-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    min-width: 168px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
 
     border: 1px solid #160c09;
     border-radius: 50px;
@@ -127,12 +124,13 @@
     font-family: var(--font-heading);
     font-size: 13px;
     font-weight: 400;
-
-    letter-spacing: 1px;
-    text-decoration: none;
+    letter-spacing: 1.5px;
 
     color: #160c09;
     background-color: transparent;
+
+    text-decoration: none;
+    cursor: pointer;
 
     transition: all 0.3s ease;
 }
@@ -143,15 +141,17 @@
 ========================= */
 
 .horizons-center {
-    width: 100%;
+    width: 464px;
 }
 
 .horizons-center img {
-    width: 100%;
-    height: 468px;
+    display: block;
+
+    width: 464px;
+    height: 535px;
 
     object-fit: cover;
-    display: block;
+    object-position: center;
 }
 
 
@@ -160,10 +160,24 @@
 ========================= */
 
 .horizons-right {
-    width: 100%;
+    width: 348px;
     position: relative;
 }
 
+.horizons-beach {
+    display: block;
+
+    width: 348px;
+    height: 320px;
+
+    object-fit: cover;
+    object-position: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* BACKGROUND MOUNTAIN */
 .horizons-decoration {
     position: absolute;
 
@@ -174,19 +188,63 @@
     bottom: 265px;
 
     z-index: 0;
-
     pointer-events: none;
 }
 
-.horizons-beach {
-    width: 100%;
-    height: 280px;
 
-    object-fit: cover;
-    display: block;
+/* =========================
+   HORIZONTAL LINE
+========================= */
+
+.horizons-horizontal-line {
+    width: 100%;
+    background-color: #fafaf0;
+
+    padding: 0 70px 150px;
+    box-sizing: border-box;
+}
+
+/* DIVIDER LINE */
+.horizons-divider-line {
+    width: 100%;
+    height: 1px;
+
+    background-color: #96938b;
 
     position: relative;
-    z-index: 1;
+    margin: 0 auto;
+}
+
+/* LEFT DOT */
+.horizons-divider-line::before {
+    content: "";
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    background-color: #19130f;
+    border-radius: 50%;
+
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* RIGHT DOT */
+.horizons-divider-line::after {
+    content: "";
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    background-color: #19130f;
+    border-radius: 50%;
+
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
 }
 
 

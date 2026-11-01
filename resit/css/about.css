@@ -57,7 +57,7 @@
 ================================ */
 
 .story-section {
-    background-color: #fbfcef;
+    background-color: #fafaf0;
 
     padding: 0 95px 105px;
 }
@@ -377,7 +377,7 @@
 ===================================== */
 
 .stats-section {
-    background-color: #f8f8ee;
+    background-color: #fafaf0;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -657,7 +657,7 @@
 ================================== */
 
 .leaders-section {
-    background-color: #f8f8ee;
+    background-color: #fafaf0;
 
     padding: 0 95px 150px;
 }
@@ -1128,7 +1128,7 @@
 ========================================= */
 
 .testimonial-section {
-    background-color: #f8f8ee;
+    background-color: #fafaf0;
 
     padding: 0 70px 150px;
 }
