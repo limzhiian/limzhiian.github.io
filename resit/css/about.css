@@ -2146,6 +2146,80 @@
 }
 
 
+/* =========================
+   EXPLORE SECTION - 480px
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    /* EXPLORE SECTION */
+    .explore-section {
+        width: 100%;
+        padding: 65px 20px;
+        box-sizing: border-box;
+    }
+
+    /* IMAGE GALLERY */
+    .explore-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        column-gap: 20px;
+        row-gap: 20px;
+
+        width: 100%;
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    /* ALL GALLERY ITEMS */
+    .gallery-item {
+        width: 100%;
+        min-width: 0;
+        margin-top: 0;
+    }
+
+    /* ALL IMAGES */
+    .gallery-item img {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* TOP RIGHT IMAGE */
+    .gallery-1 {
+        grid-column: 2;
+        grid-row: 1;
+        height: 188px;
+    }
+
+    /* BOTTOM LEFT IMAGE */
+    .gallery-2 {
+        grid-column: 1;
+        grid-row: 2;
+        height: 269px;
+    }
+
+    /* TOP LEFT IMAGE */
+    .gallery-3 {
+        grid-column: 1;
+        grid-row: 1;
+        height: 188px;
+    }
+
+    /* BOTTOM RIGHT IMAGE */
+    .gallery-4 {
+        grid-column: 2;
+        grid-row: 2;
+        height: 269px;
+    }
+
+}
+
+
 /* =====================================
    JOIN OUR TEAM SECTION
 ===================================== */
@@ -2475,6 +2549,97 @@
         font-size: 13px;
         letter-spacing: 1px;
 
+        border-radius: 50px;
+    }
+
+}
+
+
+/* =========================
+   JOIN OUR TEAM - 480px
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    /* TEAM SECTION */
+    .team-section {
+        width: 100%;
+        padding: 0px 20px 65px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    /* SMALL HEADING */
+    .team-label {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        margin-bottom: 8px;
+    }
+
+    /* MAIN TITLE */
+    .team-title {
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 1.2;
+    }
+
+    /* SINGLE COLUMN */
+    .team-grid {
+        display: flex;
+        flex-direction: column;
+
+        gap: 30px;
+        margin-top: 15px;
+    }
+
+    /* EACH ITEM */
+    .team-item {
+        width: 100%;
+        padding: 0px 22px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    /* ICON */
+    .team-icon {
+        width: 70px;
+        height: 70px;
+
+        object-fit: contain;
+        margin-bottom: 8px;
+    }
+
+    /* FEATURE TITLE */
+    .team-item h3 {
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+    }
+
+    /* DESCRIPTION */
+    .team-item p {
+        width: 100%;
+        max-width: 100%;
+
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0 auto;
+    }
+
+    /* BUTTON */
+    .team-button {
+        display: inline-block;
+
+        margin-top: 30px;
+        min-width: 220px;
+        padding: 15px 35px;
+
+        box-sizing: border-box;
+
+        font-size: 13px;
+        letter-spacing: 1px;
         border-radius: 50px;
     }
 
