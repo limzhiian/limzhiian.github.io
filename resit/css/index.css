@@ -2094,6 +2094,99 @@
 }
 
 
+/* =========================
+   ADVENTURE SECTION - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    /* SECTION */
+    .adventure-section {
+        padding: 65px 20px;
+        box-sizing: border-box;
+    }
+
+    /* MAIN CONTAINER */
+    .adventure-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        width: 100%;
+    }
+
+    /* LEFT CONTENT */
+    .adventure-content {
+        width: 100%;
+    }
+
+    .adventure-label {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .adventure-title {
+        font-size: 28px;
+        line-height: 1.05;
+        letter-spacing: 0;
+        margin-bottom: 15px;
+    }
+
+    .adventure-description {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    /* LEFT IMAGE PAIR */
+    .adventure-left {
+        width: 100%;
+    }
+
+    .adventure-left-image {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .adventure-left-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* RIGHT COLUMN */
+    .adventure-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    /* RIGHT IMAGE PAIR */
+    .adventure-right-image {
+        width: 100%;
+    }
+
+    .adventure-right-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* BOTTOM DESCRIPTION */
+    .adventure-bottom-description {
+        width: 100%;
+        padding-top: 25px;
+        margin-top: 0;
+    }
+
+    .adventure-bottom-description p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+}
+
+
 /* ==========================
    TRAVEL BLOG SECTION
 ========================== */
@@ -2824,6 +2917,72 @@
 
     to {
         transform: translateX(-50%);
+    }
+}
+
+
+/* =====================================
+   1280px LAPTOP
+===================================== */
+
+@media screen and (max-width: 1280px) {
+
+    .scrolling-text-section {
+        padding-bottom: 95px;
+    }
+
+    .scrolling-text-group span {
+        font-size: 120px;
+    }
+
+}
+
+/* =====================================
+   765px TABLET
+===================================== */
+
+@media screen and (max-width: 765px) {
+
+    .scrolling-text-section {
+        padding-bottom: 65px;
+    }
+
+    .scrolling-text-group span {
+        font-size: 80px;
+    }
+
+    .scrolling-text-group {
+        gap: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+/* =====================================
+   480px MOBILE
+===================================== */
+
+@media screen and (max-width: 480px) {
+
+    .scrolling-text-section {
+        padding-bottom: 65px;
+    }
+
+    .scrolling-text-group span {
+        font-size: 60px;
+    }
+
+    .scrolling-text-group {
+        gap: 35px;
+        padding-right: 35px;
+    }
+
+}
+
+/* ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+    .scrolling-text-track {
+        animation: none;
     }
 }
 
