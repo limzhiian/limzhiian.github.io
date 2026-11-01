@@ -1097,8 +1097,8 @@
         margin: 0;
 
         font-family: var(--font-heading);
-        font-size: clamp(30px, 9vw, 50px);
-        font-weight: 400;
+        font-size: clamp(25px, 8vw, 50px);
+        font-weight: 300;
 
         line-height: 1;
         letter-spacing: -1px;
@@ -1108,7 +1108,40 @@
         text-align: center;
         white-space: nowrap;
     }
+}
 
+
+/* ==========================
+   LOCATIONS SECTION - 480px
+========================== */
+
+@media screen and (max-width: 480px) {
+
+    .locations-big-text {
+        width: 100%;
+        padding: 0 20px 50px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .big-locations-text {
+        display: block;
+        width: 100%;
+        margin: 0;
+
+        font-family: var(--font-heading);
+        font-size: 7.5vw;
+        font-weight: 300;
+
+        line-height: 1;
+        letter-spacing: -2px;
+
+        color: #e6e6dc;
+        text-align: center;
+
+        white-space: nowrap;
+        box-sizing: border-box;
+    }
 }
 
 
@@ -3181,6 +3214,78 @@
         margin-top: 30px;
     }
 
+}
+
+
+/* =====================================
+   REVIEW SECTION - 765px TABLET
+===================================== */
+
+@media screen and (max-width: 765px) {
+
+    /* SECTION */
+    .review-section {
+        padding: 0 20px 65px;
+        box-sizing: border-box;
+    }
+
+    /* CONTAINER */
+    .review-container {
+        width: 100%;
+        max-width: none;
+    }
+
+    /* FIVE STARS */
+    .review-stars {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+
+    /* TESTIMONIAL DESCRIPTION */
+    .review-description {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+
+        font-size: 17px;
+        line-height: 1.25;
+        letter-spacing: 0.5px;
+    }
+
+    /* PROFILE */
+    .review-profile {
+        margin-top: 40px;
+    }
+
+    /* PROFILE IMAGE */
+    .review-profile img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 12px;
+    }
+
+    /* PROFILE NAME */
+    .review-profile h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    /* PROFILE POSITION */
+    .review-profile p {
+        font-size: 14px;
+    }
+
+    /* SLIDER DOTS */
+    .review-dots {
+        gap: 20px;
+        margin-top: 35px;
+    }
+
+    .review-dots span {
+        width: 7px;
+        height: 7px;
+    }
 }
 
 
