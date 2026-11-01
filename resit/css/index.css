@@ -424,6 +424,217 @@
 }
 
 
+/* =========================
+   HIDDEN GEMS SECTION - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    /* SECTION */
+    .hidden-gems-section {
+        width: 100%;
+        padding: 0 30px 95px;
+        box-sizing: border-box;
+    }
+
+    /* CONTAINER */
+    .hidden-gems-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* SECTION HEADING */
+    .hidden-gems-heading {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    /* SMALL LABEL */
+    .hidden-gems-label {
+        margin: 0 0 15px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    /* MAIN HEADING */
+    .hidden-gems-title {
+        font-size: 47px;
+        font-weight: 400;
+        line-height: 1.05;
+        letter-spacing: 1px;
+    }
+
+    /* THREE COLUMN GRID */
+    .hidden-gems-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 30px;
+    }
+
+    /* CARDS */
+    .hidden-gems-card {
+        width: 100%;
+        min-width: 0;
+        min-height: 0;
+
+        padding: 30px 25px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    /* CARD TITLE */
+    .hidden-gems-card h3 {
+        margin: 0 0 8px;
+        font-size: 21px;
+        line-height: 1.2;
+    }
+
+    /* CARD DESCRIPTION */
+    .hidden-gems-card p {
+        margin: 0 0 20px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* ARCH-SHAPED IMAGES */
+    .hidden-gems-image {
+        width: 100%;
+        max-width: 340px;
+        height: 440px;
+
+        overflow: hidden;
+        border-radius: 180px 180px 0 0;
+    }
+
+    .hidden-gems-image img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    /* LEARN MORE LINK */
+    .hidden-gems-link {
+        margin-top: 25px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+}
+
+
+/* =========================
+   HIDDEN GEMS - 765px TABLET
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    .hidden-gems-section {
+        padding: 0 20px 65px;
+        box-sizing: border-box;
+    }
+
+    .hidden-gems-container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* HEADING */
+    .hidden-gems-heading {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .hidden-gems-label {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .hidden-gems-title {
+        font-size: 36px;
+        line-height: 1.05;
+    }
+
+    /* GRID */
+    .hidden-gems-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* CARD */
+    .hidden-gems-card {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+
+        padding: 30px 25px 25px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .hidden-gems-card h3 {
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+
+    .hidden-gems-card p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    /* IMAGE CONTAINER */
+    .hidden-gems-card .hidden-gems-image {
+        width: 100%;
+        max-width: none;
+        height: auto;
+        aspect-ratio: 676 / 904;
+
+        flex: none;
+        overflow: hidden;
+    }
+
+    /* IMAGE */
+    .hidden-gems-card .hidden-gems-image img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* FIRST IMAGE */
+    .hidden-gems-card:nth-child(1) .hidden-gems-image {
+        border-radius: 50% 50% 0 0;
+    }
+
+    /* SECOND IMAGE */
+    .hidden-gems-card:nth-child(2) .hidden-gems-image {
+        border-radius: 180px 0 180px 0;
+    }
+
+    /* THIRD IMAGE */
+    .hidden-gems-card:nth-child(3) .hidden-gems-image {
+        border-radius: 50%;
+    }
+
+    /* LEARN MORE */
+    .hidden-gems-link {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+}
+
 
 /* ==========================
    LOCATIONS SECTION
