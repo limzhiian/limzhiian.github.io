@@ -1167,6 +1167,144 @@
 }
 
 
+/* =====================================
+   REVIEW SECTION - 1480px
+===================================== */
+
+.review-section {
+    width: 100%;
+    background-color: #ffffff;
+
+    padding: 0 95px 150px;
+    box-sizing: border-box;
+}
+
+/* =====================================
+   REVIEW CONTAINER
+===================================== */
+
+.review-container {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* =====================================
+   FIVE STARS
+===================================== */
+
+.review-stars {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+
+    color: #f28b45;
+
+    margin-bottom: 35px;
+}
+
+/* =====================================
+   TESTIMONIAL DESCRIPTION
+===================================== */
+
+.review-description {
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 400;
+
+    line-height: 1.2;
+    letter-spacing: 1px;
+
+    color: #160d0b;
+
+    text-align: center;
+}
+
+/* =====================================
+   PROFILE
+===================================== */
+
+.review-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 55px;
+}
+
+/* PROFILE IMAGE */
+.review-profile img {
+    display: block;
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+    object-position: center;
+
+    margin-bottom: 15px;
+}
+
+/* PROFILE NAME */
+.review-profile h3 {
+    margin: 0 0 5px;
+
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #160d0b;
+}
+
+/* PROFILE POSITION */
+.review-profile p {
+    margin: 0;
+
+    font-family: var(--font-base);
+    font-size: 15px;
+    font-weight: 400;
+
+    color: #a4a6ad;
+}
+
+/* =====================================
+   SLIDER DOTS
+===================================== */
+
+.review-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+
+    margin-top: 45px;
+}
+
+.review-dots span {
+    display: block;
+
+    width: 8px;
+    height: 8px;
+
+    background-color: #e5e5dd;
+    border-radius: 50%;
+}
+
+/* ACTIVE DOT */
+.review-dots span.active {
+    background-color: #ed9168;
+}
+
+
 /* ==============================
    INSTAGRAM SECTION
 ============================== */
