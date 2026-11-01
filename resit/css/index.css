@@ -256,7 +256,7 @@
     width: 100%;
     background-color: #fafaf0;
 
-    padding: 85px 95px 150px;
+    padding: 0 95px 150px;
     box-sizing: border-box;
 }
 
@@ -273,14 +273,14 @@
 
 .hidden-gems-heading {
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 52px;
 }
 
 .hidden-gems-label {
     margin: 0 0 20px;
 
     font-family: var(--font-heading);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
 
@@ -291,7 +291,7 @@
     margin: 0;
 
     font-family: var(--font-heading);
-    font-size: 49px;
+    font-size: 57px;
     font-weight: 400;
 
     line-height: 1.05;
