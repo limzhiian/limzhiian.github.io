@@ -2524,7 +2524,7 @@
 
     /* SMALL HEADING */
     .travel-blog-heading p {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 400;
         letter-spacing: 1.5px;
         margin-bottom: 10px;
@@ -2532,7 +2532,7 @@
 
     /* MAIN HEADING */
     .travel-blog-heading h2 {
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 400;
         line-height: 1.1;
         letter-spacing: 0.5px;
@@ -2584,7 +2584,7 @@
 
     /* BLOG TITLE */
     .travel-blog-content h3 {
-        font-size: 23px;
+        font-size: 20px;
         font-weight: 400;
         line-height: 1.2;
         letter-spacing: 0.3px;
@@ -2825,7 +2825,7 @@
 
     /* MAIN HEADING */
     .explore-title {
-        margin: 0 0 20px;
+        margin: 0 0 15px;
 
         font-size: 26px;
         font-weight: 400;
