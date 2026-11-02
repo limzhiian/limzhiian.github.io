@@ -347,14 +347,14 @@
 
     .horizons-heading-small {
         display: block;
-        font-size: 40px;
+        font-size: 50px;
         line-height: 1;
         letter-spacing: 0;
     }
 
     .horizons-heading-large {
         display: block;
-        font-size: 65px;
+        font-size: 75px;
         line-height: 1;
         letter-spacing: -1px;
         white-space: normal;
@@ -388,9 +388,9 @@
 
     /* DESCRIPTION */
     .horizons-description {
-        margin: 0 0 20px;
+        margin: 0 0 15px;
 
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.8;
         letter-spacing: 1px;
     }
@@ -399,7 +399,7 @@
     .horizons-button {
         width: 180px;
         height: 50px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     /* TOP MOUNTAIN IMAGE */
