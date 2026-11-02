@@ -2951,7 +2951,7 @@
     }
 
     .scrolling-text-group span {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .scrolling-text-group {
@@ -2969,10 +2969,6 @@
 
     .scrolling-text-section {
         padding-bottom: 65px;
-    }
-
-    .scrolling-text-group span {
-        font-size: 60px;
     }
 
     .scrolling-text-group {
@@ -3218,7 +3214,7 @@
         max-width: 600px;
         margin: 0 auto;
 
-        font-size: 17px;
+        font-size: 18px;
         line-height: 1.25;
         letter-spacing: 0.5px;
     }
@@ -3243,7 +3239,7 @@
 
     /* PROFILE POSITION */
     .review-profile p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     /* SLIDER DOTS */
