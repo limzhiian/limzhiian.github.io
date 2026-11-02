@@ -101,6 +101,134 @@ body {
 
 
 /* =========================
+   LAPTOP - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    .header {
+        padding: 30px 30px;
+    }
+
+    .elementralogo {
+        width: 196px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    /* Hide Navigation */
+    .right_navigation {
+        display: none;
+    }
+
+    /* Hide Social Media Icons */
+    .socialmediaicons {
+        display: none;
+    }
+
+    /* Show Hamburger Menu */
+    .hamburger-menu {
+        display: block;
+    }
+
+    .right_side {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+/* =========================
+   TABLET - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    .header {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .entireheadermargin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .elementralogo {
+        width: 196px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .right_navigation {
+        display: none;
+    }
+
+    .socialmediaicons {
+        display: none;
+    }
+
+    .right_side {
+        display: flex;
+        align-items: center;
+        gap: 0;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .hamburger-menu img {
+        width: 30px;
+        height: auto;
+    }
+
+}
+
+
+/* =========================
+   MOBILE - 480px
+========================= */
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .entireheadermargin {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .elementralogo {
+        width: 196px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .right_side {
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .hamburger-menu img {
+        width: 30px;
+        height: auto;
+    }
+
+}
+
+
+/* =========================
    SUBMENU HEADER
 ========================= */
 
@@ -253,7 +381,7 @@ body {
 
     /* HEADER */
     .header {
-        padding: 30px 30px;
+        padding: 30px;
     }
 
     /* HIDE NORMAL NAVIGATION */
@@ -294,9 +422,21 @@ body {
 
 @media screen and (max-width: 765px) {
 
+    /* HEADER */
+    .header {
+        padding: 20px;
+    }
+
     .submenu {
-        width: 60%;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
         padding: 40px;
+        box-sizing: border-box;
     }
 
     .submenu-navigation {
@@ -322,8 +462,11 @@ body {
 @media screen and (max-width: 480px) {
 
     .submenu {
-        width: 80%;
+        width: 100%;
+        height: 100vh;
+
         padding: 30px;
+        box-sizing: border-box;
     }
 
     .submenu-navigation {
@@ -337,134 +480,6 @@ body {
     .submenu-close {
         top: 25px;
         right: 25px;
-    }
-
-}
-
-
-/* =========================
-   LAPTOP - 1280px
-========================= */
-
-@media screen and (max-width: 1280px) {
-
-    .header {
-        padding: 30px 30px;
-    }
-
-    .elementralogo {
-        width: 196px;
-        height: auto;
-        margin-left: 0;
-    }
-
-    /* Hide Navigation */
-    .right_navigation {
-        display: none;
-    }
-
-    /* Hide Social Media Icons */
-    .socialmediaicons {
-        display: none;
-    }
-
-    /* Show Hamburger Menu */
-    .hamburger-menu {
-        display: block;
-    }
-
-    .right_side {
-        display: flex;
-        align-items: center;
-    }
-
-}
-
-
-/* =========================
-   TABLET - 765px
-========================= */
-
-@media screen and (max-width: 765px) {
-
-    .header {
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .entireheadermargin {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .elementralogo {
-        width: 196px;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .right_navigation {
-        display: none;
-    }
-
-    .socialmediaicons {
-        display: none;
-    }
-
-    .right_side {
-        display: flex;
-        align-items: center;
-        gap: 0;
-    }
-
-    .hamburger-menu {
-        display: block;
-    }
-
-    .hamburger-menu img {
-        width: 30px;
-        height: auto;
-    }
-
-}
-
-
-/* =========================
-   MOBILE - 480px
-========================= */
-
-@media screen and (max-width: 480px) {
-
-    .header {
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .entireheadermargin {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .elementralogo {
-        width: 196px;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .right_side {
-        display: flex;
-        align-items: center;
-    }
-
-    .hamburger-menu {
-        display: block;
-    }
-
-    .hamburger-menu img {
-        width: 30px;
-        height: auto;
     }
 
 }
