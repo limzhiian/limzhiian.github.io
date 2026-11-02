@@ -808,7 +808,7 @@
 
     /* MAIN HEADING */
     .hidden-gems-title {
-        font-size: 47px;
+        font-size: 45px;
         font-weight: 400;
         line-height: 1.05;
         letter-spacing: 1px;
@@ -840,7 +840,7 @@
     /* CARD TITLE */
     .hidden-gems-card h3 {
         margin: 0 0 8px;
-        font-size: 21px;
+        font-size: 20px;
         line-height: 1.2;
     }
 
@@ -1270,7 +1270,7 @@
 
     /* LARGE DESCRIPTION */
     .popular-description h2 {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 1.2;
     }
 
@@ -1513,7 +1513,7 @@
     .stats-item h2 {
         margin: 0;
 
-        font-size: 57px;
+        font-size: 65px;
         font-weight: 400;
 
         line-height: 1;
@@ -1524,7 +1524,7 @@
     .stats-item p {
         margin: 8px 0 0;
 
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 400;
 
         line-height: 1.2;
@@ -2046,13 +2046,13 @@
     }
 
     .adventure-title {
-        font-size: 40px;
+        font-size: 45px;
         line-height: 1.05;
         letter-spacing: 0.5px;
     }
 
     .adventure-description {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.6;
     }
 
@@ -2091,7 +2091,7 @@
     }
 
     .adventure-bottom-description p {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.6;
     }
 }
@@ -2477,7 +2477,7 @@
 
     /* BLOG TITLE */
     .travel-blog-content h3 {
-        font-size: 23px;
+        font-size: 22px;
         font-weight: 400;
 
         line-height: 1.15;
@@ -2750,9 +2750,9 @@
 
     /* MAIN HEADING */
     .explore-title {
-        margin: 0 0 25px;
+        margin: 0 0 20px;
 
-        font-size: 38px;
+        font-size: 36px;
         font-weight: 400;
 
         line-height: 1.05;
@@ -2763,13 +2763,13 @@
     .explore-description {
         margin: 0;
 
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.65;
     }
 
     /* BOTTOM LINK */
     .explore-bottom a {
-        font-size: 11px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
 
@@ -2935,7 +2935,7 @@
     }
 
     .scrolling-text-group span {
-        font-size: 120px;
+        font-size: 107px;
     }
 
 }
@@ -3015,7 +3015,7 @@
 ===================================== */
 
 .review-stars {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-base);
     font-size: 24px;
     letter-spacing: 1px;
 
@@ -3150,7 +3150,7 @@
 
     .review-description {
         max-width: 700px;
-        font-size: 19px;
+        font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.5px;
         margin: 0 auto;
@@ -3167,12 +3167,12 @@
     }
 
     .review-profile h3 {
-        font-size: 16px;
+        font-size: 18px;
         margin: 0 0 5px;
     }
 
     .review-profile p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .review-dots {
