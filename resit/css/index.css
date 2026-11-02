@@ -901,12 +901,12 @@
     }
 
     .hidden-gems-label {
-        font-size: 14px;
+        font-size: 13px;
         margin-bottom: 12px;
     }
 
     .hidden-gems-title {
-        font-size: 36px;
+        font-size: 30px;
         line-height: 1.05;
     }
 
@@ -934,7 +934,7 @@
     }
 
     .hidden-gems-card h3 {
-        font-size: 21px;
+        font-size: 18px;
         margin-bottom: 5px;
     }
 
@@ -979,7 +979,7 @@
 
     /* LEARN MORE */
     .hidden-gems-link {
-        margin-top: 20px;
+        margin-top: 15px;
         font-size: 13px;
     }
 }
