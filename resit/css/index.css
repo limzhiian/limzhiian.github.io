@@ -2124,19 +2124,19 @@
     }
 
     .adventure-label {
-        font-size: 12px;
+        font-size: 13px;
         margin-bottom: 15px;
     }
 
     .adventure-title {
-        font-size: 28px;
+        font-size: 30px;
         line-height: 1.05;
         letter-spacing: 0;
         margin-bottom: 15px;
     }
 
     .adventure-description {
-        font-size: 13px;
+        font-size: 15px;
         line-height: 1.6;
         margin-bottom: 15px;
     }
@@ -2184,7 +2184,7 @@
     }
 
     .adventure-bottom-description p {
-        font-size: 13px;
+        font-size: 15px;
         line-height: 1.6;
     }
 }
