@@ -1337,18 +1337,18 @@
         display: flex;
         flex-direction: column;
         gap: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 28px;
     }
 
     /* SMALL TITLE */
     .popular-small-title p {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 1px;
     }
 
     /* LARGE DESCRIPTION */
     .popular-description h2 {
-        font-size: 13px;
+        font-size: 18px;
         line-height: 1.2;
         letter-spacing: 0.3px;
     }
@@ -1574,7 +1574,7 @@
     .stats-item h2 {
         margin: 0;
 
-        font-size: 42px;
+        font-size: 48px;
         font-weight: 400;
         line-height: 1;
         letter-spacing: -1px;
@@ -1584,7 +1584,7 @@
     .stats-item p {
         margin: 8px 0 0;
 
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 1.2;
     }
