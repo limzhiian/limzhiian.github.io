@@ -2,53 +2,83 @@
    HORIZONTAL LINE
 ========================= */
 
-.horizontal-line {
+.about-horizontal-line {
     width: 100%;
     background-color: #fafaf0;
-
-    padding: 0 75px 0;
+    padding: 0 70px;
     box-sizing: border-box;
 }
 
-.divider-line {
+/* DIVIDER LINE */
+.about-divider-line {
     width: 100%;
-    max-width: 1390px;
     height: 1px;
-
-    margin: 0 auto 150px;
-
-    background-color: #96938b;
+    background-color: #8b8179;
     position: relative;
 }
 
 /* LEFT DOT */
-.divider-line::before {
+.about-divider-line::before {
     content: "";
     position: absolute;
 
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
 
-    background-color: #19130f;
+    background-color: #160c09;
     border-radius: 50%;
 
     left: 0;
     top: 0;
+    margin-top: -2.5px;
 }
 
 /* RIGHT DOT */
-.divider-line::after {
+.about-divider-line::after {
     content: "";
     position: absolute;
 
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
 
-    background-color: #19130f;
+    background-color: #160c09;
     border-radius: 50%;
 
     right: 0;
     top: 0;
+    margin-top: -2.5px;
+}
+
+
+/* =========================
+   HORIZONTAL LINE - 1280px
+========================= */
+
+@media screen and (max-width: 1280px) {
+
+    .about-horizontal-line {
+        padding: 0 30px;
+    }
+
+}
+
+
+/* =========================
+   HORIZONTAL LINE - 765px
+========================= */
+
+@media screen and (max-width: 765px) {
+
+    .about-horizontal-line {
+        padding: 0 20px;
+    }
+
+    /* HIDE LEFT AND RIGHT DOTS */
+    .about-divider-line::before,
+    .about-divider-line::after {
+        display: none;
+    }
+
 }
 
 
@@ -59,7 +89,7 @@
 .story-section {
     background-color: #fafaf0;
 
-    padding: 0 95px 105px;
+    padding: 125px 95px 105px;
 }
 
 
@@ -163,7 +193,7 @@
     /* STORY SECTION */
     .story-section {
         width: 100%;
-        padding: 0 30px 80px;
+        padding: 80px 30px;
         box-sizing: border-box;
     }
 
@@ -227,7 +257,7 @@
     /* STORY SECTION */
     .story-section {
         width: 100%;
-        padding: 0 20px 65px;
+        padding: 65px 20px;
         box-sizing: border-box;
     }
 
@@ -304,7 +334,7 @@
     /* STORY SECTION */
     .story-section {
         width: 100%;
-        padding: 0px 20px 65px;
+        padding: 65px 20px;
         box-sizing: border-box;
     }
 
