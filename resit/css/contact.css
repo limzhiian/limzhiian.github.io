@@ -185,7 +185,6 @@
     /* MAIN HEADING */
     .inquiries-container h2 {
         font-size: 36px;
-        font-weight: 400;
         line-height: 1.2;
         margin-bottom: 35px;
     }
@@ -204,7 +203,6 @@
     /* SMALL HEADINGS */
     .inquiries-item h4 {
         font-size: 18px;
-        font-weight: 400;
         margin-bottom: 12px;
     }
 
@@ -241,9 +239,6 @@
     /* MAIN HEADING */
     .inquiries-container h2 {
         font-size: 26px;
-        font-weight: 400;
-        line-height: 1.2;
-
         margin-bottom: 25px;
     }
 
@@ -264,8 +259,6 @@
     /* SMALL HEADINGS */
     .inquiries-item h4 {
         font-size: 16px;
-        font-weight: 400;
-
         margin-bottom: 8px;
     }
 
@@ -273,8 +266,6 @@
     .inquiries-item p,
     .inquiries-item a {
         font-size: 16px;
-        font-weight: 400;
-
         line-height: 1.2;
         letter-spacing: 0.3px;
     }
