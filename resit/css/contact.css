@@ -189,15 +189,16 @@
         margin-bottom: 35px;
     }
 
-    /* TWO COLUMN GRID */
     .inquiries-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        display: flex;
+        gap: 30px;
+        align-items: flex-start;
+    }
 
-        column-gap: 30px;
-        row-gap: 30px;
-
-        align-items: start;
+    /* TWO COLUMNS */
+    .inquiries-grid>* {
+        flex: 1;
+        min-width: 0;
     }
 
     /* SMALL HEADINGS */
@@ -246,7 +247,6 @@
     .inquiries-grid {
         display: flex;
         flex-direction: column;
-
         gap: 25px;
         align-items: flex-start;
     }
@@ -275,7 +275,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-
         gap: 8px;
     }
 
