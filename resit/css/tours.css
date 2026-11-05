@@ -5,7 +5,6 @@
 .header-horizontal-line {
     width: 100%;
     background-color: #fafaf0;
-
     padding: 0 70px;
 }
 
@@ -13,10 +12,7 @@
     width: 100%;
     max-width: 1390px;
     height: 1px;
-
-    margin: 0 auto;
     background-color: #96938b;
-
     position: relative;
 }
 
@@ -24,13 +20,10 @@
 .divider-line::before {
     content: "";
     position: absolute;
-
     width: 4px;
     height: 4px;
-
     background-color: #19130f;
     border-radius: 50%;
-
     left: 0;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -40,13 +33,10 @@
 .divider-line::after {
     content: "";
     position: absolute;
-
     width: 4px;
     height: 4px;
-
     background-color: #19130f;
     border-radius: 50%;
-
     right: 0;
     top: 50%;
     transform: translate(50%, -50%);
@@ -62,11 +52,6 @@
     /* HORIZONTAL LINE CONTAINER */
     .header-horizontal-line {
         padding: 0px 30px;
-    }
-
-    /* HORIZONTAL LINE */
-    .divider-line {
-        width: 100%;
     }
 
     /* KEEP LEFT AND RIGHT DOTS */
@@ -87,11 +72,6 @@
     /* HORIZONTAL LINE CONTAINER */
     .header-horizontal-line {
         padding: 0px 20px;
-    }
-
-    /* HORIZONTAL LINE */
-    .divider-line {
-        width: 100%;
     }
 
     /* HIDE LEFT AND RIGHT DOTS */
@@ -241,14 +221,10 @@
 
 .tour-card {
     display: flex;
-
     gap: 28px;
-
     width: 100%;
     max-width: 1290px;
-
     margin: 0 auto;
-
     box-sizing: border-box;
 }
 
@@ -269,17 +245,9 @@
    LEFT IMAGE
 ========================= */
 
-.tour-image {
-    width: 100%;
-    height: 669px;
-
-    min-width: 0;
-}
-
 .tour-image img {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
     display: block;
 }
@@ -330,30 +298,20 @@
 
 .explore-btn {
     display: flex;
-
     align-items: center;
-
     gap: 15px;
-
     width: fit-content;
-
     color: #1c100d;
-
     text-decoration: none;
-
     font-family: var(--font-heading);
-
     font-size: 13px;
-
     letter-spacing: 0.5px;
-
     transition: 0.3s ease;
 }
 
 
 .explore-btn span {
     font-size: 24px;
-
     transition: transform 0.3s ease;
 }
 
@@ -368,8 +326,6 @@
     .tours-container {
         padding: 0px 30px 95px;
         gap: 30px;
-
-        box-sizing: border-box;
     }
 
     /* TOUR CARD */
@@ -395,41 +351,19 @@
 
     /* LEFT IMAGE */
     .tour-image {
-        width: 100%;
         height: 380px;
-        min-width: 0;
-    }
-
-    .tour-image img {
-        width: 100%;
-        height: 100%;
-
-        object-fit: cover;
-        object-position: center;
-
-        display: block;
     }
 
     /* RIGHT DETAILS CARD */
     .tour-details-rightcard {
-        width: 100%;
-        min-width: 0;
         min-height: 380px;
-
         padding: 30px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        box-sizing: border-box;
     }
 
     /* CARD HEADING */
     .tour-content h2 {
         font-size: 21px;
         font-weight: 400;
-
         margin-bottom: 8px;
     }
 
@@ -466,8 +400,6 @@
     .tours-container {
         padding: 0px 20px 65px;
         gap: 30px;
-
-        box-sizing: border-box;
     }
 
     /* TOUR CARD */
@@ -490,19 +422,11 @@
 
     /* LEFT IMAGE */
     .tour-image {
-        width: 100%;
-        height: 570px;
         min-width: 0;
     }
 
     .tour-image img {
-        width: 100%;
-        height: 100%;
-
-        object-fit: cover;
         object-position: center;
-
-        display: block;
     }
 
     /* DETAILS CARD */
@@ -516,8 +440,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
-        box-sizing: border-box;
     }
 
     /* CARD HEADING */
@@ -565,10 +487,6 @@
 
     /* TOURS CONTAINER */
     .tours-container {
-        width: 100%;
-        padding: 0px 20px 65px;
-        box-sizing: border-box;
-
         gap: 20px;
     }
 
@@ -576,10 +494,8 @@
     .tour-card {
         display: flex;
         flex-direction: column;
-
         width: 100%;
         max-width: 100%;
-
         margin: 0;
         gap: 20px;
     }
@@ -599,7 +515,6 @@
     .tour-image img {
         width: 100%;
         height: 100%;
-
         object-fit: cover;
         display: block;
     }
@@ -608,11 +523,8 @@
     .tour-details-rightcard {
         width: 100%;
         min-height: 212px;
-
         padding: 30px;
-
         box-sizing: border-box;
-
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -622,7 +534,6 @@
     .tour-content h2 {
         font-size: 18px;
         font-weight: 400;
-
         margin-bottom: 5px;
     }
 
@@ -636,7 +547,6 @@
     .tour-description {
         font-size: 14px;
         line-height: 1.8;
-
         max-width: 100%;
     }
 
