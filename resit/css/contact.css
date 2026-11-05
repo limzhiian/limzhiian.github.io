@@ -43,15 +43,6 @@
         margin: 0 auto;
     }
 
-    /* BANNER IMAGE */
-    .contact-banner-container img {
-        display: block;
-        width: 100%;
-        height: 520px;
-        object-fit: cover;
-        object-position: center;
-    }
-
 }
 
 
@@ -77,11 +68,7 @@
 
     /* BANNER IMAGE */
     .contact-banner-container img {
-        display: block;
-        width: 100%;
         height: auto;
-        object-fit: cover;
-        object-position: center;
     }
 
 }
@@ -103,15 +90,6 @@
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
-    }
-
-    .contact-banner-container img {
-        display: block;
-        width: 100%;
-        height: auto;
-
-        object-fit: cover;
-        object-position: center;
     }
 
 }
@@ -201,16 +179,7 @@
 
     /* GENERAL INQUIRIES SECTION */
     .general-inquiries {
-        width: 100%;
         padding: 0px 30px 95px;
-        box-sizing: border-box;
-    }
-
-    /* MAIN CONTAINER */
-    .inquiries-container {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
     }
 
     /* MAIN HEADING */
@@ -266,16 +235,7 @@
 
     /* GENERAL INQUIRIES SECTION */
     .general-inquiries {
-        width: 100%;
         padding: 0px 20px 65px;
-        box-sizing: border-box;
-    }
-
-    /* MAIN CONTAINER */
-    .inquiries-container {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
     }
 
     /* MAIN HEADING */
@@ -331,14 +291,6 @@
 }
 
 
-/* CALL TO ACTION */
-.contact-cta {
-    background-color: #f8f8ee;
-
-    padding: 0px 70px 150px;
-}
-
-
 /* ==================================
    CONTACT HORIZONTAL LINE
 ================================== */
@@ -351,7 +303,7 @@
 
     position: relative;
 
-    margin-bottom: 150px;
+    margin: 0 0 150px;
 }
 
 
@@ -389,12 +341,6 @@
 @media screen and (max-width: 1280px) {
 
     .contact-horizontal-line {
-        width: 100%;
-        height: 1px;
-
-        background-color: #333;
-        position: relative;
-
         margin: 0 0 95px;
     }
 
@@ -415,10 +361,6 @@
 @media screen and (max-width: 765px) {
 
     .contact-horizontal-line {
-        width: 100%;
-        height: 1px;
-
-        background-color: #333;
         margin: 0 0 65px;
     }
 
@@ -430,6 +372,13 @@
 
 }
 
+
+/* CALL TO ACTION */
+.contact-cta {
+    background-color: #f8f8ee;
+
+    padding: 0px 70px 150px;
+}
 
 /* CONTACT MESSAGE */
 .contact-message {
@@ -464,9 +413,7 @@
 
     /* CALL TO ACTION */
     .contact-cta {
-        width: 100%;
         padding: 0px 30px 95px;
-        box-sizing: border-box;
     }
 
     /* CONTACT MESSAGE */
@@ -475,22 +422,12 @@
     }
 
     .contact-message p {
-        margin: 0;
 
         max-width: 100%;
 
         font-family: var(--font-heading);
         font-size: 36px;
-        font-weight: 400;
         line-height: 1.05;
-
-        color: #080808;
-    }
-
-    /* EMAIL */
-    .contact-message a {
-        color: #adb0b5;
-        text-decoration: none;
     }
 }
 
@@ -503,9 +440,7 @@
 
     /* CALL TO ACTION */
     .contact-cta {
-        width: 100%;
         padding: 0px 20px 65px;
-        box-sizing: border-box;
     }
 
     /* CONTACT MESSAGE */
@@ -514,22 +449,9 @@
     }
 
     .contact-message p {
-        margin: 0;
-
-        max-width: 100%;
-
         font-family: var(--font-heading);
         font-size: 26px;
-        font-weight: 400;
         line-height: 1.1;
-
-        color: #080808;
-    }
-
-    /* EMAIL */
-    .contact-message a {
-        color: #adb0b5;
-        text-decoration: none;
     }
 
 }
