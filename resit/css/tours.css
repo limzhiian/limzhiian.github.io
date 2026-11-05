@@ -61,9 +61,7 @@
 
     /* HORIZONTAL LINE CONTAINER */
     .header-horizontal-line {
-        width: 100%;
         padding: 0px 30px;
-        box-sizing: border-box;
     }
 
     /* HORIZONTAL LINE */
@@ -88,9 +86,7 @@
 
     /* HORIZONTAL LINE CONTAINER */
     .header-horizontal-line {
-        width: 100%;
         padding: 0px 20px;
-        box-sizing: border-box;
     }
 
     /* HORIZONTAL LINE */
@@ -110,8 +106,6 @@
 /* TOURS TITLE */
 
 .tours-title {
-    width: 100%;
-
     padding: 150px 95px 0px;
 }
 
@@ -120,33 +114,26 @@
 
 .tours-heading {
     text-align: center;
-
     margin-bottom: 50px;
 }
 
 .tours-small-heading {
     font-size: 14px;
-
     letter-spacing: 1.5px;
-
     margin-bottom: 22px;
 }
 
 .tours-heading h1 {
     font-size: 57px;
     font-weight: 400;
-
     letter-spacing: normal;
-
     margin-bottom: 24px;
 }
 
 .tours-description {
     font-family: var(--font-base);
     font-size: 16px;
-
     color: #888888;
-
     line-height: 1.6;
 }
 
@@ -159,10 +146,7 @@
 
     /* TOURS TITLE */
     .tours-title {
-        width: 100%;
         padding: 95px 30px 0px;
-
-        box-sizing: border-box;
     }
 
     /* HEADING CONTAINER */
@@ -175,18 +159,14 @@
     .tours-small-heading {
         font-size: 14px;
         letter-spacing: 1.5px;
-
         margin-bottom: 15px;
     }
 
     /* MAIN HEADING */
     .tours-heading h1 {
         font-size: 45px;
-        font-weight: 400;
-
         letter-spacing: normal;
         line-height: 1.2;
-
         margin-bottom: 22px;
     }
 
@@ -194,8 +174,6 @@
     .tours-description {
         font-family: var(--font-base);
         font-size: 16px;
-
-        color: #888888;
         line-height: 1.6;
     }
 
@@ -209,10 +187,7 @@
 
     /* TOURS TITLE */
     .tours-title {
-        width: 100%;
         padding: 65px 20px 0px;
-
-        box-sizing: border-box;
     }
 
     /* HEADING CONTAINER */
@@ -225,18 +200,14 @@
     .tours-small-heading {
         font-size: 13px;
         letter-spacing: 1.5px;
-
         margin-bottom: 10px;
     }
 
     /* MAIN HEADING */
     .tours-heading h1 {
         font-size: 30px;
-        font-weight: 400;
-
         letter-spacing: normal;
         line-height: 1.2;
-
         margin-top: 0;
         margin-bottom: 15px;
     }
@@ -245,10 +216,7 @@
     .tours-description {
         font-family: var(--font-base);
         font-size: 15px;
-
-        color: #888888;
         line-height: 1.6;
-
         margin-top: 0;
     }
 
@@ -262,12 +230,8 @@
 .tours-container {
     display: flex;
     flex-direction: column;
-
     gap: 30px;
-
     padding: 0 95px 150px;
-
-    box-sizing: border-box;
 }
 
 
@@ -290,7 +254,7 @@
 
 /* LEFT SIDE */
 .tour-card> :first-child {
-    flex: 2.08;
+    flex: 2;
     min-width: 0;
 }
 
@@ -329,47 +293,34 @@
     width: 100%;
     min-width: 0;
     min-height: 669px;
-
     background-color: #ffffff;
-
     padding: 42px 38px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    box-sizing: border-box;
 }
 
 
 .tour-content h2 {
     font-family: var(--font-heading);
-
     font-size: 23px;
     font-weight: 400;
-
     letter-spacing: 0.5px;
-
     margin-bottom: 8px;
 }
 
 .tour-days {
     font-family: var(--font-base);
     font-size: 14px;
-
     color: #888888;
-
     margin-bottom: 27px;
 }
 
 .tour-description {
     font-family: var(--font-base);
     font-size: 14px;
-
     color: #888888;
-
     max-width: 290px;
-
     line-height: 1.8;
 }
 
