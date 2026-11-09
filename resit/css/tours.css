@@ -258,7 +258,6 @@
 ========================= */
 
 .tour-details-rightcard {
-    width: 100%;
     min-width: 0;
     min-height: 669px;
     background-color: #ffffff;
@@ -330,13 +329,7 @@
 
     /* TOUR CARD */
     .tour-card {
-        display: flex;
         gap: 30px;
-
-        width: 100%;
-        max-width: 100%;
-
-        margin: 0 auto;
     }
 
     /* LEFT COLUMN */
@@ -404,14 +397,9 @@
 
     /* TOUR CARD */
     .tour-card {
-        display: flex;
         flex-direction: column;
         gap: 20px;
 
-        width: 100%;
-        max-width: 100%;
-
-        margin: 0 auto;
     }
 
     /* BOTH COLUMNS */
@@ -431,15 +419,8 @@
 
     /* DETAILS CARD */
     .tour-details-rightcard {
-        width: 100%;
-        min-width: 0;
         min-height: 190px;
-
         padding: 30px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     /* CARD HEADING */
@@ -461,7 +442,6 @@
     .tour-description {
         font-size: 14px;
         line-height: 1.8;
-
         max-width: 100%;
         margin-bottom: 20px;
     }
@@ -521,13 +501,8 @@
 
     /* RIGHT DETAILS CARD */
     .tour-details-rightcard {
-        width: 100%;
         min-height: 212px;
         padding: 30px;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
     /* TOUR HEADING */
@@ -563,12 +538,8 @@
 ========================== */
 
 .faq-section {
-    width: 100%;
     background-color: #ffffff;
-
     padding: 150px 95px 150px;
-
-    box-sizing: border-box;
 }
 
 
@@ -579,12 +550,9 @@
 .faq-container {
     width: 100%;
     max-width: 1300px;
-
     margin: 0 auto;
-
     display: flex;
     gap: 55px;
-
     align-items: flex-start;
 }
 
@@ -608,13 +576,10 @@
 
 .faq-subtitle {
     margin: 0 0 20px;
-
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 1.5px;
-
     color: #160c09;
 }
 
@@ -623,14 +588,11 @@
 
 .faq-left h2 {
     margin: 0 0 28px;
-
     font-family: var(--font-heading);
     font-size: 57px;
     font-weight: 300;
-
     line-height: 1.05;
     letter-spacing: 1px;
-
     color: #160c09;
 }
 
@@ -639,15 +601,11 @@
 
 .faq-description {
     max-width: 500px;
-
     margin: 0;
-
     font-family: var(--font-base);
     font-size: 16px;
     font-weight: 400;
-
     line-height: 1.55;
-
     color: #8a8a95;
 }
 
@@ -668,7 +626,6 @@
 
 .faq-item {
     width: 100%;
-
     border-bottom: 1px solid #eaeae5;
 }
 
@@ -679,23 +636,16 @@
 
 .faq-question {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 20px;
-
     padding: 27px 0;
-
     list-style: none;
-
     font-family: var(--font-heading);
     font-size: 19px;
     font-weight: 400;
-
     line-height: 1.35;
-
     color: #160c09;
 }
 
@@ -721,11 +671,9 @@
 
 .faq-icon::before {
     content: "+";
-
     font-family: Arial, sans-serif;
     font-size: 23px;
     font-weight: 300;
-
     color: #160c09;
 }
 
@@ -747,13 +695,10 @@
 
 .faq-answer p {
     margin: 0;
-
     font-family: var(--font-base);
     font-size: 15px;
     font-weight: 400;
-
     line-height: 1.6;
-
     color: #8a8a95;
 }
 
@@ -766,41 +711,18 @@
 
     /* FAQ SECTION */
     .faq-section {
-        width: 100%;
         padding: 95px 30px;
-
-        box-sizing: border-box;
     }
 
     /* FAQ CONTAINER */
     .faq-container {
-        width: 100%;
-        max-width: 100%;
-
-        display: flex;
         gap: 40px;
-        align-items: flex-start;
-
-        margin: 0 auto;
-    }
-
-    /* TWO COLUMNS */
-    .faq-container>div {
-        width: 50%;
-        min-width: 0;
-    }
-
-    /* LEFT CONTENT */
-    .faq-left {
-        width: 100%;
-        min-width: 0;
     }
 
     /* SMALL SUBTITLE */
     .faq-subtitle {
         font-size: 14px;
         letter-spacing: 1.5px;
-
         margin-bottom: 15px;
     }
 
@@ -808,17 +730,14 @@
     .faq-left h2 {
         font-size: 45px;
         font-weight: 300;
-
         line-height: 1.05;
         letter-spacing: 1px;
-
         margin-bottom: 25px;
     }
 
     /* DESCRIPTION */
     .faq-description {
         max-width: 100%;
-
         font-size: 16px;
         line-height: 1.55;
     }
@@ -827,7 +746,6 @@
     .faq-right {
         width: 100%;
         min-width: 0;
-
         padding-top: 20px;
     }
 
@@ -840,7 +758,6 @@
     .faq-question {
         font-size: 18px;
         line-height: 1.35;
-
         padding: 25px 0;
         gap: 20px;
     }
@@ -871,23 +788,13 @@
 
     /* FAQ SECTION */
     .faq-section {
-        width: 100%;
         padding: 65px 20px;
-
-        box-sizing: border-box;
     }
 
     /* FAQ CONTAINER */
     .faq-container {
-        width: 100%;
-        max-width: 100%;
-
-        display: flex;
         flex-direction: column;
-
         gap: 20px;
-
-        margin: 0 auto;
     }
 
     /* SINGLE COLUMN */
@@ -905,7 +812,6 @@
     .faq-subtitle {
         font-size: 13px;
         letter-spacing: 1.5px;
-
         margin-bottom: 8px;
     }
 
@@ -913,17 +819,14 @@
     .faq-left h2 {
         font-size: 30px;
         font-weight: 400;
-
         line-height: 1.2;
         letter-spacing: 0.5px;
-
         margin-bottom: 15px;
     }
 
     /* DESCRIPTION */
     .faq-description {
         max-width: 100%;
-
         font-size: 15px;
         line-height: 1.6;
     }
@@ -932,7 +835,6 @@
     .faq-right {
         width: 100%;
         min-width: 0;
-
         padding-top: 0;
     }
 
@@ -975,18 +877,14 @@
 
 .tour-travel-banner {
     position: relative;
-
     width: 100%;
     height: 450px;
-
     background-image: url("../img/travel\ banner.jpg");
     background-size: cover;
     background-position: center;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     overflow: hidden;
 }
 
@@ -995,13 +893,10 @@
 
 .banner-overlay {
     position: absolute;
-
     top: 0;
     left: 0;
-
     width: 100%;
     height: 100%;
-
     background: rgba(0, 0, 0, 0.18);
 }
 
@@ -1010,9 +905,7 @@
 
 .banner-content {
     position: relative;
-
     text-align: center;
-
     color: white;
 }
 
@@ -1022,9 +915,7 @@
 .banner-content h2 {
     font-size: 47px;
     font-weight: 400;
-
     letter-spacing: normal;
-
     margin-top: 28px;
     margin-bottom: 28px;
 }
@@ -1034,26 +925,17 @@
 
 .banner-btn {
     display: inline-flex;
-
     justify-content: center;
     align-items: center;
-
     min-width: 220px;
     height: 52px;
-
     padding: 18px 44px;
-
     background-color: #ef936c;
-
     border-radius: 50px;
-
     color: white;
-
     font-family: var(--font-heading);
-
     font-size: 13px;
     letter-spacing: 1px;
-
     text-decoration: none;
 }
 
@@ -1068,14 +950,11 @@
     .tour-travel-banner {
         width: 100%;
         height: 340px;
-
         background-size: cover;
         background-position: center 65%;
-
         display: flex;
         justify-content: center;
         align-items: center;
-
         overflow: hidden;
     }
 
@@ -1083,7 +962,6 @@
     .banner-overlay {
         width: 100%;
         height: 100%;
-
         background: rgba(0, 0, 0, 0.18);
     }
 
@@ -1098,7 +976,6 @@
         font-size: 36px;
         font-weight: 400;
         line-height: 1.1;
-
         margin-top: 28px;
         margin-bottom: 25px;
     }
@@ -1107,9 +984,7 @@
     .banner-btn {
         min-width: 220px;
         height: 52px;
-
         padding: 18px 44px;
-
         font-size: 13px;
     }
 
@@ -1126,14 +1001,11 @@
     .tour-travel-banner {
         width: 100%;
         height: 219px;
-
         background-size: cover;
         background-position: center 65%;
-
         display: flex;
         justify-content: center;
         align-items: center;
-
         overflow: hidden;
     }
 
@@ -1146,10 +1018,8 @@
     .banner-content {
         width: 100%;
         padding: 0 20px;
-
         text-align: center;
         transform: none;
-
         box-sizing: border-box;
     }
 
@@ -1158,7 +1028,6 @@
         font-size: 26px;
         font-weight: 400;
         line-height: 1.2;
-
         margin: 0 0 15px;
     }
 
@@ -1166,9 +1035,7 @@
     .banner-btn {
         min-width: 220px;
         height: 46px;
-
         padding: 12px 30px;
-
         font-size: 13px;
         box-sizing: border-box;
     }
@@ -1186,7 +1053,6 @@
     .tour-travel-banner {
         width: 100%;
         height: 247px;
-
         background-size: cover;
         background-position: center;
     }
@@ -1201,7 +1067,6 @@
     .banner-content h2 {
         font-size: 26px;
         font-weight: 400;
-
         line-height: 1.1;
         margin: 0 0 18px;
     }
@@ -1210,9 +1075,7 @@
     .banner-btn {
         min-width: 220px;
         height: 46px;
-
         padding: 12px 30px;
-
         font-size: 13px;
     }
 
