@@ -3,13 +3,11 @@
 ========================= */
 
 .header-horizontal-line {
-    width: 100%;
     background-color: #fafaf0;
     padding: 0 70px;
 }
 
 .divider-line {
-    width: 100%;
     max-width: 1390px;
     height: 1px;
     background-color: #96938b;
@@ -324,7 +322,6 @@
     /* TOURS CONTAINER */
     .tours-container {
         padding: 0px 30px 95px;
-        gap: 30px;
     }
 
     /* TOUR CARD */
@@ -392,7 +389,6 @@
     /* TOURS CONTAINER */
     .tours-container {
         padding: 0px 20px 65px;
-        gap: 30px;
     }
 
     /* TOUR CARD */
@@ -548,8 +544,6 @@
 ========================== */
 
 .faq-container {
-    width: 100%;
-    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     gap: 55px;
@@ -561,16 +555,6 @@
     width: 50%;
     min-width: 0;
 }
-
-
-/* ==========================
-   LEFT CONTENT
-========================== */
-
-.faq-left {
-    width: 100%;
-}
-
 
 /* SMALL SUBTITLE */
 
@@ -615,18 +599,7 @@
 ========================== */
 
 .faq-right {
-    width: 100%;
     padding-top: 20px;
-}
-
-
-/* ==========================
-   FAQ ITEM
-========================== */
-
-.faq-item {
-    width: 100%;
-    border-bottom: 1px solid #eaeae5;
 }
 
 
@@ -635,7 +608,6 @@
 ========================== */
 
 .faq-question {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -744,14 +716,7 @@
 
     /* RIGHT CONTENT */
     .faq-right {
-        width: 100%;
-        min-width: 0;
         padding-top: 20px;
-    }
-
-    /* FAQ ITEM */
-    .faq-item {
-        width: 100%;
     }
 
     /* FAQ QUESTION */
@@ -847,10 +812,6 @@
     /* FAQ QUESTION */
     .faq-question {
         font-size: 16px;
-        font-weight: 400;
-
-        line-height: 1.35;
-
         padding: 25px 0;
         gap: 15px;
     }
@@ -895,8 +856,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     background: rgba(0, 0, 0, 0.18);
 }
 
@@ -962,7 +921,6 @@
     .banner-overlay {
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.18);
     }
 
     /* BANNER CONTENT */
@@ -1007,11 +965,6 @@
         justify-content: center;
         align-items: center;
         overflow: hidden;
-    }
-
-    /* DARK IMAGE OVERLAY */
-    .banner-overlay {
-        background: rgba(0, 0, 0, 0.18);
     }
 
     /* BANNER CONTENT */
