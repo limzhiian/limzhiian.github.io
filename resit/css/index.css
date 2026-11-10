@@ -1597,7 +1597,6 @@
     /* NUMBERS */
     .stats-item h2 {
         margin: 0;
-
         font-size: 48px;
         font-weight: 400;
         line-height: 1;
@@ -1607,7 +1606,6 @@
     /* LABELS */
     .stats-item p {
         margin: 8px 0 0;
-
         font-size: 18px;
         font-weight: 400;
         line-height: 1.2;
@@ -1622,18 +1620,14 @@
 
 .memories-banner-section {
     position: relative;
-
     width: 100%;
     height: 550px;
-
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-
     display: flex;
     align-items: flex-end;
-
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -1645,10 +1639,8 @@
 
 .memories-banner-section::before::before {
     content: "";
-
     position: absolute;
     inset: 0;
-
     background: rgba(0, 0, 0, 0.12);
 }
 
@@ -1660,13 +1652,10 @@
 .banner-content {
     position: relative;
     z-index: 2;
-
     width: 100%;
-
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-
     padding: 0 60px 60px;
 }
 
@@ -1677,14 +1666,11 @@
 
 .banner-content h2 {
     margin: 0;
-
     font-family: var(--font-heading);
     font-size: 57px;
     font-weight: 300;
-
     line-height: 1;
     letter-spacing: 1px;
-
     color: #ffffff;
 }
 
@@ -1695,27 +1681,19 @@
 
 .banner-btn {
     display: inline-flex;
-
     align-items: center;
     justify-content: center;
-
     width: 195px;
     height: 54px;
-
     border: 1px solid #ffffff;
     border-radius: 50px;
-
     background: transparent;
-
     font-family: var(--font-heading);
     font-size: 13px;
     font-weight: 400;
-
     letter-spacing: 1px;
     color: #ffffff;
-
     text-decoration: none;
-
     transition: 0.3s ease;
 }
 
@@ -1729,17 +1707,13 @@
     /* BANNER SECTION */
     .memories-banner-section {
         position: relative;
-
         width: 100%;
         height: 400px;
-
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-
         display: flex;
         align-items: flex-end;
-
         overflow: hidden;
         box-sizing: border-box;
     }
@@ -1749,7 +1723,6 @@
         content: "";
         position: absolute;
         inset: 0;
-
         background: rgba(0, 0, 0, 0.12);
         z-index: 1;
     }
@@ -1758,15 +1731,11 @@
     .banner-content {
         position: relative;
         z-index: 2;
-
         width: 100%;
-
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-
         gap: 30px;
-
         padding: 0 30px 30px;
         box-sizing: border-box;
     }
@@ -1774,13 +1743,10 @@
     /* HEADING */
     .banner-content h2 {
         margin: 0;
-
         font-size: 45px;
         font-weight: 300;
-
         line-height: 1;
         letter-spacing: 1px;
-
         color: #ffffff;
     }
 
@@ -1789,21 +1755,15 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-
         flex-shrink: 0;
-
         width: 195px;
         height: 54px;
-
         border: 1px solid #ffffff;
         border-radius: 50px;
-
         background: transparent;
-
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 1px;
-
         color: #ffffff;
         text-decoration: none;
     }
@@ -1820,19 +1780,14 @@
     /* BANNER SECTION */
     .memories-banner-section {
         position: relative;
-
         width: 100%;
         height: 350px;
-
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-
         display: flex;
         align-items: flex-end;
-
         padding: 30px 20px;
-
         overflow: hidden;
         box-sizing: border-box;
     }
@@ -1842,7 +1797,6 @@
         content: "";
         position: absolute;
         inset: 0;
-
         background: rgba(0, 0, 0, 0.12);
         z-index: 1;
     }
@@ -1851,16 +1805,12 @@
     .banner-content {
         position: relative;
         z-index: 2;
-
         width: 100%;
-
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-end;
-
         gap: 20px;
-
         padding: 0;
         box-sizing: border-box;
     }
@@ -1868,13 +1818,10 @@
     /* HEADING */
     .banner-content h2 {
         margin: 0;
-
         font-size: 30px;
         font-weight: 300;
-
         line-height: 1.1;
         letter-spacing: 0.5px;
-
         color: #ffffff;
     }
 
@@ -1883,21 +1830,15 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-
         width: 195px;
         height: 50px;
-
         flex-shrink: 0;
-
         border: 1px solid #ffffff;
         border-radius: 50px;
-
         background: transparent;
-
         font-size: 13px;
         font-weight: 400;
         letter-spacing: 1px;
-
         color: #ffffff;
         text-decoration: none;
     }
@@ -1912,7 +1853,6 @@
 .adventure-section {
     width: 100%;
     background-color: #fafaf0;
-
     padding: 150px 70px;
     box-sizing: border-box;
 }
@@ -1925,10 +1865,8 @@
     width: 100%;
     max-width: 1390px;
     margin: 0 auto;
-
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-
     column-gap: 180px;
     align-items: stretch;
 }
@@ -1944,36 +1882,28 @@
 
 .adventure-label {
     margin: 0 0 20px;
-
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 1.5px;
-
     color: #160c09;
 }
 
 .adventure-title {
     margin: 0 0 25px;
-
     font-family: var(--font-heading);
     font-size: 57px;
     font-weight: 400;
-
     line-height: 1.02;
     letter-spacing: 1px;
-
     color: #160c09;
 }
 
 .adventure-description {
     margin: 0 0 20px;
-
     font-family: var(--font-base);
     font-size: 16px;
     font-weight: 400;
-
     line-height: 1.6;
     color: #8b91a1;
 }
@@ -2035,11 +1965,9 @@
 
 .adventure-bottom-description p {
     margin: 0;
-
     font-family: var(--font-base);
     font-size: 16px;
     font-weight: 400;
-
     line-height: 1.65;
     color: #8b91a1;
 }
@@ -2144,7 +2072,6 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-
         width: 100%;
     }
 
@@ -2227,9 +2154,7 @@
 .travel-blog-section {
     width: 100%;
     background-color: #ffffff;
-
     padding: 150px 70px;
-
     box-sizing: border-box;
 }
 
@@ -2241,7 +2166,6 @@
 .travel-blog-container {
     width: 100%;
     max-width: 1350px;
-
     margin: 0 auto;
 }
 
@@ -2260,13 +2184,10 @@
 
 .travel-blog-heading p {
     margin: 0 0 20px;
-
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 1.5px;
-
     color: #160c09;
 }
 
@@ -2275,14 +2196,11 @@
 
 .travel-blog-heading h2 {
     margin: 0;
-
     font-family: var(--font-heading);
     font-size: 57px;
     font-weight: 300;
-
     line-height: 1.02;
     letter-spacing: 1px;
-
     color: #160c09;
 }
 
@@ -2293,11 +2211,8 @@
 
 .travel-blog-grid {
     display: grid;
-
     grid-template-columns: repeat(4, minmax(0, 1fr));
-
     column-gap: 28px;
-
     align-items: start;
 }
 
@@ -2317,9 +2232,7 @@
 
 .travel-blog-image {
     display: block;
-
     width: 100%;
-
     overflow: hidden;
 }
 
@@ -2328,10 +2241,8 @@
 
 .travel-blog-image img {
     display: block;
-
     width: 100%;
     height: 215px;
-
     object-fit: cover;
 }
 
@@ -2356,13 +2267,10 @@
 
 .travel-blog-category {
     margin: 0 0 10px;
-
     font-family: var(--font-base);
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 1px;
-
     color: #160c09;
 }
 
@@ -2373,11 +2281,9 @@
 
 .travel-blog-content h3 {
     margin: 0 0 8px;
-
     font-family: var(--font-heading);
     font-size: 28px;
     font-weight: 400;
-
     line-height: 1.15;
     letter-spacing: 0.3px;
 }
@@ -2401,9 +2307,7 @@
     font-family: var(--font-base);
     font-size: 14px;
     font-weight: 400;
-
     line-height: 1.5;
-
     color: #9ca4b6;
 }
 
@@ -2439,7 +2343,6 @@
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 1.5px;
-
         margin-bottom: 15px;
     }
 
@@ -2447,10 +2350,8 @@
     .travel-blog-heading h2 {
         font-size: 45px;
         font-weight: 300;
-
         line-height: 1.05;
         letter-spacing: 1px;
-
         margin: 0;
     }
 
@@ -2458,10 +2359,8 @@
     .travel-blog-grid {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
-
         column-gap: 30px;
         align-items: start;
-
         width: 100%;
     }
 
@@ -2483,7 +2382,6 @@
         display: block;
         width: 100%;
         height: 215px;
-
         object-fit: cover;
     }
 
@@ -2501,7 +2399,6 @@
     .travel-blog-category {
         font-size: 14px;
         letter-spacing: 1px;
-
         margin-bottom: 10px;
     }
 
@@ -2509,10 +2406,8 @@
     .travel-blog-content h3 {
         font-size: 22px;
         font-weight: 400;
-
         line-height: 1.15;
         letter-spacing: 0.3px;
-
         margin-bottom: 10px;
     }
 
@@ -2638,12 +2533,10 @@
 .explore-section-banner {
     width: 100%;
     min-height: 575px;
-
     background-image: url("../img/explorebanner.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     box-sizing: border-box;
 }
 
@@ -2653,14 +2546,11 @@
     width: 100%;
     max-width: 1510px;
     min-height: 575px;
-
     margin: 0 auto;
     padding: 70px;
-
     display: flex;
     justify-content: flex-end;
     align-items: stretch;
-
     box-sizing: border-box;
 }
 
@@ -2672,15 +2562,11 @@
 .explore-content {
     width: 360px;
     min-height: 453px;
-
     background-color: #ffffff;
-
     padding: 45px 35px 45px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     box-sizing: border-box;
 }
 
@@ -2688,14 +2574,11 @@
 /* MAIN HEADING */
 .explore-title {
     margin: 0 0 25px;
-
     font-family: var(--font-heading);
     font-size: 40px;
     font-weight: 400;
-
     line-height: 1.08;
     letter-spacing: 1px;
-
     color: #160c09;
 }
 
@@ -2703,11 +2586,9 @@
 /* DESCRIPTION */
 .explore-description {
     margin: 0;
-
     font-family: var(--font-base);
     font-size: 14px;
     font-weight: 400;
-
     line-height: 1.65;
     color: #8b91a1;
 }
@@ -2721,12 +2602,9 @@
     font-family: var(--font-heading);
     font-size: 11px;
     font-weight: 400;
-
     letter-spacing: 1px;
     text-decoration: none;
-
     color: #160c09;
-
     transition: color 0.3s ease;
 }
 
@@ -2741,7 +2619,6 @@
     .explore-section-banner {
         width: 100%;
         min-height: 500px;
-
         background-size: cover;
         background-position: center;
     }
@@ -2751,14 +2628,11 @@
         width: 100%;
         max-width: 100%;
         min-height: 500px;
-
         margin: 0 auto;
         padding: 30px;
-
         display: flex;
         justify-content: flex-end;
         align-items: stretch;
-
         box-sizing: border-box;
     }
 
@@ -2766,25 +2640,19 @@
     .explore-content {
         width: 320px;
         min-height: 440px;
-
         padding: 40px 35px;
-
         background-color: #ffffff;
-
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
         box-sizing: border-box;
     }
 
     /* MAIN HEADING */
     .explore-title {
         margin: 0 0 20px;
-
         font-size: 36px;
         font-weight: 400;
-
         line-height: 1.05;
         letter-spacing: 1px;
     }
@@ -2792,7 +2660,6 @@
     /* DESCRIPTION */
     .explore-description {
         margin: 0;
-
         font-size: 16px;
         line-height: 1.65;
     }
@@ -2816,7 +2683,6 @@
     .explore-section-banner {
         width: 100%;
         min-height: 315px;
-
         background-size: cover;
         background-position: center;
     }
@@ -2826,14 +2692,11 @@
         width: 100%;
         max-width: 100%;
         min-height: 315px;
-
         margin: 0 auto;
         padding: 20px;
-
         display: flex;
         justify-content: center;
         align-items: stretch;
-
         box-sizing: border-box;
     }
 
@@ -2841,25 +2704,19 @@
     .explore-content {
         width: 100%;
         min-height: 275px;
-
         padding: 35px 30px;
-
         background-color: #ffffff;
-
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
         box-sizing: border-box;
     }
 
     /* MAIN HEADING */
     .explore-title {
         margin: 0 0 15px;
-
         font-size: 26px;
         font-weight: 400;
-
         line-height: 1.1;
         letter-spacing: 1px;
     }
@@ -2867,7 +2724,6 @@
     /* DESCRIPTION */
     .explore-description {
         margin: 0;
-
         font-size: 15px;
         line-height: 1.65;
     }
@@ -2888,8 +2744,7 @@
 .review-section {
     width: 100%;
     background-color: #ffffff;
-
-    padding: 0 95px 150px;
+    padding: 150px 95px;
     box-sizing: border-box;
 }
 
@@ -2900,7 +2755,6 @@
 .review-container {
     width: 100%;
     max-width: 1100px;
-
     margin: 0 auto;
     text-align: center;
 }
@@ -2913,9 +2767,7 @@
     font-family: var(--font-base);
     font-size: 24px;
     letter-spacing: 1px;
-
     color: #f28b45;
-
     margin-bottom: 35px;
 }
 
@@ -2925,18 +2777,13 @@
 
 .review-description {
     max-width: 1000px;
-
     margin: 0 auto;
-
     font-family: var(--font-heading);
     font-size: 23px;
     font-weight: 400;
-
     line-height: 1.2;
     letter-spacing: 1px;
-
     color: #160d0b;
-
     text-align: center;
 }
 
@@ -2948,44 +2795,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-top: 55px;
 }
 
 /* PROFILE IMAGE */
 .review-profile img {
     display: block;
-
     width: 70px;
     height: 70px;
-
     border-radius: 50%;
-
     object-fit: cover;
     object-position: center;
-
     margin-bottom: 15px;
 }
 
 /* PROFILE NAME */
 .review-profile h3 {
     margin: 0 0 5px;
-
     font-family: var(--font-heading);
     font-size: 19px;
     font-weight: 400;
-
     color: #160d0b;
 }
 
 /* PROFILE POSITION */
 .review-profile p {
     margin: 0;
-
     font-family: var(--font-base);
     font-size: 15px;
     font-weight: 400;
-
     color: #a4a6ad;
 }
 
@@ -2997,18 +2835,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     gap: 25px;
-
     margin-top: 45px;
 }
 
 .review-dots span {
     display: block;
-
     width: 8px;
     height: 8px;
-
     background-color: #e5e5dd;
     border-radius: 50%;
 }
@@ -3027,7 +2861,7 @@
 
     .review-section {
         width: 100%;
-        padding: 0 30px 95px;
+        padding: 95px 30px;
         box-sizing: border-box;
     }
 
@@ -3086,7 +2920,7 @@
 
     /* SECTION */
     .review-section {
-        padding: 0 20px 65px;
+        padding: 65px 20px;
         box-sizing: border-box;
     }
 
@@ -3156,9 +2990,7 @@
 
 .instagram-section {
     width: 100%;
-
     background-color: #fbfcef;
-
     padding: 150px 95px;
 }
 
@@ -3169,32 +3001,24 @@
 
 .instagram-title {
     text-align: center;
-
     margin-bottom: 40px;
 }
 
 
 .instagram-title p {
     margin: 0;
-
     font-family: var(--font-heading);
-
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 1.5px;
-
     color: #160c09;
 }
 
 
 /* Instagram word */
-
 .instagram-title a {
     position: relative;
-
     color: #160c09;
-
     text-decoration: none;
 }
 
@@ -3203,15 +3027,11 @@
 
 .instagram-title a::after {
     content: "";
-
     position: absolute;
-
     left: 0;
     bottom: -7px;
-
     width: 100%;
     height: 1px;
-
     background-color: #ef936c;
 }
 
@@ -3222,14 +3042,10 @@
 
 .instagram-grid {
     display: grid;
-
     grid-template-columns: repeat(6, 1fr);
-
     gap: 28px;
-
     width: 100%;
     max-width: 1210px;
-
     margin: 0 auto;
 }
 
@@ -3240,10 +3056,8 @@
 
 .instagram-item {
     position: relative;
-
     width: 100%;
     aspect-ratio: 1 / 1;
-
     display: block;
 }
 
@@ -3251,9 +3065,7 @@
 .instagram-item img {
     width: 100%;
     height: 100%;
-
     display: block;
-
     object-fit: cover;
 }
 
@@ -3356,13 +3168,10 @@
     .instagram-grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-
         column-gap: 20px;
         row-gap: 20px;
-
         width: 100%;
         max-width: 100%;
-
         margin: 0;
     }
 
@@ -3377,9 +3186,6 @@
     /* IMAGES */
     .instagram-item img {
         display: block;
-        width: 100%;
-        height: 100%;
-
         object-fit: cover;
     }
 
