@@ -1316,11 +1316,6 @@
     .adventure-left-image {
         margin-top: 10px;
     }
-
-    .adventure-bottom-description p {
-        font-size: 16px;
-        line-height: 1.6;
-    }
 }
 
 
@@ -1363,7 +1358,6 @@
 
     .adventure-bottom-description p {
         font-size: 15px;
-        line-height: 1.6;
     }
 }
 
