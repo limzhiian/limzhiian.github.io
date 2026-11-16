@@ -1554,12 +1554,6 @@
         margin-top: 25px;
     }
 
-    /* EACH ITEM */
-    .team-item {
-        text-align: center;
-        min-width: 0;
-    }
-
     /* ICON */
     .team-icon {
         width: 80px;
@@ -1628,12 +1622,6 @@
         margin-top: 15px;
     }
 
-    /* EACH ITEM */
-    .team-item {
-        width: 100%;
-        text-align: center;
-    }
-
     /* ICON */
     .team-icon {
         width: 70px;
@@ -1680,10 +1668,7 @@
 
     /* EACH ITEM */
     .team-item {
-        width: 100%;
         padding: 0px 22px;
-        box-sizing: border-box;
-        text-align: center;
     }
 
     /* ICON */
