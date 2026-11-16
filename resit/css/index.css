@@ -1323,23 +1323,16 @@
         margin-top: 10px;
     }
 
-    .adventure-left-image img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-    /* RIGHT COLUMN */
-    .adventure-right {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
     /* RIGHT IMAGE */
     .adventure-right-image {
         width: 100%;
+    }
+
+
+    .adventure-right-image img {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     /* BOTTOM DESCRIPTION */
@@ -1391,14 +1384,6 @@
 
     .adventure-left-image {
         margin-top: 30px;
-    }
-
-    /* RIGHT COLUMN */
-    .adventure-right {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
     }
 
     /* RIGHT IMAGE PAIR */
