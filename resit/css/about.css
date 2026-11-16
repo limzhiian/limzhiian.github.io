@@ -916,12 +916,6 @@
     /* PERSON NAME */
     .person-info h3 {
         font-size: 18px;
-        margin-bottom: 6px;
-    }
-
-    /* PERSON DESCRIPTION */
-    .person-info p {
-        font-size: 15px;
     }
 
     /* SLIDER DOTS */
@@ -1000,11 +994,6 @@
     .person-info h3 {
         font-size: 16px;
         margin-bottom: 6px;
-    }
-
-    /* PERSON DESCRIPTION */
-    .person-info p {
-        font-size: 15px;
     }
 
     /* SLIDER DOTS */
