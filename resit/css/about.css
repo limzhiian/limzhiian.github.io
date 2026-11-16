@@ -182,15 +182,6 @@
         font-size: 45px;
     }
 
-    /* DESCRIPTION */
-    .story-description {
-        width: 50%;
-        max-width: 570px;
-        margin: 0 0 5px auto;
-        font-size: 16px;
-        line-height: 1.6;
-    }
-
     /* STORY IMAGE */
     .story-image {
         margin: 50px auto 0;
@@ -234,9 +225,8 @@
 
     /* DESCRIPTION */
     .story-description {
-        margin: 0;
         font-size: 15px;
-        line-height: 1.6;
+        width: 100%;
     }
 
     /* IMAGE CONTAINER */
@@ -266,13 +256,6 @@
     /* SMALL LABEL */
     .story-label {
         margin-bottom: 10px;
-    }
-
-    /* DESCRIPTION */
-    .story-description {
-        margin: 0;
-        font-size: 15px;
-        line-height: 1.6;
     }
 
     /* IMAGE CONTAINER */
