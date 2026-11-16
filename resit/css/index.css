@@ -1729,10 +1729,8 @@
 ===================================== */
 
 .review-section {
-    width: 100%;
     background-color: #ffffff;
     padding: 150px 95px;
-    box-sizing: border-box;
 }
 
 /* =====================================
@@ -1847,9 +1845,7 @@
 @media screen and (max-width: 1280px) {
 
     .review-section {
-        width: 100%;
         padding: 95px 30px;
-        box-sizing: border-box;
     }
 
     .review-container {
@@ -1908,7 +1904,6 @@
     /* SECTION */
     .review-section {
         padding: 65px 20px;
-        box-sizing: border-box;
     }
 
     /* CONTAINER */
