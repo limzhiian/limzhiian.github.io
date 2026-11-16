@@ -713,6 +713,7 @@
     padding: 0 70px 150px;
 }
 
+
 /* ==========================
    LARGE LOCATIONS TEXT
 ========================== */
@@ -778,7 +779,6 @@
 ========================== */
 
 .popular-section {
-    width: 100%;
     background-color: #fafaf0;
     padding: 0 70px 150px;
 }
@@ -789,7 +789,6 @@
 ========================== */
 
 .popular-container {
-    width: 100%;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -802,7 +801,6 @@
 .popular-heading {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     gap: 30px;
     margin-bottom: 48px;
 }
@@ -812,28 +810,21 @@
 
 .popular-small-title p {
     font-family: var(--font-heading);
-
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 1.2px;
     color: #160c09;
-
     margin: 0;
 }
 
 
 /* LARGE DESCRIPTION */
-
 .popular-description h2 {
     font-family: var(--font-heading);
-
     font-size: 23px;
     font-weight: 400;
-
     line-height: 1.2;
     letter-spacing: 0.3px;
-
     color: #160c09;
     margin: 0;
 }
@@ -846,7 +837,6 @@
 .popular-gallery {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-
     gap: 28px;
     align-items: start;
 }
@@ -900,9 +890,7 @@
 @media screen and (max-width: 1280px) {
 
     .popular-section {
-        width: 100%;
         padding: 0 30px 95px;
-        box-sizing: border-box;
     }
 
     .popular-container {
@@ -981,7 +969,6 @@
     /* SECTION */
     .popular-section {
         padding: 0 20px 65px;
-        box-sizing: border-box;
     }
 
     /* CONTAINER */
