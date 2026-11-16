@@ -319,17 +319,6 @@
         padding: 0px 30px 80px;
     }
 
-    /* STATS ITEMS */
-    .stats-section>* {
-        flex: 1;
-        min-width: 0;
-    }
-
-    /* EACH STAT */
-    .stat-info {
-        text-align: left;
-    }
-
     /* SMALL TEXT */
     .stat-info p {
         margin: 0 0 8px;
@@ -341,7 +330,6 @@
         margin: 0;
         font-size: 48px;
     }
-
 }
 
 
@@ -354,19 +342,12 @@
     /* STATS SECTION */
     .stats-section {
         flex-wrap: wrap;
-        gap: 20px;
         padding: 0px 20px 65px;
     }
 
     /* STATS ITEMS */
     .stats-section>* {
         flex: 0 0 calc(50% - 10px);
-        min-width: 0;
-    }
-
-    /* EACH STAT */
-    .stat-info {
-        text-align: left;
     }
 
     /* SMALL TEXT */
@@ -380,7 +361,6 @@
         margin: 0;
         font-size: 40px;
     }
-
 }
 
 
