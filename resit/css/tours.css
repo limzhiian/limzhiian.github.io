@@ -571,14 +571,7 @@
     /* FAQ QUESTION */
     .faq-question {
         font-size: 18px;
-        line-height: 1.35;
         padding: 25px 0;
-        gap: 20px;
-    }
-
-    /* PLUS / MINUS ICON */
-    .faq-icon::before {
-        font-size: 23px;
     }
 
     /* FAQ ANSWER */
@@ -629,9 +622,7 @@
 
     /* DESCRIPTION */
     .faq-description {
-        max-width: 100%;
         font-size: 15px;
-        line-height: 1.6;
     }
 
     /* RIGHT CONTENT */
@@ -650,7 +641,6 @@
     /* FAQ QUESTION */
     .faq-question {
         font-size: 16px;
-        padding: 25px 0;
         gap: 15px;
     }
 
