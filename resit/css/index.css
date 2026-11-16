@@ -1758,8 +1758,6 @@
 ===================================== */
 
 .review-description {
-    max-width: 1000px;
-    margin: 0 auto;
     font-family: var(--font-heading);
     font-size: 23px;
     font-weight: 400;
@@ -1851,21 +1849,11 @@
     }
 
     .review-description {
-        max-width: 700px;
         font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.5px;
-        margin: 0 auto;
     }
 
     .review-profile {
         margin-top: 35px;
-    }
-
-    .review-profile img {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 10px;
     }
 
     .review-profile h3 {
@@ -1898,25 +1886,12 @@
 
     /* TESTIMONIAL DESCRIPTION */
     .review-description {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-
         font-size: 18px;
-        line-height: 1.25;
-        letter-spacing: 0.5px;
     }
 
     /* PROFILE */
     .review-profile {
         margin-top: 40px;
-    }
-
-    /* PROFILE IMAGE */
-    .review-profile img {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 12px;
     }
 
     /* PROFILE NAME */
