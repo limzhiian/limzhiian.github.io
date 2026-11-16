@@ -1539,7 +1539,6 @@
 
     /* SMALL HEADING */
     .team-label {
-        font-size: 14px;
         letter-spacing: 1.5px;
         margin-bottom: 15px;
     }
@@ -1618,7 +1617,6 @@
     /* SMALL HEADING */
     .team-label {
         font-size: 13px;
-        letter-spacing: 1.5px;
         margin-bottom: 8px;
     }
 
@@ -1689,13 +1687,6 @@
 ========================= */
 
 @media screen and (max-width: 480px) {
-
-    /* SMALL HEADING */
-    .team-label {
-        font-size: 13px;
-        letter-spacing: 1.5px;
-        margin-bottom: 8px;
-    }
 
     /* MAIN TITLE */
     .team-title {
