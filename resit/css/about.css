@@ -917,12 +917,6 @@
     .person-info h3 {
         font-size: 18px;
     }
-
-    .testimonial-dots span {
-        width: 7px;
-        height: 7px;
-        border-radius: 50%;
-    }
 }
 
 
@@ -988,12 +982,6 @@
         margin-bottom: 6px;
     }
 
-    .testimonial-dots span {
-        width: 7px;
-        height: 7px;
-        border-radius: 50%;
-    }
-
     /* ACTIVE DOT */
     .testimonial-dots span:first-child {
         background-color: #ee9879;
@@ -1006,7 +994,6 @@
 ===================================== */
 
 .brand-section {
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     background-color: #ffffff;
@@ -1059,22 +1046,12 @@
 
     /* BRAND SECTION */
     .brand-section {
-        width: 100%;
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        background-color: #ffffff;
-        border-top: 1px solid #eeeeea;
-        border-bottom: 1px solid #eeeeea;
-        box-sizing: border-box;
     }
 
     /* EACH LOGO BOX */
     .brand-icon {
         height: 120px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-right: 1px solid #eeeeea;
         border-bottom: 1px solid #eeeeea;
         padding: 20px;
     }
@@ -1088,18 +1065,6 @@
     .brand-icon:nth-last-child(-n+3) {
         border-bottom: none;
     }
-
-    /* LOGOS */
-    .brand-icon img {
-        display: block;
-        max-width: 170px;
-        max-height: 65px;
-        width: auto;
-        height: auto;
-        object-fit: contain;
-        opacity: 0.15;
-    }
-
 }
 
 
@@ -1111,23 +1076,12 @@
 
     /* BRAND SECTION */
     .brand-section {
-        width: 100%;
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        background-color: #ffffff;
-        border-top: 1px solid #eeeeea;
-        border-bottom: 1px solid #eeeeea;
-        box-sizing: border-box;
     }
 
     /* EACH LOGO BOX */
     .brand-icon {
         height: 110px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-right: 1px solid #eeeeea;
-        border-bottom: 1px solid #eeeeea;
         padding: 15px;
     }
 
@@ -1150,18 +1104,6 @@
     .brand-icon:nth-last-child(-n+2) {
         border-bottom: none;
     }
-
-    /* LOGOS */
-    .brand-icon img {
-        display: block;
-        max-width: 170px;
-        max-height: 65px;
-        width: auto;
-        height: auto;
-        object-fit: contain;
-        opacity: 0.15;
-    }
-
 }
 
 
