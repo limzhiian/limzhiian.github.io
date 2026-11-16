@@ -1738,9 +1738,6 @@
 ===================================== */
 
 .review-container {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -1848,13 +1845,6 @@
         padding: 95px 30px;
     }
 
-    .review-container {
-        width: 100%;
-        max-width: 1100px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
     .review-stars {
         font-size: 18px;
         margin-bottom: 25px;
@@ -1904,12 +1894,6 @@
     /* SECTION */
     .review-section {
         padding: 65px 20px;
-    }
-
-    /* CONTAINER */
-    .review-container {
-        width: 100%;
-        max-width: none;
     }
 
     /* FIVE STARS */
