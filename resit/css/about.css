@@ -232,11 +232,6 @@
         letter-spacing: 1px;
     }
 
-    /* GREY TITLE */
-    .story-title span {
-        color: #adb0b5;
-    }
-
     /* DESCRIPTION */
     .story-description {
         margin: 0;
@@ -271,11 +266,6 @@
     /* SMALL LABEL */
     .story-label {
         margin-bottom: 10px;
-    }
-
-    /* GREY TITLE */
-    .story-title span {
-        color: #adb0b5;
     }
 
     /* DESCRIPTION */
