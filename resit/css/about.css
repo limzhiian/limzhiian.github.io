@@ -1558,15 +1558,12 @@
     .team-icon {
         width: 80px;
         height: 80px;
-        object-fit: contain;
         margin-bottom: 10px;
     }
 
     /* FEATURE TITLE */
     .team-item h3 {
         font-size: 20px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
         margin-bottom: 10px;
     }
 
@@ -1625,8 +1622,6 @@
     /* FEATURE TITLE */
     .team-item h3 {
         font-size: 18px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
         margin-bottom: 8px;
     }
 
@@ -1663,14 +1658,6 @@
         padding: 0px 22px;
     }
 
-    /* FEATURE TITLE */
-    .team-item h3 {
-        font-size: 18px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        margin-bottom: 8px;
-    }
-
     /* DESCRIPTION */
     .team-item p {
         width: 100%;
@@ -1691,5 +1678,4 @@
         letter-spacing: 1px;
         border-radius: 50px;
     }
-
 }
