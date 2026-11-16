@@ -573,11 +573,6 @@
         padding: 0;
     }
 
-    /* LEFT INTRODUCTION */
-    .leaders-introduction {
-        padding-top: 0;
-    }
-
     /* SMALL TITLE */
     .leaders-label {
         font-size: 14px;
@@ -643,13 +638,6 @@
         gap: 20px;
     }
 
-    /* INTRODUCTION */
-    .leaders-introduction {
-        width: 100%;
-        padding-top: 0;
-        margin-bottom: 5px;
-    }
-
     /* SMALL TITLE */
     .leaders-label {
         font-size: 14px;
@@ -706,12 +694,6 @@
 ================================ */
 
 @media screen and (max-width: 480px) {
-
-    /* INTRODUCTION */
-    .leaders-introduction {
-        width: 100%;
-        margin-bottom: 5px;
-    }
 
     /* SMALL TITLE */
     .leaders-label {
