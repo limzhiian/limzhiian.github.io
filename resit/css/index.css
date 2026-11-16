@@ -1189,10 +1189,8 @@
 ========================= */
 
 .adventure-section {
-    width: 100%;
     background-color: #fafaf0;
     padding: 150px 70px;
-    box-sizing: border-box;
 }
 
 /* =========================
@@ -1200,9 +1198,6 @@
 ========================= */
 
 .adventure-container {
-    width: 100%;
-    max-width: 1390px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 180px;
@@ -1213,10 +1208,6 @@
 /* =========================
    LEFT COLUMN
 ========================= */
-
-.adventure-content {
-    width: 100%;
-}
 
 .adventure-label {
     margin: 0 0 20px;
@@ -1247,13 +1238,11 @@
 }
 
 .adventure-left {
-    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 /* LEFT COMBINED IMAGE */
-
 .adventure-left-image {
     width: 100%;
     margin-top: 115px;
@@ -1272,7 +1261,6 @@
 
 .adventure-right {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1320,20 +1308,11 @@
     /* SECTION */
     .adventure-section {
         padding: 95px 30px;
-        box-sizing: border-box;
     }
 
     /* CONTAINER */
     .adventure-container {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
         column-gap: 30px;
-        align-items: stretch;
-    }
-
-
-    /* LEFT COLUMN */
-    .adventure-content {
-        width: 100%;
     }
 
     .adventure-title {
@@ -1402,7 +1381,6 @@
     /* SECTION */
     .adventure-section {
         padding: 65px 20px;
-        box-sizing: border-box;
     }
 
     /* MAIN CONTAINER */
@@ -1410,12 +1388,6 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        width: 100%;
-    }
-
-    /* LEFT CONTENT */
-    .adventure-content {
-        width: 100%;
     }
 
     .adventure-label {
@@ -1434,11 +1406,6 @@
         font-size: 15px;
         line-height: 1.6;
         margin-bottom: 15px;
-    }
-
-    /* LEFT IMAGE PAIR */
-    .adventure-left {
-        width: 100%;
     }
 
     .adventure-left-image {
