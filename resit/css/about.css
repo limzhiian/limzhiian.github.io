@@ -575,9 +575,7 @@
 
     /* SMALL TITLE */
     .leaders-label {
-        font-size: 14px;
         margin-bottom: 20px;
-        letter-spacing: 2px;
     }
 
     /* MAIN TITLE */
@@ -640,9 +638,7 @@
 
     /* SMALL TITLE */
     .leaders-label {
-        font-size: 14px;
         margin-bottom: 12px;
-        letter-spacing: 2px;
     }
 
     /* MAIN TITLE */
@@ -694,12 +690,6 @@
 ================================ */
 
 @media screen and (max-width: 480px) {
-
-    /* SMALL TITLE */
-    .leaders-label {
-        font-size: 14px;
-        margin-bottom: 12px;
-    }
 
     /* MAIN TITLE */
     .leaders-introduction h2 {
