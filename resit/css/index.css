@@ -1522,16 +1522,6 @@
         font-size: 45px;
     }
 
-    /* FIRST & THIRD IMAGES */
-    .travel-blog-image img {
-        height: 215px;
-    }
-
-    /* SECOND & FOURTH IMAGES */
-    .travel-blog-card:nth-child(even) .travel-blog-image img {
-        height: 305px;
-    }
-
     /* BLOG TITLE */
     .travel-blog-content h3 {
         font-size: 22px;
@@ -1589,19 +1579,15 @@
 ========================= */
 
 .explore-section-banner {
-    width: 100%;
     min-height: 575px;
     background-image: url("../img/explorebanner.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
 }
 
 
 /* MAIN CONTAINER */
 .explore-container {
-    width: 100%;
     max-width: 1510px;
     min-height: 575px;
     margin: 0 auto;
@@ -1609,7 +1595,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: stretch;
-    box-sizing: border-box;
 }
 
 
@@ -1675,23 +1660,13 @@
 
     /* EXPLORE BANNER */
     .explore-section-banner {
-        width: 100%;
         min-height: 500px;
-        background-size: cover;
-        background-position: center;
     }
 
     /* MAIN CONTAINER */
     .explore-container {
-        width: 100%;
-        max-width: 100%;
         min-height: 500px;
-        margin: 0 auto;
         padding: 30px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: stretch;
-        box-sizing: border-box;
     }
 
     /* WHITE CONTENT BOX */
@@ -1739,23 +1714,13 @@
 
     /* EXPLORE BANNER */
     .explore-section-banner {
-        width: 100%;
         min-height: 315px;
-        background-size: cover;
-        background-position: center;
     }
 
     /* MAIN CONTAINER */
     .explore-container {
-        width: 100%;
-        max-width: 100%;
         min-height: 315px;
-        margin: 0 auto;
         padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-        box-sizing: border-box;
     }
 
     /* WHITE CONTENT BOX */
