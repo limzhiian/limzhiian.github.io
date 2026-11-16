@@ -1957,8 +1957,6 @@
 
 .instagram-item {
     position: relative;
-    width: 100%;
-    aspect-ratio: 1 / 1;
     display: block;
 }
 
@@ -1980,14 +1978,6 @@
     /* INSTAGRAM SECTION */
     .instagram-section {
         padding: 95px 30px;
-    }
-
-    /* IMAGE ITEM */
-    .instagram-item {
-        position: relative;
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        min-width: 0;
     }
 
     /* IMAGES */
@@ -2020,14 +2010,6 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
         column-gap: 20px;
         row-gap: 20px;
-    }
-
-    /* IMAGE ITEM */
-    .instagram-item {
-        position: relative;
-        width: 100%;
-        min-width: 0;
-        aspect-ratio: 1 / 1;
     }
 
     /* IMAGES */
