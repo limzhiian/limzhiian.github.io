@@ -1423,8 +1423,6 @@
 
 .travel-blog-image {
     display: block;
-    width: 100%;
-    overflow: hidden;
 }
 
 
@@ -1524,13 +1522,6 @@
         font-size: 45px;
     }
 
-    /* IMAGE CONTAINER */
-    .travel-blog-image {
-        display: block;
-        width: 100%;
-        overflow: hidden;
-    }
-
     /* FIRST & THIRD IMAGES */
     .travel-blog-image img {
         display: block;
@@ -1605,13 +1596,6 @@
     .travel-blog-grid {
         grid-template-columns: 1fr;
         gap: 30px;
-    }
-
-    /* BLOG IMAGE CONTAINER */
-    .travel-blog-image {
-        display: block;
-        width: 100%;
-        overflow: hidden;
     }
 
     /* ALL BLOG IMAGES */
