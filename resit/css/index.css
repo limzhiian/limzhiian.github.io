@@ -1859,12 +1859,6 @@
     .review-profile h3 {
         font-size: 18px;
     }
-
-    .review-dots {
-        gap: 20px;
-        margin-top: 30px;
-    }
-
 }
 
 
@@ -1892,17 +1886,6 @@
     /* PROFILE NAME */
     .review-profile h3 {
         font-size: 16px;
-    }
-
-    /* SLIDER DOTS */
-    .review-dots {
-        gap: 20px;
-        margin-top: 35px;
-    }
-
-    .review-dots span {
-        width: 7px;
-        height: 7px;
     }
 }
 
