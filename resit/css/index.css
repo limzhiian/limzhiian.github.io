@@ -1367,21 +1367,8 @@
 ========================== */
 
 .travel-blog-section {
-    width: 100%;
     background-color: #ffffff;
     padding: 150px 70px;
-    box-sizing: border-box;
-}
-
-
-/* ==========================
-   BLOG CONTAINER
-========================== */
-
-.travel-blog-container {
-    width: 100%;
-    max-width: 1350px;
-    margin: 0 auto;
 }
 
 
@@ -1396,7 +1383,6 @@
 
 
 /* SMALL HEADING */
-
 .travel-blog-heading p {
     margin: 0 0 20px;
     font-family: var(--font-heading);
@@ -1408,7 +1394,6 @@
 
 
 /* MAIN HEADING */
-
 .travel-blog-heading h2 {
     margin: 0;
     font-family: var(--font-heading);
@@ -1453,7 +1438,6 @@
 
 
 /* IMAGE STYLE */
-
 .travel-blog-image img {
     display: block;
     width: 100%;
@@ -1463,7 +1447,6 @@
 
 
 /* SECOND & FOURTH IMAGES */
-
 .travel-blog-card:nth-child(even) .travel-blog-image img {
     height: 305px;
 }
@@ -1479,7 +1462,6 @@
 
 
 /* CATEGORY */
-
 .travel-blog-category {
     margin: 0 0 10px;
     font-family: var(--font-base);
@@ -1505,7 +1487,6 @@
 
 
 /* BLOG TITLE LINK */
-
 .travel-blog-content h3 a {
     color: #160c09;
     text-decoration: none;
@@ -1518,7 +1499,6 @@
 
 .travel-blog-meta {
     margin: 0;
-
     font-family: var(--font-base);
     font-size: 14px;
     font-weight: 400;
@@ -1535,16 +1515,7 @@
 
     /* TRAVEL BLOG SECTION */
     .travel-blog-section {
-        width: 100%;
         padding: 95px 30px;
-        box-sizing: border-box;
-    }
-
-    /* BLOG CONTAINER */
-    .travel-blog-container {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
     }
 
     /* SECTION HEADING */
@@ -1644,16 +1615,7 @@
 
     /* TRAVEL BLOG SECTION */
     .travel-blog-section {
-        width: 100%;
         padding: 65px 20px;
-        box-sizing: border-box;
-    }
-
-    /* BLOG CONTAINER */
-    .travel-blog-container {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
     }
 
     /* SECTION HEADING */
