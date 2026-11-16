@@ -72,7 +72,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-bottom: 0;
 }
 
 .horizons-arrow {
@@ -184,18 +183,6 @@
         display: grid;
         grid-template-columns:
             minmax(0, 1fr) minmax(0, 1.35fr) minmax(0, 1fr);
-        column-gap: 30px;
-        align-items: end;
-        margin-top: 45px;
-        position: relative;
-    }
-
-    /* LEFT COLUMN */
-    .horizons-left {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
     }
 
     .horizons-arrow {
@@ -204,35 +191,21 @@
 
     .horizons-description {
         margin: 0 0 30px;
-        font-size: 14px;
-        line-height: 1.9;
-        letter-spacing: 1.5px;
-    }
-
-    .horizons-button {
-        width: 200px;
-        height: 60px;
-        font-size: 13px;
     }
 
     /* CENTER IMAGE */
     .horizons-center {
         width: 100%;
-        min-width: 0;
     }
 
     .horizons-center img {
         width: 100%;
         height: 465px;
-        object-fit: cover;
-        display: block;
     }
 
     /* RIGHT COLUMN */
     .horizons-right {
         width: 100%;
-        min-width: 0;
-        position: relative;
     }
 
     .horizons-beach {
@@ -241,18 +214,6 @@
         object-fit: cover;
         display: block;
     }
-
-    /* BACKGROUND MOUNTAIN */
-    .horizons-decoration {
-        position: absolute;
-        width: 400px;
-        max-width: none;
-        right: -25px;
-        bottom: 265px;
-        z-index: 0;
-        pointer-events: none;
-    }
-
 }
 
 
@@ -286,10 +247,6 @@
 
     /* LEFT CONTENT */
     .horizons-left {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
         padding: 0;
         margin-bottom: 10px;
     }
@@ -303,8 +260,6 @@
     .horizons-description {
         margin: 0 0 15px;
         font-size: 13px;
-        line-height: 1.8;
-        letter-spacing: 1px;
     }
 
     /* BUTTON */
@@ -314,54 +269,18 @@
         font-size: 13px;
     }
 
-    /* TOP MOUNTAIN IMAGE */
-    .horizons-center {
-        width: 100%;
-        min-width: 0;
-    }
-
     .horizons-center img {
-        display: block;
-
-        width: 100%;
         height: auto;
-        aspect-ratio: 726 / 837;
-
-        object-fit: cover;
-        object-position: center;
-    }
-
-    /* BOTTOM BEACH IMAGE */
-    .horizons-right {
-        width: 100%;
-        min-width: 0;
-        position: relative;
     }
 
     .horizons-beach {
         display: block;
-
         width: 100%;
         height: auto;
         aspect-ratio: 726 / 669;
-
         object-fit: cover;
         object-position: center;
     }
-
-    /* BACKGROUND MOUNTAIN */
-    .horizons-decoration {
-        position: absolute;
-        width: 400px;
-
-        right: -20px;
-        bottom: auto;
-        top: -1450px;
-
-        z-index: 0;
-        pointer-events: none;
-    }
-
 }
 
 
