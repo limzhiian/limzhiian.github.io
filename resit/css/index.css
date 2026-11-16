@@ -1674,11 +1674,6 @@
         width: 320px;
         min-height: 440px;
         padding: 40px 35px;
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-sizing: border-box;
     }
 
     /* MAIN HEADING */
@@ -1728,11 +1723,6 @@
         width: 100%;
         min-height: 275px;
         padding: 35px 30px;
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-sizing: border-box;
     }
 
     /* MAIN HEADING */
