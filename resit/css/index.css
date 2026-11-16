@@ -1418,15 +1418,6 @@
 
 
 /* ==========================
-   BLOG CARD
-========================== */
-
-.travel-blog-card {
-    min-width: 0;
-}
-
-
-/* ==========================
    BLOG IMAGES
 ========================== */
 
@@ -1533,12 +1524,6 @@
         font-size: 45px;
     }
 
-    /* BLOG CARD */
-    .travel-blog-card {
-        width: 100%;
-        min-width: 0;
-    }
-
     /* IMAGE CONTAINER */
     .travel-blog-image {
         display: block;
@@ -1620,12 +1605,6 @@
     .travel-blog-grid {
         grid-template-columns: 1fr;
         gap: 30px;
-    }
-
-    /* BLOG CARD */
-    .travel-blog-card {
-        width: 100%;
-        min-width: 0;
     }
 
     /* BLOG IMAGE CONTAINER */
