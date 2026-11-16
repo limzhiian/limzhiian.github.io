@@ -1070,7 +1070,7 @@
    BACKGROUND OVERLAY
 ========================== */
 
-.memories-banner-section::before::before {
+.memories-banner-section::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -1142,15 +1142,6 @@
         height: 400px;
     }
 
-    /* BACKGROUND OVERLAY */
-    .memories-banner-section::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.12);
-        z-index: 1;
-    }
-
     /* CONTENT CONTAINER */
     .banner-content {
         position: relative;
@@ -1205,15 +1196,6 @@
     .memories-banner-section {
         height: 350px;
         padding: 30px 20px;
-    }
-
-    /* BACKGROUND OVERLAY */
-    .memories-banner-section::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.12);
-        z-index: 1;
     }
 
     /* CONTENT CONTAINER */
