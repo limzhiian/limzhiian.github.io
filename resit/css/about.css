@@ -1244,9 +1244,7 @@
 
     /* EXPLORE SECTION */
     .explore-section {
-        width: 100%;
         padding: 95px 30px;
-        box-sizing: border-box;
     }
 
     /* TOP CONTENT */
@@ -1346,9 +1344,7 @@
 
     /* EXPLORE SECTION */
     .explore-section {
-        width: 100%;
         padding: 65px 20px;
-        box-sizing: border-box;
     }
 
     /* TOP CONTENT */
@@ -1454,13 +1450,6 @@
 ========================= */
 
 @media screen and (max-width: 480px) {
-
-    /* EXPLORE SECTION */
-    .explore-section {
-        width: 100%;
-        padding: 65px 20px;
-        box-sizing: border-box;
-    }
 
     /* IMAGE GALLERY */
     .explore-gallery {
