@@ -1963,7 +1963,6 @@
 
 .instagram-item img {
     width: 100%;
-    height: 100%;
     display: block;
     object-fit: cover;
 }
@@ -1978,14 +1977,6 @@
     /* INSTAGRAM SECTION */
     .instagram-section {
         padding: 95px 30px;
-    }
-
-    /* IMAGES */
-    .instagram-item img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
     }
 }
 
@@ -2011,11 +2002,4 @@
         column-gap: 20px;
         row-gap: 20px;
     }
-
-    /* IMAGES */
-    .instagram-item img {
-        display: block;
-        object-fit: cover;
-    }
-
 }
