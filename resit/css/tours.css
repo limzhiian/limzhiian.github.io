@@ -141,6 +141,7 @@
     }
 }
 
+
 /* =========================
    TOURS TITLE - 765px
 ========================= */
@@ -195,10 +196,6 @@
 .tour-card {
     display: flex;
     gap: 28px;
-    width: 100%;
-    max-width: 1290px;
-    margin: 0 auto;
-    box-sizing: border-box;
 }
 
 /* LEFT SIDE */
@@ -426,7 +423,6 @@
     .explore-btn span {
         font-size: 24px;
     }
-
 }
 
 
@@ -439,22 +435,6 @@
     /* TOURS CONTAINER */
     .tours-container {
         gap: 20px;
-    }
-
-    /* TOUR CARD */
-    .tour-card {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-        gap: 20px;
-    }
-
-    /* BOTH COLUMNS */
-    .tour-card> :first-child,
-    .tour-card> :last-child {
-        width: 100%;
     }
 
     /* LEFT IMAGE */
