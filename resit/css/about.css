@@ -1546,9 +1546,6 @@
     /* MAIN TITLE */
     .team-title {
         font-size: 45px;
-        font-weight: 400;
-        letter-spacing: 1px;
-        line-height: 1.1;
     }
 
     /* THREE COLUMN GRID */
@@ -1623,9 +1620,6 @@
     /* MAIN TITLE */
     .team-title {
         font-size: 30px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        line-height: 1.2;
     }
 
     /* SINGLE COLUMN GRID */
@@ -1678,7 +1672,6 @@
         letter-spacing: 1px;
         border-radius: 50px;
     }
-
 }
 
 
@@ -1687,14 +1680,6 @@
 ========================= */
 
 @media screen and (max-width: 480px) {
-
-    /* MAIN TITLE */
-    .team-title {
-        font-size: 30px;
-        font-weight: 400;
-        letter-spacing: 0.5px;
-        line-height: 1.2;
-    }
 
     /* SINGLE COLUMN */
     .team-grid {
