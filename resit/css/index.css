@@ -1985,12 +1985,6 @@
         padding: 95px 30px;
     }
 
-    /* INSTAGRAM UNDERLINE */
-    .instagram-title a::after {
-        bottom: -7px;
-        height: 1px;
-    }
-
     /* IMAGE GRID */
     .instagram-grid {
         display: grid;
@@ -2032,12 +2026,6 @@
 
     .instagram-title p {
         font-size: 13px;
-    }
-
-    /* INSTAGRAM UNDERLINE */
-    .instagram-title a::after {
-        bottom: -7px;
-        height: 1px;
     }
 
     /* IMAGE GRID */
