@@ -1524,20 +1524,12 @@
 
     /* FIRST & THIRD IMAGES */
     .travel-blog-image img {
-        display: block;
-        width: 100%;
         height: 215px;
-        object-fit: cover;
     }
 
     /* SECOND & FOURTH IMAGES */
     .travel-blog-card:nth-child(even) .travel-blog-image img {
         height: 305px;
-    }
-
-    /* BLOG CONTENT */
-    .travel-blog-content {
-        padding-top: 18px;
     }
 
     /* CATEGORY */
@@ -1599,17 +1591,8 @@
     }
 
     /* ALL BLOG IMAGES */
-    .travel-blog-image img,
-    .travel-blog-card:nth-child(even) .travel-blog-image img {
-        display: block;
-        width: 100%;
+    .travel-blog-image img {
         height: 535px;
-        object-fit: cover;
-    }
-
-    /* BLOG CONTENT */
-    .travel-blog-content {
-        padding-top: 18px;
     }
 
     /* CATEGORY */
