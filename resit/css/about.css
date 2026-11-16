@@ -595,20 +595,26 @@
 
 
 /* ================================
-   LEADERS SECTION - 765px
+   LEADERS SECTION - 765px TABLET
 ================================ */
 
 @media screen and (max-width: 765px) {
 
     /* LEADERS SECTION */
     .leaders-section {
-        padding: 0px 20px 65px;
+        padding: 0 20px 65px;
     }
 
-    /* MAIN CONTAINER */
+    /* MAIN GRID */
     .leaders-grid {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
+    }
+
+    /* INTRODUCTION - FULL WIDTH */
+    .leaders-introduction {
+        grid-column: 1 / -1;
     }
 
     /* SMALL TITLE */
@@ -620,6 +626,11 @@
     .leaders-introduction h2 {
         font-size: 36px;
         margin-bottom: 18px;
+    }
+
+    /* DESCRIPTION */
+    .leaders-description {
+        font-size: 20px;
     }
 
     /* LEADER IMAGES */
