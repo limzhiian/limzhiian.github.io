@@ -1628,7 +1628,6 @@
 
 /* DESCRIPTION */
 .explore-description {
-    margin: 0;
     font-family: var(--font-base);
     font-size: 14px;
     font-weight: 400;
@@ -1643,12 +1642,11 @@
 
 .explore-bottom a {
     font-family: var(--font-heading);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
     color: #160c09;
-    transition: color 0.3s ease;
 }
 
 
@@ -1680,24 +1678,12 @@
     .explore-title {
         margin: 0 0 20px;
         font-size: 36px;
-        font-weight: 400;
-        line-height: 1.05;
-        letter-spacing: 1px;
     }
 
     /* DESCRIPTION */
     .explore-description {
-        margin: 0;
         font-size: 16px;
-        line-height: 1.65;
     }
-
-    /* BOTTOM LINK */
-    .explore-bottom a {
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-
 }
 
 
@@ -1729,24 +1715,12 @@
     .explore-title {
         margin: 0 0 15px;
         font-size: 26px;
-        font-weight: 400;
-        line-height: 1.1;
-        letter-spacing: 1px;
     }
 
     /* DESCRIPTION */
     .explore-description {
-        margin: 0;
         font-size: 15px;
-        line-height: 1.65;
     }
-
-    /* BOTTOM LINK */
-    .explore-bottom a {
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-
 }
 
 
