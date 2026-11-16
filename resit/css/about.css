@@ -550,7 +550,6 @@
 
 /* Position */
 .leader-card p {
-    margin: 0;
     font-family: var(--font-base);
     font-size: 15px;
     color: #9a9da5;
@@ -654,7 +653,6 @@
 ================================ */
 
 .large-elementra-banner {
-    width: 100%;
     background-color: #f8f8ee;
     padding-bottom: 150px;
     display: flex;
@@ -664,9 +662,7 @@
 
 
 /* Large ELEMENTRA text */
-
 .large-elementra-banner h2 {
-    margin: 0;
     font-family: var(--font-heading);
     font-size: 200px;
     font-weight: 400;
@@ -682,24 +678,13 @@
 @media screen and (max-width: 1280px) {
 
     .large-elementra-banner {
-        width: 100%;
         padding: 0px 30px 95px;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     /* LARGE ELEMENTRA TEXT */
     .large-elementra-banner h2 {
-        margin: 0;
         font-size: 13.5vw;
-        font-weight: 400;
-        line-height: 1;
-        text-align: center;
-        white-space: nowrap;
     }
-
 }
 
 
@@ -710,24 +695,13 @@
 @media screen and (max-width: 765px) {
 
     .large-elementra-banner {
-        width: 100%;
         padding: 0px 20px 65px;
-        box-sizing: border-box;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     /* LARGE ELEMENTRA TEXT */
     .large-elementra-banner h2 {
-        margin: 0;
         font-size: 13vw;
-        font-weight: 400;
-        line-height: 1;
-        text-align: center;
-        white-space: nowrap;
     }
-
 }
 
 
@@ -751,7 +725,6 @@
 
 
 /* Small heading */
-
 .testimonial-header p {
     margin: 0 0 25px;
     font-family: var(--font-base);
@@ -763,7 +736,6 @@
 
 
 /* Large heading */
-
 .testimonial-header h2 {
     margin: 0;
     font-family: var(--font-heading);
@@ -901,14 +873,7 @@
 
     /* TESTIMONIAL SECTION */
     .testimonial-section {
-        width: 100%;
         padding: 0px 30px 95px;
-        box-sizing: border-box;
-    }
-
-    /* HEADER */
-    .testimonial-header {
-        text-align: center;
     }
 
     /* SMALL HEADING */
@@ -1008,14 +973,7 @@
 
     /* TESTIMONIAL SECTION */
     .testimonial-section {
-        width: 100%;
         padding: 0px 20px 65px;
-        box-sizing: border-box;
-    }
-
-    /* HEADER */
-    .testimonial-header {
-        text-align: center;
     }
 
     /* SMALL HEADING */
@@ -1120,7 +1078,6 @@
     .testimonial-dots span:first-child {
         background-color: #ee9879;
     }
-
 }
 
 
