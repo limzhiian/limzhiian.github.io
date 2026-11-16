@@ -814,7 +814,6 @@
     font-weight: 400;
     letter-spacing: 1.2px;
     color: #160c09;
-    margin: 0;
 }
 
 
@@ -826,7 +825,6 @@
     line-height: 1.2;
     letter-spacing: 0.3px;
     color: #160c09;
-    margin: 0;
 }
 
 
@@ -845,21 +843,12 @@
    IMAGE CONTAINER
 ========================== */
 
-.popular-image {
-    width: 100%;
-    height: 380px;
-    overflow: hidden;
-}
-
 /* IMAGES */
-
 .popular-image img {
     display: block;
     width: 100%;
     height: 100%;
-
     object-fit: cover;
-    transition: transform 0.5s ease;
 }
 
 /* IMAGE 1 */
@@ -893,55 +882,10 @@
         padding: 0 30px 95px;
     }
 
-    /* SMALL TITLE */
-    .popular-small-title p {
-        font-size: 14px;
-    }
-
     /* LARGE DESCRIPTION */
     .popular-description h2 {
         font-size: 20px;
-        line-height: 1.2;
     }
-
-    /* IMAGE GALLERY */
-    .popular-gallery {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 28px;
-        align-items: start;
-    }
-
-    /* IMAGE CONTAINER */
-    .popular-image {
-        width: 100%;
-        height: 380px;
-        overflow: hidden;
-    }
-
-    .popular-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    /* IMAGE POSITIONS */
-    .popular-image:nth-child(1) {
-        margin-top: 0;
-    }
-
-    .popular-image:nth-child(2) {
-        margin-top: 30px;
-    }
-
-    .popular-image:nth-child(3) {
-        margin-top: 0;
-    }
-
-    .popular-image:nth-child(4) {
-        margin-top: 30px;
-    }
-
 }
 
 
@@ -967,51 +911,26 @@
     /* SMALL TITLE */
     .popular-small-title p {
         font-size: 13px;
-        letter-spacing: 1px;
     }
 
     /* LARGE DESCRIPTION */
     .popular-description h2 {
         font-size: 18px;
-        line-height: 1.2;
-        letter-spacing: 0.3px;
     }
 
     /* IMAGE GALLERY */
     .popular-gallery {
-        display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
-        align-items: start;
+        gap: 15px;
     }
 
     /* IMAGE CONTAINER */
     .popular-image {
-        width: 100%;
         height: auto;
-        aspect-ratio: 1 / 1.25;
-        overflow: hidden;
-    }
-
-    /* IMAGES */
-    .popular-image img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    /* STAGGERED IMAGE SPACING */
-    .popular-image:nth-child(1) {
-        margin-top: 0;
     }
 
     .popular-image:nth-child(2) {
         margin-top: 12px;
-    }
-
-    .popular-image:nth-child(3) {
-        margin-top: 0;
     }
 
     .popular-image:nth-child(4) {
@@ -1027,9 +946,7 @@
 .stats-section {
     width: 100%;
     background-color: #fafaf0;
-
     padding: 0 70px 150px;
-    box-sizing: border-box;
 }
 
 /* ==========================
@@ -1037,14 +954,9 @@
 ========================== */
 
 .stats-container {
-    width: 100%;
     max-width: 1300px;
-
-    margin: 0 auto;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-
     gap: 30px;
     align-items: center;
 }
@@ -1056,10 +968,8 @@
 .stats-item {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
 }
 
@@ -1069,14 +979,11 @@
 
 .stats-item h2 {
     margin: 0;
-
     font-family: var(--font-heading);
     font-size: 120px;
     font-weight: 400;
-
     line-height: 1;
     letter-spacing: -3px;
-
     color: #180b08;
 }
 
@@ -1086,13 +993,10 @@
 
 .stats-item p {
     margin: 8px 0 0;
-
     font-family: var(--font-heading);
     font-size: 23px;
     font-weight: 400;
-
     line-height: 1.2;
-
     color: #180b08;
 }
 
@@ -1105,41 +1009,23 @@
 
     /* SECTION */
     .stats-section {
-        width: 100%;
         padding: 0 30px 95px;
-        box-sizing: border-box;
-    }
-
-    /* CONTAINER */
-    .stats-container {
-        width: 100%;
-        max-width: 100%;
-
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-
-        gap: 30px;
-        align-items: center;
     }
 
     /* STATISTICS ITEM */
     .stats-item {
         display: flex;
         flex-direction: column;
-
         align-items: center;
         justify-content: center;
-
         text-align: center;
     }
 
     /* NUMBERS */
     .stats-item h2 {
         margin: 0;
-
         font-size: 65px;
         font-weight: 400;
-
         line-height: 1;
         letter-spacing: -1px;
     }
@@ -1147,10 +1033,8 @@
     /* LABELS */
     .stats-item p {
         margin: 8px 0 0;
-
         font-size: 20px;
         font-weight: 400;
-
         line-height: 1.2;
     }
 
@@ -1165,23 +1049,14 @@
 
     /* SECTION */
     .stats-section {
-        width: 100%;
         padding: 0 20px 65px;
-        box-sizing: border-box;
     }
 
     /* CONTAINER */
     .stats-container {
-        width: 100%;
-        max-width: 100%;
-
-        display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-
         column-gap: 20px;
         row-gap: 20px;
-
-        align-items: center;
     }
 
     /* STATISTICS ITEM */
