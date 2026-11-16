@@ -321,12 +321,6 @@
         margin-bottom: 8px;
     }
 
-    /* TOUR DAYS */
-    .tour-days {
-        font-size: 14px;
-        margin-bottom: 25px;
-    }
-
     /* DESCRIPTION */
     .tour-description {
         font-size: 14px;
@@ -375,8 +369,6 @@
     /* CARD HEADING */
     .tour-content h2 {
         font-size: 19px;
-        font-weight: 400;
-        margin-top: 0;
         margin-bottom: 5px;
     }
 
@@ -420,14 +412,6 @@
     /* TOUR HEADING */
     .tour-content h2 {
         font-size: 18px;
-        font-weight: 400;
-        margin-bottom: 5px;
-    }
-
-    /* TOUR DAYS */
-    .tour-days {
-        font-size: 14px;
-        margin-bottom: 20px;
     }
 
     /* DESCRIPTION */
