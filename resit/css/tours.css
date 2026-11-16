@@ -656,7 +656,6 @@
 
 
 /* TOUR TRAVEL BANNER */
-
 .tour-travel-banner {
     position: relative;
     height: 450px;
@@ -731,12 +730,6 @@
         height: 100%;
     }
 
-    /* BANNER CONTENT */
-    .banner-content {
-        text-align: center;
-        transform: translateY(-15px);
-    }
-
     /* BANNER HEADING */
     .banner-content h2 {
         font-size: 36px;
@@ -769,11 +762,7 @@
 
     /* BANNER CONTENT */
     .banner-content {
-        width: 100%;
         padding: 0 20px;
-        text-align: center;
-        transform: none;
-        box-sizing: border-box;
     }
 
     /* BANNER HEADING */
