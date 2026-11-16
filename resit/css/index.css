@@ -1929,7 +1929,6 @@
 
 
 /* Orange underline */
-
 .instagram-title a::after {
     content: "";
     position: absolute;
@@ -1986,12 +1985,6 @@
         padding: 95px 30px;
     }
 
-    .instagram-title p {
-        font-size: 14px;
-        font-weight: 400;
-        letter-spacing: 1.5px;
-    }
-
     /* INSTAGRAM UNDERLINE */
     .instagram-title a::after {
         bottom: -7px;
@@ -2002,9 +1995,7 @@
     .instagram-grid {
         display: grid;
         grid-template-columns: repeat(6, minmax(0, 1fr));
-
         gap: 28px;
-
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
@@ -2023,10 +2014,8 @@
         display: block;
         width: 100%;
         height: 100%;
-
         object-fit: cover;
     }
-
 }
 
 
@@ -2043,8 +2032,6 @@
 
     .instagram-title p {
         font-size: 13px;
-        font-weight: 400;
-        letter-spacing: 1.5px;
     }
 
     /* INSTAGRAM UNDERLINE */
