@@ -588,11 +588,6 @@
         font-size: 20px;
     }
 
-    /* LEADER CARD */
-    .leader-card {
-        width: 100%;
-    }
-
     /* LEADER IMAGE */
     .leader-card img {
         width: 100%;
@@ -642,12 +637,6 @@
         margin-bottom: 18px;
     }
 
-    /* LEADER CARDS */
-    .leader-card {
-        width: 48%;
-        box-sizing: border-box;
-    }
-
     /* LEADER IMAGES */
     .leader-card img {
         display: block;
@@ -676,12 +665,6 @@
 ================================ */
 
 @media screen and (max-width: 480px) {
-
-    /* LEADER CARDS */
-    .leader-card {
-        width: 47%;
-        box-sizing: border-box;
-    }
 
     /* LEADER IMAGES */
     .leader-card img {
