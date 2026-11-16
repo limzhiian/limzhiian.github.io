@@ -1317,12 +1317,6 @@
         margin-top: 10px;
     }
 
-    .adventure-right-image img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
     /* BOTTOM DESCRIPTION */
     .adventure-bottom-description {
         width: 100%;
@@ -1372,12 +1366,6 @@
 
     .adventure-left-image {
         margin-top: 30px;
-    }
-
-    .adventure-right-image img {
-        display: block;
-        width: 100%;
-        height: auto;
     }
 
     /* BOTTOM DESCRIPTION */
