@@ -893,15 +893,6 @@
         padding: 0 30px 95px;
     }
 
-    /* TOP HEADING */
-    .popular-heading {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-
-        margin-bottom: 48px;
-    }
-
     /* SMALL TITLE */
     .popular-small-title p {
         font-size: 14px;
