@@ -893,12 +893,6 @@
         padding: 0 30px 95px;
     }
 
-    .popular-container {
-        width: 100%;
-        max-width: 1300px;
-        margin: 0 auto;
-    }
-
     /* TOP HEADING */
     .popular-heading {
         display: grid;
@@ -969,11 +963,6 @@
     /* SECTION */
     .popular-section {
         padding: 0 20px 65px;
-    }
-
-    /* CONTAINER */
-    .popular-container {
-        width: 100%;
     }
 
     /* TOP HEADING */
