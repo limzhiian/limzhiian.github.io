@@ -411,7 +411,6 @@
 
     /* DIVIDER LINE */
     .divider-line {
-        height: 1px;
         margin: 0 auto 95px;
     }
 
@@ -424,7 +423,6 @@
     .divider-line::after {
         right: 0;
     }
-
 }
 
 
@@ -441,7 +439,6 @@
 
     /* DIVIDER LINE */
     .divider-line {
-        height: 1px;
         margin: 0 auto 65px;
     }
 
@@ -450,7 +447,6 @@
     .divider-line::after {
         display: none;
     }
-
 }
 
 
@@ -462,7 +458,6 @@
     background-color: #fafaf0;
     padding: 0 95px 150px;
 }
-
 
 
 /* ==================================
@@ -534,7 +529,6 @@
 
 
 /* Image */
-
 .leader-card img {
     display: block;
     width: 100%;
@@ -545,7 +539,6 @@
 
 
 /* Leader name */
-
 .leader-card h3 {
     margin: 25px 0 5px;
     font-family: var(--font-heading);
@@ -556,7 +549,6 @@
 
 
 /* Position */
-
 .leader-card p {
     margin: 0;
     font-family: var(--font-base);
@@ -573,9 +565,7 @@
 
     /* LEADERS SECTION */
     .leaders-section {
-        width: 100%;
         padding: 0px 30px 95px;
-        box-sizing: border-box;
     }
 
     /* MAIN GRID */
@@ -649,9 +639,7 @@
 
     /* LEADERS SECTION */
     .leaders-section {
-        width: 100%;
         padding: 0px 20px 65px;
-        box-sizing: border-box;
     }
 
     /* MAIN CONTAINER */
@@ -727,13 +715,6 @@
 ================================ */
 
 @media screen and (max-width: 480px) {
-
-    /* LEADERS SECTION */
-    .leaders-section {
-        width: 100%;
-        padding: 0px 20px 65px;
-        box-sizing: border-box;
-    }
 
     /* MAIN CONTAINER */
     .leaders-grid {
