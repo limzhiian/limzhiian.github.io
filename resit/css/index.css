@@ -1317,13 +1317,6 @@
         margin-top: 10px;
     }
 
-    /* BOTTOM DESCRIPTION */
-    .adventure-bottom-description {
-        width: 100%;
-        margin-top: 45px;
-        padding-top: 0;
-    }
-
     .adventure-bottom-description p {
         font-size: 16px;
         line-height: 1.6;
@@ -1366,13 +1359,6 @@
 
     .adventure-left-image {
         margin-top: 30px;
-    }
-
-    /* BOTTOM DESCRIPTION */
-    .adventure-bottom-description {
-        width: 100%;
-        padding-top: 25px;
-        margin-top: 0;
     }
 
     .adventure-bottom-description p {
