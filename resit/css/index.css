@@ -3,9 +3,7 @@
 ========================= */
 
 .horizons-section {
-    width: 100%;
     background-color: #fafaf0;
-
     padding: 50px 70px 80px;
     overflow: hidden;
     box-sizing: border-box;
@@ -14,7 +12,6 @@
 .horizons-container {
     width: 100%;
     max-width: 1390px;
-    margin: 0 auto;
     position: relative;
 }
 
@@ -31,33 +28,24 @@
 
 .horizons-heading h2 {
     margin: 0;
-
-
     font-family: var(--font-heading);
     font-weight: 400;
-
     color: #160c09;
 }
 
 .horizons-heading-small {
     display: block;
-
     font-size: 104px;
     font-weight: 400;
-
     line-height: 1;
     letter-spacing: 1px;
 }
 
 .horizons-heading-large {
     display: block;
-
     font-size: 140px;
     font-weight: 400;
-
-    line-height: 0.98;
-    letter-spacing: -2px;
-    white-space: nowrap;
+    line-height: 1;
 }
 
 
@@ -67,15 +55,11 @@
 
 .horizons-content {
     display: grid;
-
     grid-template-columns: 350px 464px 348px;
-
     justify-content: space-between;
     align-items: end;
-
     column-gap: 30px;
     margin-top: 45px;
-
     position: relative;
 }
 
@@ -98,14 +82,11 @@
 /* DESCRIPTION */
 .horizons-description {
     margin: 0 0 35px;
-
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 1.5px;
     line-height: 1.9;
-
     color: #160c09;
 }
 
@@ -114,25 +95,19 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
     width: 200px;
     height: 60px;
     box-sizing: border-box;
-
     border: 1px solid #160c09;
     border-radius: 50px;
-
     font-family: var(--font-heading);
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 1.5px;
-
     color: #160c09;
     background-color: transparent;
-
     text-decoration: none;
     cursor: pointer;
-
     transition: all 0.3s ease;
 }
 
@@ -147,10 +122,8 @@
 
 .horizons-center img {
     display: block;
-
     width: 464px;
     height: 535px;
-
     object-fit: cover;
     object-position: center;
 }
@@ -167,13 +140,10 @@
 
 .horizons-beach {
     display: block;
-
     width: 348px;
     height: 320px;
-
     object-fit: cover;
     object-position: center;
-
     position: relative;
     z-index: 1;
 }
@@ -181,13 +151,10 @@
 /* BACKGROUND MOUNTAIN */
 .horizons-decoration {
     position: absolute;
-
     width: 480px;
     max-width: none;
-
     right: -25px;
     bottom: 265px;
-
     z-index: 0;
     pointer-events: none;
 }
@@ -201,52 +168,24 @@
 
     /* SECTION */
     .horizons-section {
-        width: 100%;
         padding: 50px 30px;
-        overflow: hidden;
-        box-sizing: border-box;
-    }
-
-    /* CONTAINER */
-    .horizons-container {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        position: relative;
-    }
-
-    /* MAIN HEADING */
-    .horizons-heading {
-        width: 100%;
-        position: relative;
-        z-index: 2;
     }
 
     .horizons-heading-small {
-        display: block;
         font-size: 90px;
-        line-height: 1;
-        letter-spacing: 1px;
     }
 
     .horizons-heading-large {
-        display: block;
         font-size: clamp(70px, 10vw, 140px);
-        line-height: 0.98;
-        letter-spacing: -2px;
-        white-space: nowrap;
     }
 
     /* CONTENT GRID */
     .horizons-content {
         display: grid;
-
         grid-template-columns:
             minmax(0, 1fr) minmax(0, 1.35fr) minmax(0, 1fr);
-
         column-gap: 30px;
         align-items: end;
-
         margin-top: 45px;
         position: relative;
     }
@@ -325,39 +264,15 @@
 
     /* SECTION */
     .horizons-section {
-        width: 100%;
         padding: 20px 20px 30px;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-
-    /* CONTAINER */
-    .horizons-container {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    /* MAIN HEADING */
-    .horizons-heading {
-        width: 100%;
-        position: relative;
-        z-index: 2;
     }
 
     .horizons-heading-small {
-        display: block;
         font-size: 50px;
-        line-height: 1;
-        letter-spacing: 0;
     }
 
     .horizons-heading-large {
-        display: block;
         font-size: 75px;
-        line-height: 1;
-        letter-spacing: -1px;
-        white-space: normal;
     }
 
     /* CONTENT LAYOUT */
@@ -365,7 +280,6 @@
         display: flex;
         flex-direction: column;
         align-items: stretch;
-
         gap: 20px;
         margin-top: 20px;
     }
@@ -376,7 +290,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-
         padding: 0;
         margin-bottom: 10px;
     }
@@ -389,7 +302,6 @@
     /* DESCRIPTION */
     .horizons-description {
         margin: 0 0 15px;
-
         font-size: 13px;
         line-height: 1.8;
         letter-spacing: 1px;
@@ -462,16 +374,11 @@
     /* EXPLORE */
     .horizons-heading-small {
         font-size: 33px;
-        line-height: 1;
-        letter-spacing: 0;
     }
 
     /* NEW HORIZONS */
     .horizons-heading-large {
         font-size: 48px;
-        line-height: 1;
-        letter-spacing: -0.5px;
-        white-space: normal;
     }
 
 }
