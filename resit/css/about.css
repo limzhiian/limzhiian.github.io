@@ -592,11 +592,6 @@
     .leader-card img {
         height: 505px;
     }
-
-    /* LEADER POSITION */
-    .leader-card p {
-        font-size: 15px;
-    }
 }
 
 
@@ -638,11 +633,6 @@
         font-size: 18px;
         margin: 15px 0 5px;
     }
-
-    /* LEADER POSITION */
-    .leader-card p {
-        font-size: 15px;
-    }
 }
 
 
@@ -655,11 +645,6 @@
     /* LEADER IMAGES */
     .leader-card img {
         height: 280px;
-    }
-
-    /* LEADER POSITION */
-    .leader-card p {
-        font-size: 15px;
     }
 }
 
