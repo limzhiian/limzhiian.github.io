@@ -323,9 +323,6 @@
 
     /* DESCRIPTION */
     .tour-description {
-        font-size: 14px;
-        line-height: 1.8;
-
         max-width: 290px;
     }
 
@@ -374,14 +371,11 @@
 
     /* TOUR DAYS */
     .tour-days {
-        font-size: 14px;
         margin-bottom: 20px;
     }
 
     /* DESCRIPTION */
     .tour-description {
-        font-size: 14px;
-        line-height: 1.8;
         max-width: 100%;
         margin-bottom: 20px;
     }
@@ -412,13 +406,6 @@
     /* TOUR HEADING */
     .tour-content h2 {
         font-size: 18px;
-    }
-
-    /* DESCRIPTION */
-    .tour-description {
-        font-size: 14px;
-        line-height: 1.8;
-        max-width: 100%;
     }
 
     /* EXPLORE BUTTON */
