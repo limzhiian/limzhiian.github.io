@@ -244,7 +244,6 @@
         width: 5px;
         height: 5px;
     }
-
 }
 
 
@@ -263,7 +262,6 @@
     .contact-horizontal-line::after {
         display: none;
     }
-
 }
 
 
@@ -332,15 +330,9 @@
         padding: 0px 20px 65px;
     }
 
-    /* CONTACT MESSAGE */
-    .contact-message {
-        padding-left: 0;
-    }
-
     .contact-message p {
         font-family: var(--font-heading);
         font-size: 26px;
         line-height: 1.1;
     }
-
 }
