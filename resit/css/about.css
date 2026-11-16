@@ -169,18 +169,12 @@
     /* STORY SECTION */
     .story-section {
         padding: 80px 30px;
-        box-sizing: border-box;
     }
 
     /* SMALL LABEL */
     .story-label {
         font-size: 14px;
         margin-bottom: 20px;
-    }
-
-    /* TEXT AREA */
-    .story-content {
-        gap: 30px;
     }
 
     /* LARGE TITLE */
@@ -263,7 +257,6 @@
     .story-image img {
         height: 350px;
     }
-
 }
 
 
@@ -276,17 +269,11 @@
     /* STORY SECTION */
     .story-section {
         padding: 65px 20px;
-        box-sizing: border-box;
     }
 
     /* SMALL LABEL */
     .story-label {
         margin-bottom: 10px;
-    }
-
-    /* TEXT AREA */
-    .story-content {
-        gap: 20px;
     }
 
     /* LARGE TITLE */
