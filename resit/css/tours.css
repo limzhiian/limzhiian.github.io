@@ -578,11 +578,6 @@
     .faq-answer {
         padding: 0 30px 25px 0;
     }
-
-    .faq-answer p {
-        font-size: 15px;
-        line-height: 1.6;
-    }
 }
 
 
@@ -656,7 +651,6 @@
 
     .faq-answer p {
         font-size: 14px;
-        line-height: 1.6;
     }
 
 }
