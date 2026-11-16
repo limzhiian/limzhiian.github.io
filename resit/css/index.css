@@ -1244,7 +1244,6 @@
 
 /* LEFT COMBINED IMAGE */
 .adventure-left-image {
-    width: 100%;
     margin-top: 115px;
 }
 
@@ -1321,7 +1320,6 @@
 
     /* LEFT IMAGES */
     .adventure-left-image {
-        width: 100%;
         margin-top: 10px;
     }
 
@@ -1342,13 +1340,6 @@
     /* RIGHT IMAGE */
     .adventure-right-image {
         width: 100%;
-    }
-
-
-    .adventure-right-image img {
-        width: 100%;
-        height: auto;
-        display: block;
     }
 
     /* BOTTOM DESCRIPTION */
@@ -1399,14 +1390,7 @@
     }
 
     .adventure-left-image {
-        width: 100%;
         margin-top: 30px;
-    }
-
-    .adventure-left-image img {
-        display: block;
-        width: 100%;
-        height: auto;
     }
 
     /* RIGHT COLUMN */
