@@ -1550,8 +1550,6 @@
 
     /* THREE COLUMN GRID */
     .team-grid {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
         column-gap: 40px;
         margin-top: 25px;
     }
@@ -1624,7 +1622,6 @@
 
     /* SINGLE COLUMN GRID */
     .team-grid {
-        display: grid;
         grid-template-columns: 1fr;
         row-gap: 30px;
         column-gap: 0;
@@ -1680,14 +1677,6 @@
 ========================= */
 
 @media screen and (max-width: 480px) {
-
-    /* SINGLE COLUMN */
-    .team-grid {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-top: 15px;
-    }
 
     /* EACH ITEM */
     .team-item {
