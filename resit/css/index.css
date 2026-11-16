@@ -1532,13 +1532,6 @@
         height: 305px;
     }
 
-    /* CATEGORY */
-    .travel-blog-category {
-        font-size: 14px;
-        letter-spacing: 1px;
-        margin-bottom: 10px;
-    }
-
     /* BLOG TITLE */
     .travel-blog-content h3 {
         font-size: 22px;
@@ -1593,14 +1586,6 @@
     /* ALL BLOG IMAGES */
     .travel-blog-image img {
         height: 535px;
-    }
-
-    /* CATEGORY */
-    .travel-blog-category {
-        font-size: 14px;
-        font-weight: 400;
-        letter-spacing: 1px;
-        margin-bottom: 10px;
     }
 
     /* BLOG TITLE */
