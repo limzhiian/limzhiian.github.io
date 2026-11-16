@@ -370,7 +370,6 @@
     /* DETAILS CARD */
     .tour-details-rightcard {
         min-height: 190px;
-        padding: 30px;
     }
 
     /* CARD HEADING */
@@ -416,12 +415,6 @@
     /* TOURS CONTAINER */
     .tours-container {
         gap: 20px;
-    }
-
-    /* RIGHT DETAILS CARD */
-    .tour-details-rightcard {
-        min-height: 212px;
-        padding: 30px;
     }
 
     /* TOUR HEADING */
