@@ -1622,14 +1622,6 @@
         margin-top: 15px;
     }
 
-    /* ICON */
-    .team-icon {
-        width: 70px;
-        height: 70px;
-        object-fit: contain;
-        margin-bottom: 8px;
-    }
-
     /* FEATURE TITLE */
     .team-item h3 {
         font-size: 18px;
@@ -1669,14 +1661,6 @@
     /* EACH ITEM */
     .team-item {
         padding: 0px 22px;
-    }
-
-    /* ICON */
-    .team-icon {
-        width: 70px;
-        height: 70px;
-        object-fit: contain;
-        margin-bottom: 8px;
     }
 
     /* FEATURE TITLE */
