@@ -1496,7 +1496,6 @@
 
 /* Description */
 .team-item p {
-    margin: 0 auto;
     max-width: 350px;
     font-family: var(--font-base);
     font-size: 16px;
@@ -1567,14 +1566,6 @@
         margin-bottom: 10px;
     }
 
-    /* DESCRIPTION */
-    .team-item p {
-        max-width: 100%;
-        font-size: 16px;
-        line-height: 1.6;
-        margin: 0 auto;
-    }
-
     /* BUTTON */
     .team-button {
         display: inline-block;
@@ -1627,10 +1618,7 @@
 
     /* DESCRIPTION */
     .team-item p {
-        max-width: 100%;
         font-size: 15px;
-        line-height: 1.6;
-        margin: 0 auto;
     }
 
     /* BUTTON */
@@ -1656,15 +1644,6 @@
     /* EACH ITEM */
     .team-item {
         padding: 0px 22px;
-    }
-
-    /* DESCRIPTION */
-    .team-item p {
-        width: 100%;
-        max-width: 100%;
-        font-size: 15px;
-        line-height: 1.6;
-        margin: 0 auto;
     }
 
     /* BUTTON */
