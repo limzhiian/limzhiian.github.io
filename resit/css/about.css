@@ -792,7 +792,6 @@
 ========================================= */
 
 .testimonial-text {
-    margin: 0;
     font-family: var(--font-heading);
     font-size: 19px;
     font-weight: 400;
@@ -878,16 +877,12 @@
 
     /* SMALL HEADING */
     .testimonial-header p {
-        font-size: 14px;
         margin-bottom: 20px;
-        letter-spacing: 2px;
     }
 
     /* LARGE HEADING */
     .testimonial-header h2 {
         font-size: 45px;
-        font-weight: 400;
-        line-height: 1.05;
     }
 
     /* FOUR COLUMN LAYOUT */
@@ -911,23 +906,11 @@
     /* STARS */
     .stars {
         font-size: 19px;
-        margin-bottom: 28px;
-        letter-spacing: 1px;
     }
 
     /* TESTIMONIAL TEXT */
     .testimonial-text {
         font-size: 18px;
-        line-height: 1.15;
-    }
-
-    /* PERSON INFORMATION */
-    .testimonial-person {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        margin-top: auto;
-        padding-top: 35px;
     }
 
     /* PROFILE IMAGE */
@@ -980,22 +963,17 @@
     .testimonial-header p {
         font-size: 13px;
         margin-bottom: 10px;
-        letter-spacing: 2px;
     }
 
     /* LARGE HEADING */
     .testimonial-header h2 {
         font-size: 30px;
-        font-weight: 400;
-        line-height: 1.05;
         letter-spacing: 1px;
     }
 
     /* TESTIMONIAL CONTAINER */
     .testimonial-grid {
-        display: flex;
         flex-direction: column;
-
         gap: 0;
         margin-top: 35px;
     }
@@ -1014,29 +992,16 @@
         width: 100%;
         min-height: 280px;
         padding: 35px 20px;
-        box-sizing: border-box;
-        flex-direction: column;
     }
 
     /* STARS */
     .stars {
-        font-size: 19px;
         margin-bottom: 25px;
     }
 
     /* TESTIMONIAL TEXT */
     .testimonial-text {
         font-size: 16px;
-        line-height: 1.2;
-    }
-
-    /* PERSON */
-    .testimonial-person {
-        display: flex;
-        align-items: center;
-
-        gap: 12px;
-        padding-top: 30px;
     }
 
     /* PROFILE IMAGE */
