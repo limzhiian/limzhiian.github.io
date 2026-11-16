@@ -570,11 +570,7 @@
 
     /* MAIN GRID */
     .leaders-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
         padding: 0;
-        align-items: start;
     }
 
     /* LEFT INTRODUCTION */
@@ -627,7 +623,6 @@
     .leader-card p {
         font-size: 15px;
     }
-
 }
 
 
@@ -644,11 +639,8 @@
 
     /* MAIN CONTAINER */
     .leaders-grid {
-        display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
-        padding: 0;
-        align-items: start;
     }
 
     /* INTRODUCTION */
@@ -706,7 +698,6 @@
     .leader-card p {
         font-size: 15px;
     }
-
 }
 
 
@@ -715,14 +706,6 @@
 ================================ */
 
 @media screen and (max-width: 480px) {
-
-    /* MAIN CONTAINER */
-    .leaders-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        padding: 0;
-    }
 
     /* INTRODUCTION */
     .leaders-introduction {
