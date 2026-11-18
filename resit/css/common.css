@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Oxygen:wght@300;400;700&family=Tenor+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Oxygen:wght@300;400;700&family=Tenor+Sans&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +9,10 @@
 :root {
     --font-heading: "Tenor Sans", sans-serif;
     --font-base: "Kumbh Sans", sans-serif;
+    --white: #ffffff;
+    --black: #000000;
+    --light-grey: #82878e;
+
 }
 
 body {
@@ -23,16 +26,13 @@ body {
 ========================= */
 
 .header {
-    width: 100%;
     padding: 40px 70px;
 }
 
 .entireheadermargin {
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .elementralogo {
@@ -55,27 +55,12 @@ body {
 
 .right_navigation a {
     position: relative;
-
     color: #160c09;
-
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 400;
-
     letter-spacing: 1px;
-
     text-decoration: none;
-
-    transition: color 0.3s ease;
-}
-
-.contactusbanner {
-    width: 1140px;
-    height: 486px;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0px 70px 150px;
 }
 
 .socialmediaicons {
@@ -90,7 +75,6 @@ body {
     background: none;
     border: none;
     padding: 0;
-    cursor: pointer;
 }
 
 .hamburger-menu img {
@@ -135,7 +119,6 @@ body {
         display: flex;
         align-items: center;
     }
-
 }
 
 
@@ -147,7 +130,6 @@ body {
 
     .header {
         padding: 20px;
-        box-sizing: border-box;
     }
 
     .entireheadermargin {
@@ -184,47 +166,6 @@ body {
         width: 30px;
         height: auto;
     }
-
-}
-
-
-/* =========================
-   MOBILE - 480px
-========================= */
-
-@media screen and (max-width: 480px) {
-
-    .header {
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .entireheadermargin {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .elementralogo {
-        width: 196px;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .right_side {
-        display: flex;
-        align-items: center;
-    }
-
-    .hamburger-menu {
-        display: block;
-    }
-
-    .hamburger-menu img {
-        width: 30px;
-        height: auto;
-    }
-
 }
 
 
@@ -295,33 +236,21 @@ body {
 /* CLOSE BUTTON */
 .submenu-close {
     position: absolute;
-
     top: 25px;
     right: 30px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 35px;
     height: 35px;
-
     padding: 0;
-
     background: transparent;
     border: none;
-
     color: #ffffff;
-
     font-family: Arial, sans-serif;
     font-size: 35px;
     font-weight: 200;
-
-    cursor: pointer;
-
     line-height: 1;
-
-    z-index: 1001;
 }
 
 
@@ -329,9 +258,7 @@ body {
 .submenu-navigation {
     display: flex;
     flex-direction: column;
-
     align-items: flex-start;
-
     gap: 30px;
 }
 
@@ -339,23 +266,11 @@ body {
 /* NAVIGATION LINKS */
 .submenu-navigation a {
     font-family: var(--font-heading);
-
     font-size: 24px;
     font-weight: 400;
-
     letter-spacing: 1px;
-
     color: #ffffff;
-
     text-decoration: none;
-
-    transition: color 0.3s ease;
-}
-
-
-/* HOVER EFFECT */
-.submenu-navigation a:hover {
-    color: #b9a1a1;
 }
 
 
@@ -369,7 +284,6 @@ body {
     .submenu-overlay {
         display: none;
     }
-
 }
 
 
@@ -412,7 +326,6 @@ body {
     .submenu-navigation a {
         font-size: 24px;
     }
-
 }
 
 
@@ -434,9 +347,7 @@ body {
         right: 0;
         bottom: 0;
         left: 0;
-
         padding: 40px;
-        box-sizing: border-box;
     }
 
     .submenu-navigation {
@@ -451,7 +362,6 @@ body {
         top: 25px;
         right: 25px;
     }
-
 }
 
 
@@ -464,7 +374,6 @@ body {
     .submenu {
         width: 100%;
         height: 100vh;
-
         padding: 30px;
         box-sizing: border-box;
     }
@@ -481,7 +390,6 @@ body {
         top: 25px;
         right: 25px;
     }
-
 }
 
 
@@ -491,13 +399,10 @@ body {
 
 .footer {
     position: relative;
-
     width: 100%;
     min-height: 705px;
-
     background-color: #4b2425;
     color: #ffffff;
-
     padding: 100px 70px 70px;
 }
 
@@ -508,15 +413,10 @@ body {
 
 .footer-container {
     position: relative;
-    z-index: 2;
-
     display: grid;
-
     grid-template-columns:
         1.7fr 0.8fr 0.7fr 0.8fr;
-
     column-gap: 100px;
-
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -528,12 +428,9 @@ body {
 
 .footer-brand p {
     max-width: 360px;
-
     font-family: var(--font-base);
-
     font-size: 16px;
     line-height: 1.55;
-
     color: #ffffff;
 }
 
@@ -549,10 +446,8 @@ body {
 
 .footer-column h3 {
     font-family: var(--font-heading);
-
     font-size: 18px;
     font-weight: 400;
-
     margin-bottom: 25px;
 }
 
@@ -563,35 +458,25 @@ body {
 
 .footer-column-office h3 {
     font-family: var(--font-heading);
-
     font-size: 19px;
     font-weight: 400;
-
     margin-bottom: 25px;
 }
 
 .footer-column-office p {
     font-family: var(--font-base);
-
     font-size: 16px;
     line-height: 1.5;
-
     margin-bottom: 35px;
 }
 
 .footer-column-office a {
     display: block;
-
     width: fit-content;
-
     font-family: var(--font-base);
-
     font-size: 16px;
-
     color: #ffffff;
-
     text-decoration: none;
-
     margin-bottom: 38px;
 }
 
@@ -602,7 +487,6 @@ body {
 
 .footer-column ul {
     list-style: none;
-
     margin: 0;
     padding: 0;
 }
@@ -613,13 +497,9 @@ body {
 
 .footer-column li a {
     position: relative;
-
     font-family: var(--font-base);
-
     font-size: 16px;
-
     color: #ffffff;
-
     text-decoration: none;
 }
 
@@ -630,33 +510,23 @@ body {
 
 .footer-big-text {
     position: absolute;
-
     left: 50%;
     bottom: 40px;
-
     transform: translateX(-50%);
-
     width: 100%;
     text-align: center;
-
-    z-index: 1;
-    pointer-events: none;
 }
 
 .footer-big-text h2 {
     margin: 0;
-
     font-family: var(--font-heading);
 
     /* Responsive font size */
     font-size: clamp(70px, 13.5vw, 210px);
-
     font-weight: 300;
     letter-spacing: -0.035em;
     line-height: 0.85;
-
     color: rgba(255, 255, 255, 0.08);
-
     white-space: nowrap;
 }
 
@@ -671,19 +541,15 @@ body {
     .footer {
         min-height: 545px;
         padding: 70px 30px 35px;
-        box-sizing: border-box;
-        overflow: hidden;
     }
 
     /* FOOTER CONTAINER */
     .footer-container {
         display: grid;
-
         grid-template-columns:
             1.5fr 1.2fr 0.6fr 0.6fr;
 
         column-gap: 50px;
-
         max-width: 100%;
         margin: 0 auto;
     }
@@ -761,24 +627,15 @@ body {
 
     /* FOOTER */
     .footer {
-        width: 100%;
-        min-height: 0;
-        height: auto;
-
         padding: 50px 20px 25px;
-
-        box-sizing: border-box;
-        overflow: hidden;
     }
 
     /* FOOTER CONTAINER */
     .footer-container {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-
         column-gap: 30px;
         row-gap: 35px;
-
         width: 100%;
         max-width: 100%;
         margin: 0;
@@ -850,10 +707,8 @@ body {
         left: auto;
         bottom: auto;
         transform: none;
-
         width: 100%;
         margin-top: 65px;
-
         text-align: center;
     }
 
@@ -862,10 +717,8 @@ body {
         font-weight: 300;
         letter-spacing: -0.035em;
         line-height: 0.85;
-
         white-space: nowrap;
     }
-
 }
 
 
@@ -875,26 +728,12 @@ body {
 
 @media screen and (max-width: 480px) {
 
-    /* FOOTER */
-    .footer {
-        width: 100%;
-        min-height: 0;
-        height: auto;
-
-        padding: 50px 20px 25px;
-
-        box-sizing: border-box;
-        overflow: hidden;
-    }
-
     /* FOOTER CONTAINER */
     .footer-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-
         column-gap: 20px;
         row-gap: 35px;
-
         width: 100%;
         margin: 0;
     }
@@ -963,10 +802,8 @@ body {
         left: auto;
         bottom: auto;
         transform: none;
-
         width: 100%;
         margin-top: 65px;
-
         text-align: center;
     }
 
@@ -975,5 +812,4 @@ body {
         line-height: 0.85;
         white-space: nowrap;
     }
-
 }
