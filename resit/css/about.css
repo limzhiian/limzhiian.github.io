@@ -778,7 +778,7 @@
 
 
 /* =========================================
-   CARD
+   TESTIMONIAL CARD
 ========================================= */
 
 .testimonial-card {
@@ -792,7 +792,7 @@
 
 
 /* =========================================
-   STARS
+   STARS RATING
 ========================================= */
 
 .stars {
@@ -818,7 +818,7 @@
 
 
 /* =========================================
-   PERSON
+   TESTIMONIAL PERSON
 ========================================= */
 
 .testimonial-person {
@@ -910,7 +910,7 @@
         align-items: flex-start;
     }
 
-    /* TESTIMONIAL CARD */
+    /* TESTIMONIAL CARDS */
     .testimonial-card {
         width: 25%;
         min-height: 400px;
@@ -966,7 +966,7 @@
         margin-top: 35px;
     }
 
-    /* SHOW ONLY FIRST TESTIMONIAL */
+    /* SHOW THE FIRST TESTIMONIAL CARD ONLY*/
     .testimonial-card {
         display: none;
     }
@@ -1054,7 +1054,7 @@
     width: auto;
     height: auto;
 
-    /* Makes the logos faded like template */
+    /* Make the logos opacity lighter */
     opacity: 0.15;
 }
 
@@ -1112,14 +1112,12 @@
     .brand-section>* {
         flex: none;
         width: 50%;
-        box-sizing: border-box;
     }
 
     /* EACH LOGO BOX */
     .brand-icon {
         height: 110px;
         padding: 15px;
-        box-sizing: border-box;
         border-bottom: 1px solid #eeeeea;
     }
 
@@ -1206,11 +1204,15 @@
 ========================================= */
 
 .explore-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 65px;
-    align-items: start;
+    display: flex;
+    gap: 65px;
+    align-items: flex-start;
     margin-top: 90px;
+}
+
+.explore-gallery>* {
+    flex: 1;
+    min-width: 0;
 }
 
 
@@ -1223,39 +1225,24 @@
 }
 
 
-/* =========================================
-   IMAGE 1
-========================================= */
-
+/* IMAGE 1 */
 .gallery-1 {
     height: 240px;
     margin-top: 50px;
 }
 
-
-/* =========================================
-   IMAGE 2
-========================================= */
-
+/* IMAGE 2 */
 .gallery-2 {
     height: 340px;
 }
 
-
-/* =========================================
-   IMAGE 3
-========================================= */
-
+/* IMAGE 3 */
 .gallery-3 {
     height: 240px;
     margin-top: 50px;
 }
 
-
-/* =========================================
-   IMAGE 4
-========================================= */
-
+/* IMAGE 4 */
 .gallery-4 {
     height: 340px;
 }
