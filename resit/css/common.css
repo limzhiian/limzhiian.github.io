@@ -71,9 +71,7 @@ body {
 /* HAMBURGER MENU */
 .hamburger-menu {
     display: none;
-    background: none;
     border: none;
-    padding: 0;
 }
 
 .hamburger-menu img {
@@ -129,12 +127,6 @@ body {
 /* DARK OVERLAY */
 .submenu-overlay {
     position: fixed;
-    inset: 0;
-    background: transparent;
-    z-index: 999;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.3s ease;
 }
 
 
@@ -226,26 +218,6 @@ body {
 
 @media screen and (max-width: 1280px) {
 
-    /* HEADER */
-    .header {
-        padding: 30px;
-    }
-
-    /* HIDE NORMAL NAVIGATION */
-    .right_navigation {
-        display: none;
-    }
-
-    /* HIDE SOCIAL MEDIA ICONS */
-    .socialmediaicons {
-        display: none;
-    }
-
-    /* SHOW HAMBURGER */
-    .hamburger-menu {
-        display: block;
-    }
-
     /* SUBMENU */
     .submenu {
         width: 30%;
@@ -260,11 +232,6 @@ body {
 
 @media screen and (max-width: 765px) {
 
-    /* HEADER */
-    .header {
-        padding: 20px;
-    }
-
     .submenu {
         width: 100%;
         height: 100vh;
@@ -277,29 +244,6 @@ body {
 
     .submenu-navigation a {
         font-size: 22px;
-    }
-}
-
-
-/* =========================
-   MOBILE - 480px
-========================= */
-
-@media screen and (max-width: 480px) {
-
-    .submenu {
-        width: 100%;
-        height: 100vh;
-        padding: 30px;
-        box-sizing: border-box;
-    }
-
-    .submenu-navigation {
-        gap: 25px;
-    }
-
-    .submenu-navigation a {
-        font-size: 20px;
     }
 }
 
