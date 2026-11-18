@@ -559,7 +559,6 @@ body {
 
     .elementralogofooter {
         width: 190px;
-        height: auto;
         margin-bottom: 25px;
     }
 
@@ -613,7 +612,6 @@ body {
     .footer-big-text {
         bottom: 40px;
     }
-
 }
 
 
@@ -641,8 +639,6 @@ body {
     }
 
     .elementralogofooter {
-        width: 196px;
-        height: auto;
         margin-bottom: 20px;
     }
 
@@ -696,7 +692,6 @@ body {
     /* LARGE ELEMENTRA TEXT */
     .footer-big-text {
         position: relative;
-
         left: auto;
         bottom: auto;
         transform: none;
@@ -720,12 +715,6 @@ body {
 ========================= */
 
 @media screen and (max-width: 480px) {
-
-    .elementralogofooter {
-        width: 196px;
-        height: auto;
-        margin-bottom: 20px;
-    }
 
     .footer-brand p {
         max-width: 100%;
