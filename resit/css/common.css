@@ -485,8 +485,6 @@ body {
 
 .footer-column ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .footer-column li {
@@ -565,10 +563,9 @@ body {
         font-size: 15px;
     }
 
-    /* FOOTER HEADINGS */
+    /* FOOTER BOTTOM HEADINGS */
     .footer-column h3,
     .footer-column-office h3 {
-        font-size: 18px;
         margin-bottom: 20px;
     }
 
@@ -584,10 +581,6 @@ body {
     /* LINKS AND FOLLOW US */
     .footer-column li {
         margin-bottom: 18px;
-    }
-
-    .footer-column li a {
-        font-size: 16px;
     }
 
     /* LARGE ELEMENTRA TEXT */
