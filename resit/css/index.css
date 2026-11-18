@@ -416,10 +416,12 @@
 
 .hidden-gems-label {
     margin: 0 0 20px;
+
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+
     color: #160c09;
 }
 
