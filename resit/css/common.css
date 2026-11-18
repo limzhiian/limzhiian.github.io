@@ -38,7 +38,6 @@ body {
 .elementralogo {
     width: 196px;
     height: 23.5px;
-    margin-left: 2px;
 }
 
 .right_side {
@@ -94,12 +93,6 @@ body {
         padding: 30px 30px;
     }
 
-    .elementralogo {
-        width: 196px;
-        height: auto;
-        margin-left: 0;
-    }
-
     /* Hide Navigation */
     .right_navigation {
         display: none;
@@ -130,12 +123,6 @@ body {
 
     .header {
         padding: 20px;
-    }
-
-    .elementralogo {
-        width: 196px;
-        height: auto;
-        margin-left: 0;
     }
 
     .right_navigation {
