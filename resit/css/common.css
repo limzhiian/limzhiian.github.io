@@ -77,7 +77,7 @@ body {
 }
 
 .hamburger-menu img {
-    width: 24px;
+    width: 30px;
     height: auto;
     display: block;
 }
@@ -107,11 +107,6 @@ body {
     .hamburger-menu {
         display: block;
     }
-
-    .right_side {
-        display: flex;
-        align-items: center;
-    }
 }
 
 
@@ -131,21 +126,6 @@ body {
 
     .socialmediaicons {
         display: none;
-    }
-
-    .right_side {
-        display: flex;
-        align-items: center;
-        gap: 0;
-    }
-
-    .hamburger-menu {
-        display: block;
-    }
-
-    .hamburger-menu img {
-        width: 30px;
-        height: auto;
     }
 }
 
