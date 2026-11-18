@@ -136,22 +136,20 @@ body {
     right: 0;
     bottom: 0;
     width: 390px;
+    height: auto;
     background-color: #291516;
+    z-index: 1000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    transform: translateX(100%);
 }
 
 
 /* ACTIVE SUBMENU */
 .submenu.active {
     transform: translateX(0);
-    visibility: visible;
-}
-
-.submenu-overlay.active {
-    opacity: 1;
     visibility: visible;
 }
 
