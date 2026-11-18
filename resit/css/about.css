@@ -763,11 +763,17 @@
    TESTIMONIAL GRID
 ========================================= */
 
+/* TESTIMONIAL GRID */
 .testimonial-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     gap: 28px;
     margin-top: 50px;
+}
+
+/* TESTIMONIAL CARDS */
+.testimonial-grid>* {
+    flex: 1;
+    min-width: 0;
 }
 
 
@@ -909,7 +915,6 @@
         width: 25%;
         min-height: 400px;
         padding: 45px 30px;
-        box-sizing: border-box;
         display: flex;
         flex-direction: column;
     }
@@ -1005,11 +1010,17 @@
 ===================================== */
 
 .brand-section {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
+    justify-content: space-between;
     background-color: #ffffff;
     border-top: 1px solid #eeeeea;
     border-bottom: 1px solid #eeeeea;
+}
+
+/* BRAND LOGOS */
+.brand-section>* {
+    flex: 1;
+    min-width: 0;
 }
 
 
@@ -1042,7 +1053,6 @@
     max-height: 65px;
     width: auto;
     height: auto;
-    object-fit: contain;
 
     /* Makes the logos faded like template */
     opacity: 0.15;
@@ -1057,7 +1067,14 @@
 
     /* BRAND SECTION */
     .brand-section {
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* BRAND LOGOS */
+    .brand-section>* {
+        width: 150px;
+        flex: 1;
     }
 
     /* EACH LOGO BOX */
@@ -1087,33 +1104,28 @@
 
     /* BRAND SECTION */
     .brand-section {
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* BRAND LOGOS */
+    .brand-section>* {
+        flex: none;
+        width: 50%;
+        box-sizing: border-box;
     }
 
     /* EACH LOGO BOX */
     .brand-icon {
         height: 110px;
         padding: 15px;
-    }
-
-    /* RESET 1280px BORDER RULE */
-    .brand-icon:nth-child(3n) {
-        border-right: 1px solid #eeeeea;
-    }
-
-    /* REMOVE RIGHT BORDER ON SECOND COLUMN */
-    .brand-icon:nth-child(2n) {
-        border-right: none;
-    }
-
-    /* RESET BOTTOM BORDERS */
-    .brand-icon:nth-last-child(-n+3) {
+        box-sizing: border-box;
         border-bottom: 1px solid #eeeeea;
     }
 
-    /* REMOVE BOTTOM BORDER ON LAST ROW */
-    .brand-icon:nth-last-child(-n+2) {
-        border-bottom: none;
+    /* VERTICAL DIVIDER */
+    .brand-icon:nth-child(odd) {
+        border-right: 1px solid #eeeeea;
     }
 }
 
@@ -1133,9 +1145,14 @@
 ========================================= */
 
 .explore-top {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+/* TWO COLUMNS */
+.explore-top>* {
+    flex: 1;
+    min-width: 0;
 }
 
 
@@ -1198,7 +1215,6 @@
 
 
 /* All images */
-
 .gallery-item img {
     display: block;
     width: 100%;
@@ -1278,9 +1294,15 @@
 
     /* IMAGE GALLERY */
     .explore-gallery {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        column-gap: 30px;
+        display: flex;
+        gap: 30px;
         margin: 50px auto 0;
+    }
+
+    /* GALLERY IMAGES */
+    .explore-gallery>* {
+        flex: 1;
+        min-width: 0;
     }
 
     /* IMAGE 1 */
@@ -1322,9 +1344,9 @@
 
     /* TOP CONTENT */
     .explore-top {
-        grid-template-columns: 1fr;
-        column-gap: 0;
-        row-gap: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
         padding: 0;
     }
 
@@ -1351,49 +1373,43 @@
 
     /* IMAGE GALLERY */
     .explore-gallery {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        column-gap: 20px;
-        row-gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
         margin-top: 30px;
     }
 
-    /* ALL GALLERY ITEMS */
+    /* GALLERY ITEMS */
     .gallery-item {
+        flex: 1 1 40%;
+        min-width: 0;
         margin-top: 0;
     }
 
     /* IMAGE 1 - TOP RIGHT */
     .gallery-1 {
-        grid-column: 2;
-        grid-row: 1;
-        width: 100%;
+        order: 2;
         height: 316px;
     }
 
     /* IMAGE 2 - BOTTOM LEFT */
     .gallery-2 {
-        grid-column: 1;
-        grid-row: 2;
+        order: 3;
         height: 452px;
     }
 
     /* IMAGE 3 - TOP LEFT */
     .gallery-3 {
-        grid-column: 1;
-        grid-row: 1;
-        width: 100%;
+        order: 1;
         height: 316px;
     }
 
     /* IMAGE 4 - BOTTOM RIGHT */
     .gallery-4 {
-        grid-column: 2;
-        grid-row: 2;
-        width: 100%;
+        order: 4;
         height: 452px;
     }
 }
-
 
 /* =========================
    EXPLORE SECTION - 480px
@@ -1420,7 +1436,6 @@
     .gallery-4 {
         height: 269px;
     }
-
 }
 
 
@@ -1469,10 +1484,15 @@
 ===================================== */
 
 .team-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 80px;
+    display: flex;
+    gap: 80px;
     margin-top: 40px;
+}
+
+/* TEAM COLUMNS */
+.team-grid>* {
+    flex: 1;
+    min-width: 0;
 }
 
 
@@ -1606,12 +1626,20 @@
         font-size: 30px;
     }
 
-    /* SINGLE COLUMN GRID */
+    /* SINGLE COLUMN LAYOUT */
     .team-grid {
-        grid-template-columns: 1fr;
-        row-gap: 30px;
-        column-gap: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         margin-top: 15px;
+    }
+
+    /* TEAM ITEMS */
+    .team-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     /* FEATURE TITLE */
@@ -1623,6 +1651,7 @@
     /* DESCRIPTION */
     .team-item p {
         font-size: 15px;
+        text-align: center;
     }
 
     /* BUTTON */
