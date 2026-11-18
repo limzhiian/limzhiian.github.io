@@ -656,14 +656,8 @@ body {
         margin-bottom: 25px;
     }
 
-    /* LINKS AND FOLLOW US */
-    .footer-column {
-        grid-column: auto;
-    }
-
     .footer-column h3 {
         font-size: 16px;
-        margin-bottom: 25px;
     }
 
     .footer-column li {
@@ -689,49 +683,6 @@ body {
         font-size: 13.5vw;
         font-weight: 300;
         letter-spacing: -0.035em;
-        line-height: 0.85;
-        white-space: nowrap;
-    }
-}
-
-
-/* =========================
-   FOOTER - 480px MOBILE
-========================= */
-
-@media screen and (max-width: 480px) {
-
-    /* LINKS AND FOLLOW US */
-    .footer-column {
-        grid-column: auto;
-    }
-
-    .footer-column h3 {
-        font-size: 16px;
-        margin-bottom: 25px;
-    }
-
-    .footer-column li {
-        margin-bottom: 15px;
-    }
-
-    .footer-column li a {
-        font-size: 15px;
-    }
-
-    /* LARGE ELEMENTRA TEXT */
-    .footer-big-text {
-        position: relative;
-        left: auto;
-        bottom: auto;
-        transform: none;
-        width: 100%;
-        margin-top: 65px;
-        text-align: center;
-    }
-
-    .footer-big-text h2 {
-        font-size: 13.5vw;
         line-height: 0.85;
         white-space: nowrap;
     }
