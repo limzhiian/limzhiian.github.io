@@ -632,13 +632,8 @@ body {
 
     /* FOOTER CONTAINER */
     .footer-container {
-        display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        column-gap: 30px;
         row-gap: 35px;
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
     }
 
     /* BRAND */
@@ -727,16 +722,6 @@ body {
 ========================= */
 
 @media screen and (max-width: 480px) {
-
-    /* FOOTER CONTAINER */
-    .footer-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 20px;
-        row-gap: 35px;
-        width: 100%;
-        margin: 0;
-    }
 
     /* BRAND */
     .footer-brand {
