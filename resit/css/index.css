@@ -620,7 +620,6 @@
 
     /* ARCH-SHAPED IMAGES */
     .hidden-gems-image {
-        width: 100%;
         height: 440px;
         border-radius: 180px 180px 0 0;
     }
@@ -665,8 +664,6 @@
 
     /* CARD */
     .hidden-gems-card {
-        width: 100%;
-        box-sizing: border-box;
         padding: 30px 25px 25px;
     }
 
