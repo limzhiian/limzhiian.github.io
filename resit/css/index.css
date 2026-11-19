@@ -10,6 +10,8 @@
 
 .horizons-container {
     position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 
@@ -49,13 +51,24 @@
 ========================= */
 
 .horizons-content {
-    display: grid;
-    grid-template-columns: 350px 464px 348px;
+    display: flex;
     justify-content: space-between;
-    align-items: end;
-    column-gap: 30px;
+    align-items: flex-end;
+    gap: 30px;
     margin-top: 45px;
     position: relative;
+}
+
+.horizons-content> :nth-child(1) {
+    width: 350px;
+}
+
+.horizons-content> :nth-child(2) {
+    width: 464px;
+}
+
+.horizons-content> :nth-child(3) {
+    width: 348px;
 }
 
 
@@ -322,6 +335,11 @@
     padding: 0 70px 150px;
 }
 
+.horizontal-line-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 /* DIVIDER LINE */
 .horizons-divider-line {
     height: 1px;
@@ -422,7 +440,8 @@
 }
 
 .hidden-gems-container {
-    max-width: 1390px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 
@@ -720,10 +739,10 @@
    LARGE LOCATIONS TEXT
 ========================== */
 
-.big-locations-text {
+.big-locations-text h1 {
     margin: 0;
     font-family: var(--font-heading);
-    font-size: 100px;
+    font-size: clamp(50px, 10vw, 200px);
     color: #e6e6dc;
     text-align: center;
 }
@@ -740,7 +759,6 @@
     }
 
     .big-locations-text {
-        font-size: clamp(40px, 6.5vw, 96px);
         line-height: 1;
         letter-spacing: -2px;
     }
@@ -986,6 +1004,7 @@
     display: flex;
     gap: 30px;
     align-items: center;
+    margin: 0 auto;
 }
 
 /* FOUR COLUMNS */
@@ -1113,6 +1132,8 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
+    max-width: 1480px;
+    margin: 0 auto;
 }
 
 
@@ -1134,6 +1155,7 @@
 
 .banner-content {
     position: relative;
+    width: 100%;
     z-index: 2;
     display: flex;
     align-items: flex-end;
@@ -1252,6 +1274,8 @@
     display: flex;
     gap: 180px;
     align-items: stretch;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 /* TWO COLUMNS */
@@ -1427,13 +1451,16 @@
     padding: 150px 70px;
 }
 
+.travel-blog-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 /* ==========================
    SECTION HEADING
 ========================== */
 
 .travel-blog-heading {
-    margin-left: 25px;
     margin-bottom: 48px;
 }
 
@@ -1654,15 +1681,17 @@
 
 .explore-section-banner {
     min-height: 575px;
+    max-width: 1480px;
     background-image: url("../img/explorebanner.jpg");
     background-size: cover;
     background-position: center;
+    margin: 0 auto;
 }
 
 
 /* MAIN CONTAINER */
 .explore-container {
-    max-width: 1510px;
+    max-width: 1480px;
     min-height: 575px;
     margin: 0 auto;
     padding: 70px;
@@ -1812,6 +1841,8 @@
 
 .review-container {
     text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 /* =====================================
@@ -1972,6 +2003,10 @@
     padding: 150px 95px;
 }
 
+.instagram-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 /* ==============================
    TITLE

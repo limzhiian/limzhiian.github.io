@@ -7,6 +7,11 @@
     padding: 0 70px;
 }
 
+.horizontal-line-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .divider-line {
     max-width: 1390px;
     height: 1px;
@@ -85,6 +90,10 @@
     padding: 150px 95px 0px;
 }
 
+.tours-title-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 /* HEADING */
 .tours-heading {
@@ -180,6 +189,11 @@
 /* =========================
    TOURS CONTAINER
 ========================= */
+
+.tours-info-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 .tours-container {
     display: flex;
@@ -412,6 +426,8 @@
     display: flex;
     gap: 55px;
     align-items: flex-start;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 /* TWO COLUMNS */
@@ -665,8 +681,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1480px;
+    margin: 0 auto;
 }
-
 
 /* DARK IMAGE OVERLAY */
 .banner-overlay {

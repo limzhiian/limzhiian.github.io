@@ -7,6 +7,11 @@
     padding: 0 70px;
 }
 
+.horizontal-line-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 /* DIVIDER LINE */
 .about-divider-line {
     height: 1px;
@@ -80,6 +85,11 @@
 .story-section {
     background-color: #fafaf0;
     padding: 125px 95px 105px;
+}
+
+.story-container {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 
@@ -282,9 +292,8 @@
 ===================================== */
 
 .stat-info {
-    text-align: left;
+    text-align: center;
 }
-
 
 /* Small text */
 .stat-info p {
@@ -365,8 +374,13 @@
     padding: 0 75px 0;
 }
 
+.horizontal-line-container {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
 .divider-line {
-    max-width: 1390px;
+    max-width: 1300px;
     height: 1px;
     margin: 0 auto 150px;
     background-color: #96938b;
@@ -459,6 +473,10 @@
     padding: 0 95px 150px;
 }
 
+.leaders-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 /* ==================================
    MAIN GRID
@@ -671,11 +689,15 @@
     align-items: center;
 }
 
+.large-elementra-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /* Large ELEMENTRA text */
 .large-elementra-banner h2 {
     font-family: var(--font-heading);
-    font-size: 200px;
+    font-size: 160px;
     font-weight: 400;
     line-height: 1;
     color: #e6e6dc;
@@ -723,6 +745,11 @@
 .testimonial-section {
     background-color: #fafaf0;
     padding: 0 70px 150px;
+}
+
+.testimonial-container {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 
@@ -1137,6 +1164,11 @@
     padding: 150px 70px;
 }
 
+.explore-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 
 /* =========================================
    TOP CONTENT
@@ -1436,6 +1468,10 @@
     text-align: center;
 }
 
+.team-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 
 /* =====================================
    SMALL HEADING
@@ -1520,6 +1556,7 @@
     font-weight: 400;
     line-height: 1.6;
     color: #85858c;
+    margin: 0 auto;
 }
 
 

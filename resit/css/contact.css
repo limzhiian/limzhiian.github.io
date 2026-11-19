@@ -7,7 +7,7 @@
 /* BANNER CONTAINER */
 .contact-banner-container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -74,6 +74,11 @@
 .general-inquiries {
     background-color: #fbfbef;
     padding: 0 95px 150px;
+}
+
+.inquiries-container {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 /* MAIN HEADING */
@@ -212,39 +217,51 @@
 }
 
 
-/* ==================================
+/* =========================
    CONTACT HORIZONTAL LINE
-================================== */
+========================= */
 
 .contact-horizontal-line {
-    height: 1px;
-    background-color: #333;
-    position: relative;
-    margin: 0 0 150px;
+    background-color: #fafaf0;
+    padding: 0 70px 150px;
 }
 
+.horizontal-line-container {
+    max-width: 1390px;
+    margin: 0 auto;
+}
 
-/* Small dots at both ends */
+.divider-line {
+    max-width: 1390px;
+    height: 1px;
+    background-color: #96938b;
+    position: relative;
+}
 
-.contact-horizontal-line::before,
-.contact-horizontal-line::after {
+/* LEFT DOT */
+.divider-line::before {
     content: "";
     position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
-    width: 5px;
-    height: 5px;
-    background-color: rgb(20, 5, 3);
+    width: 4px;
+    height: 4px;
+    background-color: #19130f;
     border-radius: 50%;
-}
-
-.contact-horizontal-line::before {
     left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.contact-horizontal-line::after {
+/* RIGHT DOT */
+.divider-line::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #19130f;
+    border-radius: 50%;
     right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
 }
 
 
@@ -254,15 +271,15 @@
 
 @media screen and (max-width: 1280px) {
 
+    /* HORIZONTAL LINE CONTAINER */
     .contact-horizontal-line {
-        margin: 0 0 95px;
+        padding: 0px 30px;
     }
 
-    /* Small dots at both ends */
-    .contact-horizontal-line::before,
-    .contact-horizontal-line::after {
-        width: 5px;
-        height: 5px;
+    /* KEEP LEFT AND RIGHT DOTS */
+    .divider-line::before,
+    .divider-line::after {
+        display: block;
     }
 }
 
@@ -273,15 +290,17 @@
 
 @media screen and (max-width: 765px) {
 
+    /* HORIZONTAL LINE CONTAINER */
     .contact-horizontal-line {
-        margin: 0 0 65px;
+        padding: 0px 20px 65px;
     }
 
     /* HIDE LEFT AND RIGHT DOTS */
-    .contact-horizontal-line::before,
-    .contact-horizontal-line::after {
+    .divider-line::before,
+    .divider-line::after {
         display: none;
     }
+
 }
 
 
@@ -289,6 +308,11 @@
 .contact-cta {
     background-color: #f8f8ee;
     padding: 0px 70px 150px;
+}
+
+.contact-cta-container {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 /* CONTACT MESSAGE */
