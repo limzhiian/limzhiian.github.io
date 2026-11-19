@@ -12,7 +12,6 @@
     --white: #ffffff;
     --black: #000000;
     --light-grey: #82878e;
-
 }
 
 body {
@@ -388,8 +387,6 @@ body {
     .footer-container {
         display: flex;
         gap: 50px;
-        max-width: 100%;
-        margin: 0 auto;
     }
 
     .footer-container> :nth-child(1) {
