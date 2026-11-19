@@ -417,13 +417,12 @@
 ========================= */
 
 .hidden-gems-section {
-    background-color: #fafaf0;
+    background-color: #fbfcef;
     padding: 0 95px 150px;
 }
 
 .hidden-gems-container {
     max-width: 1390px;
-    margin: 0 auto;
 }
 
 
@@ -438,12 +437,10 @@
 
 .hidden-gems-label {
     margin: 0 0 20px;
-
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
-
     color: #160c09;
 }
 
@@ -563,7 +560,6 @@
     letter-spacing: 1px;
     text-decoration: none;
     color: inherit;
-    transition: opacity 0.3s ease;
 }
 
 
