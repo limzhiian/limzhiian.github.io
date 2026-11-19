@@ -801,10 +801,14 @@
 ========================== */
 
 .popular-heading {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 30px;
     margin-bottom: 48px;
+}
+
+.popular-heading>* {
+    flex: 1;
+    min-width: 0;
 }
 
 
