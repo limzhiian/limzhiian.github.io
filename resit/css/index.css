@@ -543,7 +543,6 @@
 
 .hidden-gems-image img {
     width: 100%;
-    object-fit: cover;
     display: block;
 }
 
